@@ -1,2 +1,8 @@
 /* CSS Document */
 
+td {
+	background-color: blue; 
+	color: white;}
+th {
+	background-color: red;}
+	
