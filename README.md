@@ -12,3 +12,9 @@ Front-end development with HTML5 and CSS3 course repository.
   5. Type mkdir Sites
   6. Open a Finder window, you should see a "Sites" folder inside your user home icon, that's the folder of your local web server.
   7. Open Google Chrome and enter http://localhost/~YOURUSERNAME/ to check if it's working correctly.
+
+# Utility links
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+http://www.statcounter.com
