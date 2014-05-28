@@ -1,2 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+
+.etiqueta-roja {
+	background-color: red;
+	color: white;}
+.etiqueta-azul {
+	background-color: blue;
+	color: white;}
