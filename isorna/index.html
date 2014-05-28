@@ -51,17 +51,18 @@
             </aside>
             <h2>Citas</h2>
             <h3>Cita de bloque</h3>
-            <blockquote cita="paginawebdepepito.com">
+            <blockquote cite="paginawebdepepito.com">
             	<p>Citando a pepito...</p>
             </blockquote>
             <h3>Cita en línea</h3>
             <p>Tal y como dijo Pepito: <q cite="url-de-articulo-de-periodico">no lloverá mañana</q> por el artículo <cite>ART. 46</cite></p>
             <h2>Contenidos adicionales</h2>
             <details>
+            <summary>Leer más</summary>
             <p>Contenido extra mostrado cuando quieres "Ver más".</p>
             </details>
             <figure>
-            	<img src="img/fictizia_instalaciones_03.png" />
+            	<img src="img/fictizia_instalaciones_03.png" longdesc="Esta es una foto muy bonita.... blblblbla" />
                 <figcaption>
                 <p>Texto explicativo de la imagen</p>
                 </figcaption>
@@ -70,7 +71,10 @@
         <section>
         	<h1>Más elementos de contenido</h1>
            <h2>Imágenes</h2>
-           <img src="img/fictizia_instalaciones_03.png" width="627" height="267" alt="Foto de las instalaciones" />
+           <img src="img/fictizia_instalaciones_03.png" width="627" height="267" alt="Foto de las instalaciones" usemap="mapa" />
+           <map id="mapa">
+           <area coords="100,100,20" shape="circle" href="www.fictizia.com">
+           </map>
            <h2>Formatos de tipos de imagen</h2>
            <ul>
            <li>gif, sprites en gif y gif animado</li>
@@ -79,6 +83,7 @@
            </ul>
            <p>Hemos hablado de los formatos de pantalla, tomando como referencia <a href="http://gs.statcounter.com/">http://gs.statcounter.com/</a></p>
            <h2>Tablas</h2>
+           
         </section>
     </article>
     <footer>
