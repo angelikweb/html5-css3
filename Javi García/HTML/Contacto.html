@@ -1,10 +1,53 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Untitled Document</title>
+<meta charset="UTF-8">
+<title>Formulario de Contacto</title>
+<link rel="stylesheet" type="text/css" href="../CSS/reset.css" disabled>
 </head>
 
 <body>
+	<header>
+    	<nav>
+        	<a href="./" title="Pagina principal">Inicio</a>
+            <a href="HTML/Servicios.html">Servicios</a>
+            <a href="HTML/Ofertas.html">Productos</a>
+            <a href="HTML/Contacto.html">Contacto</a>
+		</nav>            
+	</header>
+    <br />
+    <article>
+    	<h1> Formulario de Contacto </h1>
+       		<section>
+            	<h1>Contacto</h1>
+            	<form action="" method="Get"> <!--Action es a la pagina a la que quieres enviar la info// Method es 				
+                el metodo con el que envias esta info "Get" (atraves de Url) "Post" (por debajo no se muestra)-->
+                <input type="hidden" name="oculto" id="ocultoField" value="campoOculto"> <!-- Sireve para enviar 
+                información que no se ve al servidor-->
+                	<fieldset>
+                    <div>	
+                    	<label for="nombreField">Nombre</label> <!--esta es como el nombra de la etiqueta-->
+                      <input type="text" name="nombre" id="nombreField">
+                    </div>
+                    <div>
+                    	<label for="fechanacimientoField">Fecha nacimiento</label>
+                      <input type="date" name="fecha_nacimiento" id="fechanacimientoField"	>
+                    </div>
+                    <div>
+                    	<label for="emailField">Mail</label>
+                      <input type="email" name="email"	 id="emailField">
+                    </div>
+                  </fieldset>
+                  	<input type="submit" name="botonSubmit" value="Enviar" />
+                <button name="botonReset" type="reset" value="reset">Reset</button>
+                <button name="botonClick" type="button" id="botonClick" onclick="alert('hola');">Click!<br/>Me</button>
+                
+                
+              
+              
+              </form>
+           </section> 
+
+    </article>
 </body>
 </html>
