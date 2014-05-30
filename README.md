@@ -18,3 +18,9 @@ Front-end development with HTML5 and CSS3 course repository.
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 http://www.statcounter.com
+
+# Code Editors for reference
+
+http://www.codio.com
+http://brackets.io
+http://www.jetbrains.com/webstorm/

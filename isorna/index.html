@@ -24,56 +24,71 @@
         </nav>
     </header>
     <article>
-        <h1>Miércoles 28 de mayo</h1>
+        <h1>Viernes 30 de Mayo</h1>
         <section>
-           <h1>Tablas</h1>
-<table width="600" border="0" cellpadding="0" cellspacing="0" summary="resumen de la tabla">
-  <caption>
-    ejemplo de tabla
-  </caption>
-  <thead>
-  <tr class="etiqueta-azul">
-    <th scope="col">&nbsp;Col 1</th>
-    <th scope="col" colspan="2">&nbsp;Col 2 y 3</th>
-  </tr>
-  </thead>
-  <tbody>
-  
-  <tr>
-    <th scope="row" class="etiqueta-roja">&nbsp;Row 1</th>
-    <td>&nbsp; A</td>
-    <td>&nbsp; B</td>
-  </tr>
-  <tr>
-    <th scope="row" class="etiqueta-roja" rowspan="2">&nbsp;Row 2</th>
-    <td>&nbsp; C</td>
-    <td>&nbsp; D</td>
-  </tr>
-  <tr>
-    <td>&nbsp; E</td>
-    <td>&nbsp; F</td>
-   </tr>
-  </tbody>
-  <tfoot>
-  	<tr>
-    <td>sumatorio 1</td>
-    <td>sumatorio 2</td>
-    <td>sumatorio 3</td>
-    </tr>
-  </tfoot>
-</table>
-        </section>
-        <section>
-        	<h1>Varios formatos de texto</h1>
-            <p>Poner <em>énfasis</em> en varias palabras, escribir <code>código de programación</code> dentro de un párrafo...</p>
-            <pre>O respetar el 
-            formato escrito,
-            teniendo en cuenta espacios
-            		y tabulaciones.</pre>
+      		<h1>Formularios</h1>
+            <form action="" method="get">
+            	<input type="hidden" name="oculto" id="ocultoField" value="campoOculto" />
+            	<fieldset>
+                <legend>Datos personales</legend>
+                <div>
+                <label for="nombreField">Nombre:</label>
+                <input type="text" name="nombre" id="nombreField" />
+                </div>
+                <div>
+                <label>Edad: <input type="number" name="edad" /></label>
+                </div>
+                <label for="fechaField">Fecha de nacimiento</label>
+                <input type="date" name="fecha" id="fechaField" />
+                <br /><br /><br />
+                <label for="texto">Háblanos de tí</label>
+                <br /><br /><br />
+                <textarea id="texto" name="texto" cols="50" rows="10"></textarea>
+              </fieldset>
+              <fieldset>
+              		<legend>Datos de contacto</legend>
+                <label for="emailField">Email:</label>
+                <input type="email" name="email" id="emailField" />
+                <label for="fotoField">Foto:</label>
+                <input type="file" name="file" id="fileField" />
+              </fieldset>
+              <fieldset>
+              		<legend>Opciones</legend>
+                    <br /><br />
+              		<label>Opción 1 <input type="checkbox" name="opcion1" value="op1" /></label>
+                  <label for="opcion1_2">Opción 2</label>
+                  <input type="checkbox" name="opcion2" id="opcion2" value="op2" />
+                  <br /><br /><br /><br />
+                  <label>Radio 1: <input type="radio" name="radio" id="radio1" value="radio1" /></label>
+                  <label>Radio 2: <input type="radio" name="radio" id="radio2" value="radio2" /></label>
+                  <br /><br />
+                  <select name="opciones" size="10" multiple>
+                    <optgroup label="GRUPO 1">
+                    <option value="op1">opcion 1</option>
+                    <option value="op2">opcion 2</option>
+                    </optgroup>
+                    <optgroup label="GRUPO 2">
+                    <option value="op3" selected>opcion 3 por defecto</option>
+                    <option value="op4">opcion 4</option>
+                    </optgroup>
+                  </select>
+              </fieldset>
+                <input type="submit" name="botonSubmit" value="Enviar" />
+                <button name="botonReset" type="reset" value="reset">Reset</button>
+                <button name="botonClick" type="button" id="botonClick" onclick="alert('hola');">Click!<br/>Me</button>
+            </form>
         </section>
     </article>
     <footer>
     	
     </footer>
+    <script>
+		/*
+		var clickFunction = function(){
+			alert('hola');
+		};
+		document.getElementById('botonClick').addEventListener('click', clickFunction);
+		*/
+    </script>
 </body>
 </html>
