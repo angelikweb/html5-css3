@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Proyecto de ejemplo</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css" >
+    <link rel="stylesheet" type="text/css" href="css/reset.css" disabled>
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 
@@ -24,71 +24,74 @@
         </nav>
     </header>
     <article>
-        <h1>Viernes 30 de Mayo</h1>
+        <h1>Lunes 2 de Junio</h1>
         <section>
-      		<h1>Formularios</h1>
-            <form action="" method="get">
-            	<input type="hidden" name="oculto" id="ocultoField" value="campoOculto" />
-            	<fieldset>
-                <legend>Datos personales</legend>
-                <div>
-                <label for="nombreField">Nombre:</label>
-                <input type="text" name="nombre" id="nombreField" />
-                </div>
-                <div>
-                <label>Edad: <input type="number" name="edad" /></label>
-                </div>
-                <label for="fechaField">Fecha de nacimiento</label>
-                <input type="date" name="fecha" id="fechaField" />
-                <br /><br /><br />
-                <label for="texto">Háblanos de tí</label>
-                <br /><br /><br />
-                <textarea id="texto" name="texto" cols="50" rows="10"></textarea>
-              </fieldset>
-              <fieldset>
-              		<legend>Datos de contacto</legend>
-                <label for="emailField">Email:</label>
-                <input type="email" name="email" id="emailField" />
-                <label for="fotoField">Foto:</label>
-                <input type="file" name="file" id="fileField" />
-              </fieldset>
-              <fieldset>
-              		<legend>Opciones</legend>
-                    <br /><br />
-              		<label>Opción 1 <input type="checkbox" name="opcion1" value="op1" /></label>
-                  <label for="opcion1_2">Opción 2</label>
-                  <input type="checkbox" name="opcion2" id="opcion2" value="op2" />
-                  <br /><br /><br /><br />
-                  <label>Radio 1: <input type="radio" name="radio" id="radio1" value="radio1" /></label>
-                  <label>Radio 2: <input type="radio" name="radio" id="radio2" value="radio2" /></label>
-                  <br /><br />
-                  <select name="opciones" size="10" multiple>
-                    <optgroup label="GRUPO 1">
-                    <option value="op1">opcion 1</option>
-                    <option value="op2">opcion 2</option>
-                    </optgroup>
-                    <optgroup label="GRUPO 2">
-                    <option value="op3" selected>opcion 3 por defecto</option>
-                    <option value="op4">opcion 4</option>
-                    </optgroup>
-                  </select>
-              </fieldset>
-                <input type="submit" name="botonSubmit" value="Enviar" class="boton" />
-                <button name="botonReset" type="reset" value="reset" class="boton">Reset</button>
-                <button name="botonClick" type="button" id="botonClick" onclick="alert('hola');" class="boton">Click!<br/>Me</button>
-            </form>
+      		<h1>Tipos de selectores</h1>
+            <table width="200" border="1">
+            <tbody>
+              <tr>
+                <th scope="col">&nbsp;</th>
+                <th scope="col">&nbsp;</th>
+                <th scope="col">&nbsp;</th>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <th scope="row">&nbsp;</th>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              </tbody>
+            </table>
         </section>
+        <section class="caja-parrafos">
+        	<h1>El modelo de la caja de CSS</h1>
+           <p class="parrafo-izq">Un parrafo 1.</p>
+           <p class="parrafo-centro">Un parrafo 2.</p>
+           <p class="parrafo-dcha">Un parrafo 3.</p>
+        </section>
+        <p>Texto suelto</p>
     </article>
     <footer>
     	
     </footer>
-    <script>
-		/*
-		var clickFunction = function(){
-			alert('hola');
-		};
-		document.getElementById('botonClick').addEventListener('click', clickFunction);
-		*/
-    </script>
 </body>
 </html>
