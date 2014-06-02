@@ -10,30 +10,60 @@
     	<form action="" method="get">
     <div>
     <label for="firstname">Nombre:</label>
-    <input type="text" name="nombre" id="firstname">
+    <input type="text" name="nombre" id="firstname"/>
     </div>
     
     <div>
     <label for="lastname">Apellidos:</label>
-    <input type="text" name="apellidos" id="lastname">
+    <input type="text" name="apellidos" id="lastname"/>
     </div>
     
     <div>
     <label for="fechanac">Fecha de nacimiento</label>
-     <input type="date" name="fecha" id="fechanac">
+     <input type="date" name="fecha" id="fechanac"/>
      </div>
      
      <div>
      <label for="correo">Email</label>
-     <input type="email" id="correo" name"correo">
+     <input type="email" id="correo" name"correo"/>
       </div>
       
      <div>
      <label for="texto">Explícanos</label>
-     <br>
+     <br />
      <textarea id="texto" name="texto" cols="50" rows="20"></textarea>
      </div>
-    <input type="submit" name="enviar" value="enviar"
+    <input type="submit" name="enviar" value="enviar"/>
+    <br />
+    <label for="subirimagen">Foto:</label>
+    <input type="file" name="foto" id="subirimagen"/>
+    <br /><br />
+    
+    <fieldset>
+    <legend>Opciones</legend>
+    <br />
+    
+    <label>Si
+    <input type="checkbox" name="si" value="opc1" />
+    </label>
+    
+    <label for="opc1_opc2">No</label>
+    <input type="checkbox" name="no" value="opc1_opc2" />
+    <br /><br />
+    
+    <label>Quizás</label>
+    <input type="radio" name="radio" id="quizas" value="quizas" />
+    <label>Puede ser</label>
+    <input type="radio" name="radio" id="puedeser" value="puedeser" />
+    <br /><br />
+   
+    <select name="opciones" size="8" multiple="multiple"/>
+    	<optgroup label="Opcion 1">
+    		<option value="opca">A</option>
+            <option value="opcb">B</option>
+            
+    	<optgroup label="Opcion 2"></optgroup>
+    </fieldset>
     	</form>
     </section>
     </article>
