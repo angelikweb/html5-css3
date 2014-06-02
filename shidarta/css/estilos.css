@@ -8,3 +8,13 @@
 .font {font-size:36px;}
 
 .amarilla_rojo {background-color:#F7F382; color: #F00;}
+
+a:hover {border:2px solid #CD0D10;}
+
+a:active {color:#F0E50C}
+
+ul {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:18px;}
+
+ul > li + li {font-size:14px;}
+
+em {font-style:italic;}
