@@ -1,9 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.etiqueta-roja {
+
+li > ul > li {
 	background-color: red;
-	color: white;}
-.etiqueta-azul {
-	background-color: blue;
-	color: white;}
+	color: white;
+}
+
+li > ul > li + li {
+	font-size: 36px;
+}
+
+a {
+	color: inherit;
+}
+
+#botonClick {
+	padding: 20px;
+}
+
+.boton {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 24px;
+}
