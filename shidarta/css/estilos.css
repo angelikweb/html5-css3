@@ -15,6 +15,12 @@ a:active {color:#F0E50C}
 
 ul {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:18px;}
 
-ul > li + li {font-size:14px;}
-
 em {font-style:italic;}
+
+nav > ul > li {float:left;
+				padding-top:5px;
+				padding-bottom:5px}
+
+nav ul ul {display:none}
+
+nav li:hover ul {display:block}
