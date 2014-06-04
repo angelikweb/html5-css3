@@ -1,0 +1,44 @@
+/* CSS Document */
+
+article > h1, 
+article > h2,
+article > h3 {
+	font-size:22px;
+	font-style:oblique;
+	font-weight:bold;
+}
+
+section > h1,
+section > h2,
+section > h3 {
+	font-size:16px;
+}
+
+a:hover {color:red;}
+/* a:visited {color:#00FF01;} seria para que se quede marcado cuendo se visita*/
+
+
+
+fieldset {
+			background-color:blue;
+			overflow:hidden;				
+}
+
+fieldset > div > label {
+	color:white
+}
+
+.relleno_texto {
+	background-color:#FF0;
+}
+
+
+fieldset > div > label > input {
+	
+
+
+	
+
+
+
+

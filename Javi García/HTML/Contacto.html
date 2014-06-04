@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Formulario de Contacto</title>
 <link rel="stylesheet" type="text/css" href="../CSS/reset.css" disabled>
+<link rel="stylesheet" type="text/css" href="../CSS/estilos contacto.css">
 </head>
 
 <body>
@@ -37,17 +38,61 @@
                     	<label for="emailField">Mail</label>
                       <input type="email" name="email"	 id="emailField">
                     </div>
+                    <div>
+                    	<label for="texto" > Escríbenos</label>
+                        <br />
+                        <textarea class="relleno_texto" id="texto" name="texto" cols="60" rows="10"> </textarea>
+                    </div>
+                    <div>
+                    	<label for="adjuntarfield"> Adjuntar archivo</label>
+                        <input type="file" id="file" name="file"
+                    </div>
                   </fieldset>
                   	<input type="submit" name="botonSubmit" value="Enviar" />
                 <button name="botonReset" type="reset" value="reset">Reset</button>
-                <button name="botonClick" type="button" id="botonClick" onclick="alert('hola');">Click!<br/>Me</button>
-                
-                
-              
-              
-              </form>
+                <button name="botonClick" type="button" id="botonClick" onclick="alert('hola');">Click!<br/>Me</button> 
+              </form>              
            </section> 
-
+    </article>
+    <article>
+    	<h1>Formulario de Opciones</h1>
+        	<section>
+            	<h1>Rellenar campos</h1>
+                <form action="" method="post">
+                <input type="hidden" name="oculto" id="ocultofield" value="campoOculto"
+                	<fieldset>
+                    <br />
+                    	<label>Opción 1</label>
+                        <input type="checkbox" name="Opción 1" id="opcion1field">
+                        <label>Opción 2</label>
+                        <input type="checkbox" name="Opción 2" id="opcion2field">
+                        <br />
+                        <br />
+                        <label>Radio 1</label>
+                        <input type="radio" name="Radio 1" id="radio1field">
+                         <label>Radio 2</label>
+                        <input type="radio" name="Radio 2" id="radio2field">
+                        <br />
+                        <br />
+                        <select name="selecciones" size="10" multiple>
+                        	<optgroup label="GRUPO 1">	
+                            	<option value="opcion1">Opcion 1</option>
+                                <option value="opcion2">Opcion 2</option>
+                                <option value="opcion3">Opcion 3</option>
+                                <option value="opcion4" selected>Opcion 4</option>
+                                <option value="opcion5">Opcion 5</option>
+                                <option value="opcion6">Opcion 6</option>       
+                    </fieldset>
+                    <br />
+                    <br />
+                    <div>
+                    	<input type="submit" name="botonSubmit" value="Enviar" />
+                			<button name="botonReset" type="reset" value="reset">Reset</button>
+                			<button name="botonClick" type="button" id="botonClick" onclick="alert('hola');">Click!<br/>Me</button> 
+                    </div>
+                    
+                </form>
+            </section>
     </article>
 </body>
 </html>
