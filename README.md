@@ -19,6 +19,8 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 
 http://www.statcounter.com
 
+http://isorna.net/work/training/Curso_de_maquetacion_web.pdf
+
 # Code Editors for reference
 
 http://www.codio.com
