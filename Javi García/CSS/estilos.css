@@ -1,9 +1,24 @@
 /* CSS Document */
+nav {
+	position:fixed;
+	width: 100%;
+}
 
-
+nav ul {
+	border:2px solid black;
+	overflow: hidden;
+	
+	
+}
+nav > ul {
+	margin: 0 auto;
+}
+	
 nav > ul > li {
 	float:left;
-	margin:10px;
+	margin:10px 0;
+	width: 24%;
+	text-align: center;
 }
 nav ul ul {
 	display:none;
@@ -12,10 +27,15 @@ nav ul ul {
 	
 nav li:hover ul {
 	display:block;
+	width: inherit;
 }
 
 
-body {height:1000px;}
+body {
+	height:1500px;
+	width:1500px;
+
+}
 
 
 
