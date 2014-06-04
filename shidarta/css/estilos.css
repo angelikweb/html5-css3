@@ -13,14 +13,21 @@ a:hover {border:2px solid #CD0D10;}
 
 a:active {color:#F0E50C}
 
+header {position:fixed;
+padding-bottom:absolute;
+}
+
 ul {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:18px;}
 
 em {font-style:italic;}
 
-nav > ul > li {float:left;
-				padding-top:5px;
-				padding-bottom:5px}
+nav > ul > li {float:left}
 
 nav ul ul {display:none}
 
 nav li:hover ul {display:block}
+
+article section p {text-align:justify;
+					padding-top:20px}
+					
+nav li li {font-size:15px}
