@@ -1,5 +1,5 @@
 /* CSS Document */
-nav {
+header {
 	position:fixed;
 	width: 100%;
 }
@@ -12,23 +12,25 @@ nav ul {
 }
 nav > ul {
 	margin: 0 auto;
+	padding-top:20px;
 }
 	
 nav > ul > li {
 	float:left;
-	margin:10px 0;
+	padding:10px 0;
 	width: 24%;
 	text-align: center;
 }
 nav ul ul {
 	display:none;
-	position:absolute;
+
+	position:relative;
 }
 	
 nav li:hover ul {
 	display:block;
 	width: inherit;
-	/*margin:10px auto;  Me separa como quiero pero desaparece sub menu cuando mueves el ratón*/
+	margin:10px auto;  /*Me separa como quiero pero desaparece sub menu cuando mueves el ratón*/
 
 }
 
@@ -43,15 +45,42 @@ body {
 
 }*/
 
-section > img {float:left;}
+html {
+	height: 100%;
+	background-image: url(../IMG/fondo%20blog.jpg);
+	background-size: cover;}
+section {overflow: hidden;}
 
-figure > img {
-	height:100%;
-	width:100%;
-	position:relative;
-	float:left;
-	position:absolute;
+section h1 {
+	margin: 150px 0px auto;
+	line-height:150px; 
+	background-image:url(../IMG/The%20Fly%20texto%20about.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	
+
 }
+
+p { width:40%;
+	padding:15px;
+	border: none;
+	border-radius: 40px 10px;
+	border-color:red;
+	border-width:5px;
+	border-style:double;
+	background-color:#ADADAD;
+	
+}
+
+#social li {
+	background-image:url(../IMG/social-media-sprite.png);
+	background-repeat:no-repeat;
+	background-position:left;
+}
+.linkedin {animation:
+
+
+
 /*	
 section > h1 {
 	position:absolute;
@@ -63,7 +92,7 @@ section > h1 {
 	/*margin:0 auto;*/
 }
 
-section {
+/*section {
 	position:fixed;
 	height:50px;
 	width:80px;
