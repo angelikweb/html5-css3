@@ -28,14 +28,30 @@ nav ul ul {
 nav li:hover ul {
 	display:block;
 	width: inherit;
+	/*margin:10px auto;  Me separa como quiero pero desaparece sub menu cuando mueves el ratón*/
+
 }
 
-
 body {
+	height:100%;
+	width:100%;
+
+}
+/*body {
 	height:1500px;
 	width:1500px;
 
+}*/
+
+section > img {float:left;}
+
+figure > img {
+	height:100%;
+	width:100%;
+	position:relative;
+	float:left;
 }
+	
 
 
 
