@@ -50,8 +50,26 @@ figure > img {
 	width:100%;
 	position:relative;
 	float:left;
+	position:absolute;
 }
+/*	
+section > h1 {
+	position:absolute;
+	padding:50px;
+	alignment-adjust:central;
 	
+	/*position:relative;*/
+	/*position:fixed;*/	
+	/*margin:0 auto;*/
+}
+
+section {
+	position:fixed;
+	height:50px;
+	width:80px;
+	margin:10px auto;
+	float:left;
+}
 
 
 
