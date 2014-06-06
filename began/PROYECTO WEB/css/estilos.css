@@ -17,15 +17,22 @@ body {
 	background-color:white;
 	width:80%;
 	margin:10px auto;
+	overflow:hidden;
+	min-height:1200px;
+	margin-top:0px;
 }
 
 ul {
 	margin:0;
 }
 
-body header {
-	padding-top:1px;
+body header h1{
+	margin-top:10px;
+	margin-bottom:0px;
+	padding-bottom:50px;
 }
+
+
 
 header h1 a {
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -49,8 +56,16 @@ nav > ul > li {
 	background: -ms-linear-gradient(top, #ededed 0%,#f6f6f6 37%,#c4c4c4 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #ededed 0%,#f6f6f6 37%,#c4c4c4 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#c4c4c4',GradientType=0 ); /* IE6-9 */
-	padding-top:10px;
-	padding-bottom:7px;
+	position: relative;
+	border-right: 1px solid white;
+}
+nav > ul > li._active {
+	font-weight: bold;
+	}
+nav > ul > li:last-child {border: 0;}
+nav > ul > li > a {
+	display: block;
+	line-height: 34px;
 }
 
 li ul {
@@ -60,10 +75,13 @@ li ul {
 	background-color:white;
 	font-size:13px;
 	padding-top:7px;
+	position: absolute;
+	width: 100%;
 }
 
 ul li ul {
 	display:none;
+	
 }
 
 ul li:hover ul {
@@ -76,8 +94,9 @@ nav ul > li a {
 	color:black;
 }
 
-nav ul li ul {
+li ul li a {
 	padding-top:10px;
+	color:#9F9F9F;
 }
 
 article section {
@@ -87,7 +106,15 @@ article section {
 	font-size:20px;
 }
 
+article h1 {
+	margin-top:140px;
+}
 
+
+
+body article section p {
+	font-size:16px;
+}
 
 
 
