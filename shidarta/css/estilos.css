@@ -5,29 +5,70 @@
 
 .etiqueta-verde {background:#C5FD8C;}
 
-.font {font-size:36px;}
+.font {font-size:26px;}
 
 .amarilla_rojo {background-color:#F7F382; color: #F00;}
 
-a:hover {border:2px solid #CD0D10;}
-
-a:active {color:#F0E50C}
-
-header {position:fixed;
-padding-bottom:absolute;
+.carlos_s {
+font-size:24px;
+font-family:Verdana, Geneva, sans-serif;
+padding-top:20px;
+border-spacing:inherit
 }
 
-ul {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:18px;}
+.Galeria {
+font-size:18px;
+font-family:Verdana, Geneva, sans-serif;
+padding-top:0;
+padding-bottom:20px;
+border-spacing:inherit	
+}
+
+body {
+background-image:url(../imagenes/galeria.jpg);
+background-size:cover;
+background-repeat:no-repeat
+}
+
+header {
+  text-align:center;
+  height:105px;
+  background-color:#999;
+  color:#FFFFFF;
+  padding:5px;
+}
+
+a {color:#FFF}
+
+a:hover {color:#666}
+
+a:active {color:#000}
+
+nav {
+position:fixed;
+top:130px;
+alignment:central;
+width:100%
+}
+
+ul {
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+font-size:18px;
+}
 
 em {font-style:italic;}
 
-nav > ul > li {float:left}
+nav > ul > li {
+	float:left;
+	}
 
-nav ul ul {display:none}
+nav ul ul {
+	display:none}
 
 nav li:hover ul {display:block}
 
-article section p {text-align:justify;
-					padding-top:20px}
+p {text-align:justifys}
+  
+section {padding-top:20px}
 					
 nav li li {font-size:15px}
