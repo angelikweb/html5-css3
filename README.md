@@ -13,6 +13,10 @@ Front-end development with HTML5 and CSS3 course repository.
   6. Open a Finder window, you should see a "Sites" folder inside your user home icon, that's the folder of your local web server.
   7. Open Google Chrome and enter http://localhost/~YOURUSERNAME/ to check if it's working correctly.
 
+# Next Meetups
+http://www.meetup.com/AngularJS_Madrid/events/187058992/
+
+
 # Utility links
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element
