@@ -21,13 +21,21 @@ font-size:18px;
 font-family:Verdana, Geneva, sans-serif;
 padding-top:0;
 padding-bottom:20px;
-border-spacing:inherit	
+border-spacing:inherit;	
 }
 
-body {
+ul.recuadro li {
+border-radius: 20px;
+border-color:#939393;
+border-width:medium;
+border-style: solid;
+padding: 10px;
+}
+
+body.index {
 background-image:url(../imagenes/galeria.jpg);
 background-size:cover;
-background-repeat:no-repeat
+background-repeat:no-repeat;
 }
 
 header {
@@ -38,11 +46,11 @@ header {
   padding:5px;
 }
 
-a {color:#FFF}
+a {color:#FFF;}
 
-a:hover {color:#666}
+a:hover {color:#666;}
 
-a:active {color:#000}
+a:active {color:#000;}
 
 nav {
 position:fixed;
@@ -63,12 +71,12 @@ nav > ul > li {
 	}
 
 nav ul ul {
-	display:none}
+	display:none;}
 
-nav li:hover ul {display:block}
+nav li:hover ul {display:block;}
 
-p {text-align:justifys}
+p {text-align:justifys;}
   
-section {padding-top:20px}
+section {padding-top:20px;}
 					
-nav li li {font-size:15px}
+nav li li {font-size:15px;}
