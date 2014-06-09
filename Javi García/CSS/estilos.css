@@ -56,19 +56,42 @@ section h1 {
 	line-height:150px; 
 	background-image:url(../IMG/The%20Fly%20texto%20about.png);
 	background-repeat:no-repeat;
-	background-position:center;
-	
-
+	background-position:center;	
 }
 
-p { width:40%;
-	padding:15px;
+section h2 {
+	background-image:url(../IMG/Logo%20the%20fly%20miniaturacuadrada.png);
+	height:400px;
+	width:500px;
+	background-repeat:no-repeat;
+	float:left;
+	padding:30px;
+}
+
+section h3 {
+	font-family: 'Oswald', sans-serif;
+	color:#FFF;
+	padding:10px;
+}
+
+section h4 {
+	font-family: 'Oswald', sans-serif;
+	color:#FFF;
+	padding:10PX;
+}
+
+p { 
+	font-family: 'Oswald', sans-serif;
+	color:#FFF;
+	width:40%;
+	padding:30px;
 	border: none;
 	border-radius: 40px 10px;
-	border-color:red;
+	border-color:blue;
 	border-width:5px;
 	border-style:double;
 	background-color:#ADADAD;
+	float:left;
 	
 }
 
@@ -77,9 +100,19 @@ p { width:40%;
 	background-repeat:no-repeat;
 	background-position:left;
 }
-.linkedin {animation:
+
+.linkedin {
+	animation:0px 20px;
+}
 
 
+footer {
+	font-family: 'Oswald', sans-serif;
+	color:#FFF;
+	text-align:center;
+	background-color:#000;
+	height:50px;
+}
 
 /*	
 section > h1 {
