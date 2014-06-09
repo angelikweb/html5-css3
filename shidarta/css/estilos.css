@@ -13,7 +13,7 @@
 font-size:24px;
 font-family:Verdana, Geneva, sans-serif;
 padding-top:20px;
-border-spacing:inherit
+border-spacing:inherit;
 }
 
 .Galeria {
@@ -24,18 +24,33 @@ padding-bottom:20px;
 border-spacing:inherit;	
 }
 
-ul.recuadro li {
+article h2 {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	float:left;
+	padding-right:90px;
+	position:static;
+	box-sizing:content-box;
+}
+
+
+ul.recuadro {
+float:left;
+width:19%;
 border-radius: 20px;
 border-color:#939393;
 border-width:medium;
 border-style: solid;
-padding: 10px;
+padding:10px;
+margin-right:50px;
+margin-bottom: 20px;
 }
 
 body.index {
 background-image:url(../imagenes/galeria.jpg);
 background-size:cover;
 background-repeat:no-repeat;
+
 }
 
 header {
@@ -53,10 +68,11 @@ a:hover {color:#666;}
 a:active {color:#000;}
 
 nav {
+background-color:#999;
+background-size:contain;
 position:fixed;
 top:130px;
-alignment:central;
-width:100%
+width:100%;
 }
 
 ul {
@@ -66,8 +82,11 @@ font-size:18px;
 
 em {font-style:italic;}
 
+
 nav > ul > li {
 	float:left;
+	width:19%;
+margin:0 auto
 	}
 
 nav ul ul {
