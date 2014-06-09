@@ -96,6 +96,11 @@ li ul li a {
 	color:#9F9F9F;
 }
 
+nav ul li a:hover {
+	color:#009;
+	font-size:18px;
+}
+
 article {
 	margin:0 auto;
 	width:100%;
@@ -110,7 +115,7 @@ article {
 .cuadrados {
 	margin-left:50px;
 	width:265px;
-	height:270px;
+	height:300px;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:20px;
 	background-color:white;
@@ -133,17 +138,26 @@ section nav {
 	margin-right:10px;
 }
 
-article section.cuadrados figure {
-	border-bottom-style:solid;
-	border-color:#999;
-	border-radius:20px;
-	margin-left:12px;
-	margin-right:12px;
-	width:90%;
-	background-position:center;	
+article section.cuadrados figure img {
+	border:1px;
+	border-style:solid;
+	border-color:#666;
+	border-radius:10px;
+	margin:0 auto;
+	width:100%;
+	background-image:url(../imagenes/entrada.jpg);
 }
 
-footer {
+section.cuadrados nav details p {
+	margin:0;
+}
+
+article section.cuadrados p {	
+	margin-left:10px;
+	margin-bottom:0;
+}
+
+body article footer {
 	float:left;
 	position:relative;
 	bottom:0;
@@ -151,12 +165,12 @@ footer {
 	height:150px;
 }
 
-#footer nav ul li {
+#footer nav ul li a {
 	background-image:url(../imagenes/iconos-de-redes-sociales.png);	
 }
 
 #footer nav a:hover.redes_sociales {
-	background-position:0px 0px;
+	background-position:bottom;
 }
 
 
