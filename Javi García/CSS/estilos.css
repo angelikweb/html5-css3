@@ -51,13 +51,53 @@ html {
 	background-size: cover;}
 section {overflow: hidden;}
 
+article {overflow:hidden;
+}
+article > h1 {
+	padding-top:300px;
+	
+	line-height:150px; 
+	background-image:url(../IMG/The%20Fly%20texto%20about.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	font-size:0px;
+}
+
+/*article > section > h1 {
+	background-image:url(../IMG/Logo%20the%20fly%20miniaturacuadrada.png);
+	height:400px;
+	width:500px;
+	background-repeat:no-repeat;
+	padding:30px;
+}*/
+
+.video {
+	background-image:url(../IMG/Logo%20the%20fly%20miniaturacuadrada.png);
+	background-repeat:no-repeat;
+	/*width: 500px;
+	height:400px;*/
+	width:49%;
+	height:400px;
+	float:left;
+}
+
+
+.texto {
+	font-family: 'Oswald', sans-serif;
+	color:#FFF;
+	width:49%;
+	float:left;
+
+}
+/*
 section h1 {
 	margin: 150px 0px auto;
 	line-height:150px; 
 	background-image:url(../IMG/The%20Fly%20texto%20about.png);
 	background-repeat:no-repeat;
 	background-position:center;
-	font-size:0px;	
+	font-size:0px;
+	tambien se puede hacer poniendo el color de la letra transparente ó text-indent + un valor negativo	
 	
 }
 
@@ -96,17 +136,48 @@ p {
 	float:left;
 	
 }
-
+*/
+#social:after {
+	content:" ";
+	display:block;
+	clear:both;
+	
+	
+}
 #social li {
+	/*background-image:url(../IMG/social-media-sprite.png);
+	background-repeat:no-repeat;*/
+	width:20px;
+	height:20px;
+	float:left;
+	/*background-color:#FFFFFF;*/
+	font-size:0px;
+	
+}
+#social li a {
+	display:block;
+	width:20px;
+	height:20px;
 	background-image:url(../IMG/social-media-sprite.png);
-	background-repeat:no-repeat;
-	background-position:left;
+}
+.linkedin a {
+	background-position: 0px -20px;
+}
+.linkedin a:hover {
+	background-position: 0px 0px;
+}
+.facebook a {
+	background-position: -40px -20px;
+}
+.facebook a:hover {background-position: -40px 0px}
+
+.vimeo a {background-position: 60px -20px;
+}
+.vimeo a:hover {
+	background-position: 60px 0px;
 }
 
-.linkedin {
-	animation:0px 20px;
-}
-
+.
 
 footer {
 	font-family: 'Oswald', sans-serif;
