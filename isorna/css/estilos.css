@@ -1,6 +1,16 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@font-face {
+  font-family: "La Fuente de Alvaro";
+  src:
+	local("Helvetica Neue Bold"),
+  	local("HelveticaNeue-Bold"), 
+  	url("https://mdn.mozillademos.org/files/2468/VeraSeBd.ttf");
+}
+    
+body { font-family: "La Fuente de Alvaro", serif }
+
 body {
 	min-height: 600px;
 	padding: 50px 20px 100px;
