@@ -2,8 +2,8 @@
 /* CSS Document */
 
 body {
-	height: 2000px;
-	padding-top: 50px;
+	min-height: 600px;
+	padding: 50px 20px 100px;
 	position: relative;
 }
 
@@ -49,44 +49,6 @@ table {
 
 tbody tr:nth-child(odd) {
 	background-color: blue;
-}
-
-p {
-	margin: 0;
-	background-color: #CAC8C8;
-}
-p {
-	margin: 10px;
-}
-p {
-	margin: 10px 20px 30px 5px;
-}
-p {
-	margin: 20px auto;
-}
-p {
-	margin: 20px 20%;
-}
-
-p {
-	border: 20px solid yellow;
-	border-top: 50px dotted #F5060A;
-	margin: 0;
-}
-
-p {
-	padding: 30px;
-}
-
-.caja-parrafos {
-	background-color: green;
-	overflow: hidden;
-}
-
-.caja-parrafos p {
-	float: left;
-	width: 100px;
-	margin: 10px;
 }
 
 header {
@@ -145,6 +107,16 @@ nav li:hover ul {
 .body-centrado {
 	width: 80%;
 	margin: 0 auto;
-	background-color: white;
+	background-color: #ccc;
 }
+
+/* Lunes 9 de Junio */
+
+/* clear de CSS */
+#container:after { 
+   content: "";
+   display: block; 
+   clear: both;
+}
+
 
