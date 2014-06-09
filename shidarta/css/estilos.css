@@ -24,27 +24,52 @@ padding-bottom:20px;
 border-spacing:inherit;	
 }
 
-article h2 {
-	font-family:Tahoma, Geneva, sans-serif;
-	font-size:11px;
-	float:left;
-	padding-right:90px;
-	position:static;
-	box-sizing:content-box;
+
+article {overflow:hidden;
+width: 80%;
+margin: 0 auto;
 }
 
-
-ul.recuadro {
+article.recuadro section {
 float:left;
-width:19%;
+width:20%;
 border-radius: 20px;
 border-color:#939393;
 border-width:medium;
 border-style: solid;
 padding:10px;
-margin-right:50px;
-margin-bottom: 20px;
+margin-top: 50px;
+margin-right:10px;
 }
+
+h2
+{
+font:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size:15px;
+}
+
+
+footer ul li{
+list-style-type:none;
+float:left;
+width: 63px;
+height:63px;
+}
+
+footer ul li a {background-image:url(../imagenes/sprits.png);
+display:block;
+width: 62px;
+height:62px;
+text-indent: -1000px;
+}
+
+
+.facebook a {background-position: 0 0;}
+.facebook a:hover {background-position: 0 -60px;}
+
+.twitter a {background-position: -85px 0;}
+.twitter a:hover {background-position: -85px -60px;}
+
 
 body.index {
 background-image:url(../imagenes/galeria.jpg);
@@ -92,7 +117,8 @@ margin:0 auto
 nav ul ul {
 	display:none;}
 
-nav li:hover ul {display:block;}
+nav li:hover ul {display:block;
+position:absolute;}
 
 p {text-align:justifys;}
   
