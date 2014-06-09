@@ -56,7 +56,9 @@ section h1 {
 	line-height:150px; 
 	background-image:url(../IMG/The%20Fly%20texto%20about.png);
 	background-repeat:no-repeat;
-	background-position:center;	
+	background-position:center;
+	font-size:0px;	
+	
 }
 
 section h2 {
