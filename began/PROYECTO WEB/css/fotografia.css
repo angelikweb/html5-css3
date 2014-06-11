@@ -29,12 +29,6 @@ header h1 a {
 	text-decoration:none;
 }
 
-
-ul {
-	margin:0;
-}
-
-
 nav > ul > li {
 	list-style-type:none;
 	font-size:15px;
@@ -116,9 +110,9 @@ article {
 	margin-left:50px;
 	margin-bottom:20px;
 	width:265px;
-	min-height:300px;
+	min-height:270px;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size:20px;
+	font-size:18px;
 	background-color:white;
 	border-radius:10px 10px 10px 10px;
 	float:left;
@@ -155,7 +149,9 @@ article section.cuadrados figure img {
 	border-color:#666;
 	border-radius:10px;
 	margin:0 auto;
+	margin-top:25px;
 	width:100%;
+	height:85px;
 	background-image:url(../imagenes/entrada.jpg);
 }
 
@@ -169,23 +165,18 @@ section.cuadrados nav details p {
 article section.cuadrados p {	
 	margin-left:10px;
 	margin-bottom:10px;
+	font-size:14px;
 }
 
 section.cuadrados nav a {
 	font-size:14px;
-}
-footer {
-	margin: 100px auto 0;
-}
-
-footer p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:12px;
-	margin-left:15px;
+	margin-bottom:5px;
+	margin-top:30px;
+	position:absolute;
 }
 
 nav details summary {
-	font-size:16px;
+	font-size:14px;
 	font-family:inherit;
 }
 
@@ -195,43 +186,48 @@ nav details summary {
 	clear:both;
 }
 
-.redes_sociales li {
+footer {
+	margin: 600px auto 0;
+	overflow:hidden;
+
+}
+
+footer section p {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:bolder;
-	font-size:9px;
-	list-style-type:none;
-	width:41px;
-	height:40px;
-	margin:15px;
-	padding:0px;
-	margin-right:75px;
-	display:block;
+	font-size:12px;
+	float:left;
+	position:relative;
 }
 
 .redes_sociales li a {
-	margin-left:50px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	list-style-type:none;
+	width:39px;
+	height:38px;
 }
 
-.mimim {
+.facebook a {
+	position:relative;
 	float:left;
 	background-image:url(../imagenes/iconos-de-redes-sociales.png);
 	background-position:0px 0px;
 }
 
-.facebook {
-	float:left;
-	background-image:url(../imagenes/iconos-de-redes-sociales.png);
-	background-position:0px 80px;
+.facebook a:hover {
+	background-position:40px 0px;
 }
 
-.twitter {
-	float:left;
+.twitter a {
+	position:absolute;
 	background-image:url(../imagenes/iconos-de-redes-sociales.png);
-	background-position:0px -80px;
+	background-position:0px 38px;
 }
 
-
-
+.twitter a:hover {
+	background-position:40px 38px;
+}
 
 .verde{background:#4A9224;}
 .naranja{color:#EE9B22;}
