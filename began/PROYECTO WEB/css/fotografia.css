@@ -2,8 +2,8 @@
 /* CSS Document */
 
 .fondo_general {
-	background-size:100% 100%;
 	background:#333;
+	height:100%;
 }
 
 body {
@@ -180,6 +180,42 @@ nav details summary {
 	font-family:inherit;
 }
 
+.cuadraditos {
+	float:left;
+	width:150px;
+	height:150px;
+	border-radius:25px;
+	background-color:hsla(298,91%,49%,1.00);
+	-webkit-transition:width 3s, height 3s, background-color 3s, transform 3s, margin-left 3s;
+}
+
+.cuadraditos:hover {
+	margin-left:200px;
+	-webkit-transition-timing-function:ease-in-out 4s;
+	-webkit-transition:rotate(90deg);
+	background-color:hsla(0,0%,99%,1.00);
+}
+
+
+.cuadraditos2 {
+	float:left;
+	width:150px;
+	height:150px;
+	margin-left:300px;
+	border-radius:25px;
+	background-color:hsla(298,91%,49%,1.00);
+	transform:translate(0,0);
+	-webkit-transform:scale(50%,50%);
+
+}
+
+.cuadraditos2:hover {
+	margin-left:700px;
+	width:400px;
+	-webkit-transform:rotate(75deg);
+	background-color:hsla(0,0%,99%,1.00);
+}
+
 .clearfix:after{
 	content:" ";
 	display:block;
@@ -189,29 +225,24 @@ nav details summary {
 footer {
 	margin: 600px auto 0;
 	overflow:hidden;
-
+	list-style-type:none;
 }
 
-footer section p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size:12px;
+footer ul li {
 	float:left;
-	position:relative;
-}
-
-.redes_sociales li a {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-weight:normal;
-	font-size:11px;
 	list-style-type:none;
 	width:39px;
+	height:38px;
+	margin-right:10px;
+}
+
+footer ul li a {
+	background-image:url(../imagenes/iconos-de-redes-sociales.png);
+	display:block;
 	height:38px;
 }
 
 .facebook a {
-	position:relative;
-	float:left;
-	background-image:url(../imagenes/iconos-de-redes-sociales.png);
 	background-position:0px 0px;
 }
 
@@ -220,14 +251,19 @@ footer section p {
 }
 
 .twitter a {
-	position:absolute;
-	background-image:url(../imagenes/iconos-de-redes-sociales.png);
 	background-position:0px 38px;
 }
 
 .twitter a:hover {
 	background-position:40px 38px;
 }
+
+footer section p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:12px;
+	text-align:center;
+}
+
 
 .verde{background:#4A9224;}
 .naranja{color:#EE9B22;}
