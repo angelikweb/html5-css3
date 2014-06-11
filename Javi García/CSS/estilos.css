@@ -5,14 +5,14 @@ header {
 }
 
 nav ul {
-	border:2px solid black;
+	/*border:2px solid black;*/
 	overflow: hidden;
 	
 	
 }
 nav > ul {
 	margin: 0 auto;
-	padding-top:20px;
+	padding-top:40px;
 }
 	
 nav > ul > li {
@@ -23,39 +23,44 @@ nav > ul > li {
 }
 nav ul ul {
 	display:none;
-
 	position:relative;
 }
 	
 nav li:hover ul {
 	display:block;
-	width: inherit;
+	width:auto;
+	
 	margin:10px auto;  /*Me separa como quiero pero desaparece sub menu cuando mueves el ratón*/
-
+	
 }
+
+a {color:#FFF;}
+a:hover {color:blue;}
+/* a:visited {color:#00FF01;} seria para que se quede marcado cuendo se visita*/
 
 body {
 	height:100%;
 	width:100%;
 
 }
-/*body {
-	height:1500px;
-	width:1500px;
-
-}*/
 
 html {
 	height: 100%;
 	background-image: url(../IMG/fondo%20blog.jpg);
-	background-size: cover;}
-section {overflow: hidden;}
+	background-size: cover;
+}
+section {
+	overflow: hidden;
+}
 
-article {overflow:hidden;
+article {
+	overflow:hidden;
+}
+article > section {
+	padding:20px;
 }
 article > h1 {
-	padding-top:300px;
-	
+	padding-top:200px;	
 	line-height:150px; 
 	background-image:url(../IMG/The%20Fly%20texto%20about.png);
 	background-repeat:no-repeat;
@@ -63,22 +68,20 @@ article > h1 {
 	font-size:0px;
 }
 
-/*article > section > h1 {
-	background-image:url(../IMG/Logo%20the%20fly%20miniaturacuadrada.png);
-	height:400px;
-	width:500px;
-	background-repeat:no-repeat;
-	padding:30px;
-}*/
-
 .video {
 	background-image:url(../IMG/Logo%20the%20fly%20miniaturacuadrada.png);
 	background-repeat:no-repeat;
-	/*width: 500px;
-	height:400px;*/
+	background-size:100%;
+	background-position:center;
+	background-origin:content-box;
+	padding-left:40px;
 	width:49%;
 	height:400px;
 	float:left;
+	min-width:400px;
+	font-size:0px
+	
+	
 }
 
 
@@ -87,62 +90,24 @@ article > h1 {
 	color:#FFF;
 	width:49%;
 	float:left;
-
+	min-width:400px;
+	max-width:500px;
 }
-/*
-section h1 {
-	margin: 150px 0px auto;
-	line-height:150px; 
-	background-image:url(../IMG/The%20Fly%20texto%20about.png);
-	background-repeat:no-repeat;
-	background-position:center;
-	font-size:0px;
-	tambien se puede hacer poniendo el color de la letra transparente ó text-indent + un valor negativo	
-	
+article > section > h2 {
+	font-size:40px;
+	padding-bottom:15px;
 }
-
-section h2 {
-	background-image:url(../IMG/Logo%20the%20fly%20miniaturacuadrada.png);
-	height:400px;
-	width:500px;
-	background-repeat:no-repeat;
-	float:left;
-	padding:30px;
+article > section > h3 {
+	font-size:40px;
+	padding-bottom:15px;
+	padding-top:50px;
 }
 
-section h3 {
-	font-family: 'Oswald', sans-serif;
-	color:#FFF;
-	padding:10px;
-}
 
-section h4 {
-	font-family: 'Oswald', sans-serif;
-	color:#FFF;
-	padding:10PX;
-}
-
-p { 
-	font-family: 'Oswald', sans-serif;
-	color:#FFF;
-	width:40%;
-	padding:30px;
-	border: none;
-	border-radius: 40px 10px;
-	border-color:blue;
-	border-width:5px;
-	border-style:double;
-	background-color:#ADADAD;
-	float:left;
-	
-}
-*/
 #social:after {
 	content:" ";
 	display:block;
-	clear:both;
-	
-	
+	clear:both;	
 }
 #social li {
 	/*background-image:url(../IMG/social-media-sprite.png);
@@ -177,65 +142,22 @@ p {
 	background-position: 60px 0px;
 }
 
-.
-
 footer {
 	font-family: 'Oswald', sans-serif;
 	color:#FFF;
 	text-align:center;
 	background-color:#000;
-	height:50px;
+	/*opacity:0.5;*/
+	height:10px;
+	padding:20px;
 }
 
-/*	
-section > h1 {
+footer > aside {
 	position:absolute;
-	padding:50px;
-	alignment-adjust:central;
+	margin-left:80%;
 	
-	/*position:relative;*/
-	/*position:fixed;*/	
-	/*margin:0 auto;*/
-}
-
-/*section {
-	position:fixed;
-	height:50px;
-	width:80px;
-	margin:10px auto;
-	float:left;
-}
-
-
-
-
-td {
-	background-color: blue; 
-	color: white;}
-th {
-	background-color: red;}
 	
-a {
-	background-color: black;	
-	Color: yellow;
 }
-
-article > h1, 
-article > h2,
-article > h3 {
-	font-size:22px;
-	font-style:oblique;
-	font-weight:bold;
-}
-
-section > h1,
-section > h2,
-section > h3 {
-	font-size:16px;
-}
-
-a:hover {color:red;}
-/* a:visited {color:#00FF01;} seria para que se quede marcado cuendo se visita*/
 
 
 
