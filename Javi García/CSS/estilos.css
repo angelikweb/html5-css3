@@ -153,9 +153,10 @@ footer {
 }
 
 footer > aside {
-	position:absolute;
+	position:relative;
+	margin-top:-20px;
+	margin-bottom:10px;
 	margin-left:80%;
-	
 	
 }
 
