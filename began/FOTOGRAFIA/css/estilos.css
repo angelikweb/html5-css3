@@ -1,4 +1,37 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html {
+	background-color:rgba(59,59,59,1.00);
+}
 
+body {
+	padding:10px auto;
+}
+
+body header h1 {
+	margin:0 auto;
+}
+
+header h1 a img {
+	width:80%;
+}
+
+body header nav {
+	background-color:rgba(0,0,0,1.00);
+	width:0 auto;
+	display:block;
+}
+
+nav ul {
+	list-style-type:none;
+	text-decoration:none;
+	text-align:left;
+}
+
+nav ul li a {
+	text-decoration:none;
+	color:white;
+	font-family:'Source Sans Pro', sans-serif;
+	border-bottom:2px white;
+}
