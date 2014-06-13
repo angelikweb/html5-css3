@@ -119,6 +119,10 @@ section.imagen_cambia figure {
 	margin:0 auto;
 }
 
+body article.clearfix {
+	margin:0 auto;
+}
+
 article section h1 {
 	margin:10px;
 	position:relative;
