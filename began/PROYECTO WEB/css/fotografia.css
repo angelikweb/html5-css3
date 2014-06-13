@@ -3,30 +3,33 @@
 
 .fondo_general {
 	background:#333;
-	height:100%;
 }
 
 body {
 	background-color:#999;
 	width:80%;
-	min-width:320px;
+	height:100px auto;
 	margin:10px auto;
-	margin-top:0px;
 }
 
 body header h1{
-	margin-top:10px;
-	margin-bottom:0px;
-	padding-bottom:50px;
-	font-size:18px;
+	margin-bottom:25px;
+	font-size:18px;}
+
+header h1 img {
+	margin:25px;
 }
 
 header h1 a {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:36px;
-	padding-left:10px;
 	color:#000;
 	text-decoration:none;
+}
+
+header nav {
+	width:0 auto;
+	margin:0 auto;
 }
 
 nav > ul > li {
@@ -43,11 +46,10 @@ nav > ul > li {
 	background: -ms-linear-gradient(top, #ededed 0%,#f6f6f6 37%,#c4c4c4 100%); /* IE10+ */
 	background: linear-gradient(to bottom, #ededed 0%,#f6f6f6 37%,#c4c4c4 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#c4c4c4',GradientType=0 ); /* IE6-9 */
-	position: relative;
 	border-right: 1px solid white;
 }
 
-nav > ul > li._active {
+nav > ul > li:active {
 	font-weight: bold;
 }
 
@@ -95,20 +97,18 @@ nav ul li a:hover {
 	font-size:18px;
 }
 
-article {
-	margin:0 auto;
-	width:100%;
+section.imagen_cambia figure {
+	padding:0;
 }
 
 .imagen_cambia {
 	margin:0 auto;
 	width:100%;
-	padding-top:45px;
+	padding-top:10px;
+	float:left;
 }
 
 .cuadrados {
-	margin-left:50px;
-	margin-bottom:20px;
 	width:265px;
 	min-height:270px;
 	font-family: 'Source Sans Pro', sans-serif;
@@ -116,6 +116,7 @@ article {
 	background-color:white;
 	border-radius:10px 10px 10px 10px;
 	float:left;
+	margin:0 auto;
 }
 
 article section h1 {
@@ -180,7 +181,7 @@ nav details summary {
 	font-family:inherit;
 }
 
-.cuadraditos {
+/**.cuadraditos {
 	float:left;
 	width:150px;
 	height:150px;
@@ -214,7 +215,7 @@ nav details summary {
 	width:400px;
 	-webkit-transform:rotate(75deg);
 	background-color:hsla(0,0%,99%,1.00);
-}
+}*/
 
 .clearfix:after{
 	content:" ";
