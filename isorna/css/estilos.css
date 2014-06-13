@@ -129,4 +129,10 @@ nav li:hover ul {
    clear: both;
 }
 
+/* Viernes 13 de Junio */
 
+@media (max-width: 1000px) {
+	.body-centrado {
+		background-color: red;
+	}
+}
