@@ -1,2 +1,38 @@
 /* CSS Document */
+nav ul  ul li {
+	display:none;
+}
+/*header {
+	background-color:red;
+}*/
+/* codigo de abajo es para quitarle el tema de los flotados y tal....*/
 
+nav ul:after {
+	content:" ";
+	display:block;
+	clear:both;	
+}
+
+nav ul {
+	
+	background-color:red;
+}
+
+nav ul li {
+	width:24%;
+	float:left;
+	text-align:center;
+}
+
+article > h1 {
+	display:block;
+	background-color:red;
+	background-image:url(../IMG/The%20Fly%20texto%20about.png);
+	background-size:cover;
+	background-repeat:no-repeat;
+	line-height:60px;
+	font-size:0px;
+	/*margin-top:50px;*/
+
+}
+	
