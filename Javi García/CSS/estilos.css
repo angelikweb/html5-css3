@@ -29,8 +29,7 @@ nav ul ul {
 	
 nav li:hover ul {
 	display:block;
-	width:auto;
-	
+	width:auto;	
 	margin:10px auto;  /*Me separa como quiero pero desaparece sub menu cuando mueves el ratón*/
 	
 }
