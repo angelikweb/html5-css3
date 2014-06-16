@@ -28,11 +28,17 @@ nav ul li {
 nav ul  ul li {
 	display:none;
 }
-
+nav ul li a {
+	width:73px;
+	height:50px;
+	display:block;
+}
 .home {
 	background-image:url(../IMG/iconhome.png);
 	background-size:cover;
 	background-position:center;
+	width:73px;
+	height:50px;
 }
 .games {
 	background-image:url(../IMG/icongames.png);
