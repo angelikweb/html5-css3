@@ -90,10 +90,11 @@ text-indent: -1000px;
 .twitter a:hover {background-position: -85px -60px;}
 
 
-body.index {
+section.index {
 background-image:url(../imagenes/galeria.jpg);
 background-size:cover;
 background-repeat:no-repeat;
+padding-top:60px;
 
 }
 
