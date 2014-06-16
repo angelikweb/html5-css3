@@ -28,6 +28,7 @@ nav ul {
 	list-style-type:none;
 	text-decoration:none;
 	text-align:left;
+	padding:5px;;
 }
 
 nav ul li a {
@@ -38,8 +39,7 @@ nav ul li a {
 }
 
 nav ul ul li {
-	border-bottom-style:solid;
-	border-color:white;
+	border-bottom:1px solid white;
 }
 
 article.clearfix section.imagen_cambia figure {
@@ -52,27 +52,38 @@ article.clearfix section.imagen_cambia figure img {
 }
 
 article.clearfix section.cuadrados {
-	float:left;
 	width:80%;
 	max-height:auto;
 	background-color:#FFF;
 	border-radius:12px;
 	padding-left:15px;
 	padding-right:15px;
+	padding-bottom:10px;
+	padding-top:3px;
 	margin-left:20px;
 	margin-right:20px;
 	margin-top:15px;
 }
 
-section.cuadrados nav figure {
+article.clearfix section.cuadrados h1 {
+	font-family:'Source Sans Pro', sans-serif;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+section.cuadrados figure {
 	margin:0 auto;
 }
 
-section.cuadrados nav figure img {
+section.cuadrados figure img {
 	width:100%;
 	margin-top:10px;
 	margin-bottom:5px;
 	max-height:150px;
-	
 	border-radius:12px;
+}
+
+article.clearfix section.cuadrados p {
+	margin:0;
+	margin-bottom:10px;
 }
