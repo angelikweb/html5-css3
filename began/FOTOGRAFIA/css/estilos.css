@@ -21,6 +21,7 @@ body header nav {
 	background-color:rgba(0,0,0,1.00);
 	width:0 auto;
 	display:block;
+	margin:0;
 }
 
 nav ul {
@@ -34,4 +35,44 @@ nav ul li a {
 	color:white;
 	font-family:'Source Sans Pro', sans-serif;
 	border-bottom:2px white;
+}
+
+nav ul ul li {
+	border-bottom-style:solid;
+	border-color:white;
+}
+
+article.clearfix section.imagen_cambia figure {
+	margin:0;
+}
+
+article.clearfix section.imagen_cambia figure img {
+	margin:0 auto;
+	width:100%;
+}
+
+article.clearfix section.cuadrados {
+	float:left;
+	width:80%;
+	max-height:auto;
+	background-color:#FFF;
+	border-radius:12px;
+	padding-left:15px;
+	padding-right:15px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-top:15px;
+}
+
+section.cuadrados nav figure {
+	margin:0 auto;
+}
+
+section.cuadrados nav figure img {
+	width:100%;
+	margin-top:10px;
+	margin-bottom:5px;
+	max-height:150px;
+	
+	border-radius:12px;
 }
