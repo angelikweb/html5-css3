@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <script src="js/scripts.js"></script>
 </head>
 
 <body class="body-centrado">
@@ -25,7 +26,7 @@
         </nav>
     </header>
     <article>
-        <h1>Lunes 16 de Junio</h1>
+        <h1 id="tituloPagina">Lunes 16 de Junio</h1>
         <section>
         	<h2>JavaScript</h2>
            <ul>
@@ -34,11 +35,14 @@
             	<li><a href="http://html5demos.com/">HTML5 Demos</a></li>
               <li>Libro: <a href="http://eloquentjavascript.net/">Eloquent JavaScript</a></li>
            </ul>
-           
+           <form action="" method="get" id="formulario" onsubmit="return validacion();">
+           	<label>Muevete:</label>
+           	<input type="text" id="texto" name="texto" value="" />
+            	<input type="submit" value="enviar" />
+           </form>
         </section>
     </article>
     <footer>
-    	
     </footer>
 </body>
 </html>
