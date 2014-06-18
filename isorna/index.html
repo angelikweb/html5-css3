@@ -25,7 +25,7 @@
         </nav>
     </header>
     <article>
-        <h1 id="tituloPagina">Lunes 16 de Junio</h1>
+        <h1 id="tituloPagina">Miercoles 18 de Junio</h1>
         <section>
         	<h2>JavaScript</h2>
            <ul>
@@ -34,11 +34,31 @@
             	<li><a href="http://html5demos.com/">HTML5 Demos</a></li>
               <li>Libro: <a href="http://eloquentjavascript.net/">Eloquent JavaScript</a></li>
            </ul>
-           <form action="" method="get" id="formulario" onsubmit="return validacion();">
-           	<label>Muevete:</label>
-           	<input type="text" id="texto" name="texto" value="" />
+           <form action="" method="get" id="formulario">
+           	<label for="nombre">Nombre:</label>
+           	<input type="text" id="nombre" name="nombre" value="" />
+            	<label for="texto">Texto:</label>
+               <textarea id="texto" name="texto"></textarea>
+               <label for="edad">Edad:</label>
+               <select id="edad" name="edad">
+               	<option value="17">Menos de 18</option>
+                	<option value="18">Mayor de edad</option>
+               </select>
             	<input type="submit" value="enviar" />
            </form>
+        </section>
+        <section>
+       		 <ul id="menuDesplegable">
+        		<li><a href="./" title="Enlace a la pagina de inicio">Página de inicio</a></li>
+           	<li class="_selected">
+            		<a href="html/servicios.html#Servicios" class="conSubMenu">Página secundaria</a>
+                    <ul>
+                    	<li class="_selected"><a href="html/servicios.html">Segundo nivel</a></li>
+                      <li><a href="html/servicios.html">Segundo nivel</a></li>
+                    </ul>
+            	</li>
+           	<li><a href="html/listado-de-productos.html" target="_blank">Página secundaria</a></li>
+           </ul>
         </section>
     </article>
     <footer>

@@ -72,35 +72,63 @@ function bucles (inicio, fin) {
 	}
 };
 
+// Miercoles 18 de Junio
+// Trabajar con el formulario
+var formulario = document.getElementById("formulario");
+var campoNombre = document.getElementById("nombre"), campoTexto = document.getElementById("texto"), campoEdad = document.getElementById("edad");
 
+function validarFormulario (event) {
+	event.preventDefault();
+	
+	var estaOk = true;
+	
+	if (campoNombre.value == "") {
+		campoNombre.className = "error";
+		estaOk = false;
+	}
+	
+	if (campoTexto.value == "") {
+		campoTexto.className = "error";
+		estaOk = false;
+	}
+	
+	if (Number(campoEdad.value) < 18) {
+		campoEdad.className = "error";
+		estaOk = false;
+	}
+	
+	if (estaOk == true) {
+		formulario.submit();
+	}
+	
+};
 
-/*
-function validacion(){
-	if (document.getElementById('texto').value == '') {
-		alert('Por favor rellena el texto');
-		return false;
-	} else {
-		document.getElementById('formulario').style.marginTop = Number(document.getElementById('texto').value) + 'px';
-		return false;
+// Controlar el evento submit del formulario
+formulario.addEventListener("submit", validarFormulario);
+
+function quitarError (event) {
+	if ((this.tagName == "SELECT" && Number(this.value) > 17) || (this.value != "")) {
+		this.className = "";
 	}
 }
 
-function cambiaEnlaces(color){
-	var enlaces = document.getElementsByTagName('A');
-	var indice = 0;
+campoNombre.addEventListener("keyup", quitarError);
+campoTexto.addEventListener("keyup", quitarError);
+campoEdad.addEventListener("change", quitarError);
+
+var menuDesplegable = document.getElementById('menuDesplegable');
+
+function desplegarMenu (event) {
+	event.preventDefault();
 	
-	for (indice = 0; indice < enlaces.length; indice++) {
-		enlaces[indice].style.backgroundColor = color;
+	if (event.srcElement.className == "conSubMenu") {
+		if (event.srcElement.parentNode.children[1].className == "visible") {
+			event.srcElement.parentNode.children[1].className = "";
+		} else {
+			event.srcElement.parentNode.children[1].className = "visible";
+		}
 	}
 }
 
-function probarWhile(){
-	var indice2 = 10;
-	
-	while (indice2 > 0) {
-		console.log(indice2);
-		indice2 = indice2 - 1;
-	};
-	
-	console.log('He terminado');
-}*/
+menuDesplegable.addEventListener('click', desplegarMenu);
+

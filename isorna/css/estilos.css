@@ -100,3 +100,47 @@ h2 {
 section li {
 	margin: 3px 0 7px;
 }
+
+form {
+	border: 1px solid black;
+	padding: 1.5em;
+	margin: 50px 0 0;
+}
+
+form label {
+	display: block;
+	margin: 13px 0 7px;
+}
+
+form input[type=text],
+form textarea {
+	display: block;
+	width: 200px;
+}
+
+form input[type=submit] {
+	display: block;
+	line-height: 20px;
+	padding: 0 10px;
+}
+
+form .error {
+	border: 2px solid red;
+}
+
+#menuDesplegable {
+	margin: 50px 0 0;
+}
+
+#menuDesplegable ul {
+	height: 0px;
+	opacity: 0;
+	overflow: hidden;
+	-webkit-transition: height 0.3s ease, opacity 0.3s;
+	transition: height 0.3s ease, opacity 0.3s;
+}
+
+#menuDesplegable ul.visible {
+	height: 48px;
+	opacity: 1;
+}
