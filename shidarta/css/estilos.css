@@ -145,3 +145,7 @@ p {text-align:justifys;}
 section {padding-top:20px;}
 					
 nav li li {font-size:15px;}
+
+form .error {
+	border: 2px solid red;
+}
