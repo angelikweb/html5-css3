@@ -24,7 +24,7 @@ body header nav {
 	margin:0;
 }
 
-nav ul {
+/**nav ul {
 	list-style-type:none;
 	text-decoration:none;
 	text-align:left;
@@ -44,7 +44,53 @@ nav ul ul li {
 
 nav ul ul li a {
 	color:#999;
+}*/
+
+#menuDesplegable {
+	list-style-type:none;
+	text-decoration:none;
+	text-align:left;
+	padding:5px;
 }
+
+.subMenu {
+	text-decoration:none;
+	color:white;
+	font-family:'Source Sans Pro', sans-serif;
+	font-size:16px;
+}
+
+#menuDesplegable li ul {
+	height: 0px;
+	opacity: 0;
+	overflow: hidden;
+	-webkit-transition: height 0.3s ease, opacity 0.3s;
+	transition: height 0.3s ease, opacity 0.3s;
+}
+
+#menuDesplegable ul.visible {
+	height: 135px;
+	opacity: 1;
+}
+
+ul.visible li a {
+	text-decoration:none;
+	color:white;
+	font-family:'Source Sans Pro', sans-serif;
+	font-weight:lighter;
+	font-size:14px;
+}
+
+ul.visible li {
+	border-bottom: thin solid #999;
+	margin-left:5px;
+	padding-top:3px;
+	text-align:right;
+}
+
+
+
+
 
 #slideshow {
 	background-colour:#F5F5F5;
@@ -84,17 +130,6 @@ nav ul ul li a {
 	display:none;
 	z-index:100;
 }
-
-/**#slideshow .arrow {
-	height:86px;
-	width:60px;
-	position:absolute;
-	background:url(../imagenes/arrows.png) no-repeat;
-	top:50%;
-	margin-top:-43px;
-	cursor:pointer;
-	z-index:5000;
-}*/
 
 #slideshow .previous {
 	background-position:left top;

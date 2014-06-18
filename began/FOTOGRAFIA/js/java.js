@@ -1,3 +1,24 @@
+var menuDesplegable = document.getElementById('menuDesplegable');
+
+function desplegarMenu (event) {
+	
+	
+	if (event.srcElement.className == "subMenu") {
+		event.preventDefault();
+		if (event.srcElement.parentNode.children[1].className == "visible") {
+			event.srcElement.parentNode.children[1].className = "";
+		} else {
+			event.srcElement.parentNode.children[1].className = "visible";
+		}
+	}
+}
+
+menuDesplegable.addEventListener('click', desplegarMenu);
+
+
+
+
+
 window.addEventListener('load', slideShow, false);
 
 function slideShow() {
