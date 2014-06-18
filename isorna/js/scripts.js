@@ -83,7 +83,7 @@ function validarFormulario (event) {
 	var estaOk = true;
 	
 	if (campoNombre.value == "") {
-		campoNombre.className = "error";
+		campoNombre.className = campoNombre.className + " error";
 		estaOk = false;
 	}
 	
@@ -108,7 +108,7 @@ formulario.addEventListener("submit", validarFormulario);
 
 function quitarError (event) {
 	if ((this.tagName == "SELECT" && Number(this.value) > 17) || (this.value != "")) {
-		this.className = "";
+		this.className = this.className.replace("error", "");
 	}
 }
 

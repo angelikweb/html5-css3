@@ -128,6 +128,10 @@ form .error {
 	border: 2px solid red;
 }
 
+form .campoDeFormulario {
+	background-color: #ffc;
+}
+
 #menuDesplegable {
 	margin: 50px 0 0;
 }
@@ -136,7 +140,6 @@ form .error {
 	height: 0px;
 	opacity: 0;
 	overflow: hidden;
-	-webkit-transition: height 0.3s ease, opacity 0.3s;
 	transition: height 0.3s ease, opacity 0.3s;
 }
 
