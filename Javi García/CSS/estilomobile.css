@@ -81,12 +81,12 @@ article > h1 {
 	font-size:0px;
 }
 
-html {
+/*html {
 	background-image:url(../IMG/fondo%20blog.jpg);
 	background-size:cover;
 	background-position:center;
 }
-
+*/
 .texto {
 	font-family: 'Oswald', sans-serif;
 	color:#FFF;
@@ -154,4 +154,10 @@ body > aside {
 }
 .vimeo a:hover {
 	background-position: 60px 0px;
+}
+
+.error1 {
+	border:#FF0004;
+	border-style:solid;
+	border-width:2px;
 }

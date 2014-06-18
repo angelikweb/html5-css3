@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Javi García González</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../CSS/reset.css">
+<link rel="stylesheet" type="text/css" href="../CSS/estilomobile.css"> <!--disabled para desactivar-->
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	
+	<header>
+    	<nav>
+        	<ul>
+            	<li class="home"><a href="./" title="Pagina principal">Home</a></li>
+              	<li class="games"><a href="HTML/GamesGallery.html">Games Gallery</a>
+              		<ul>
+                      <li><a href="HTML/Servicios.html">The Ring Is Open</a></li>
+                      <li><a href="HTML/Servicios.html">Jelly Fish Treasure</a></li>
+                      <li><a href="HTML/Servicios.html">Mummy´s Tomb</a></li>
+                      <li><a href="HTML/Servicios.html">Nightmare House</a></li>
+                  </ul>
+               </li>
+               <li class="design"><a href="HTML/Ofertas.html">Design</a>
+               	<ul>
+                    <li><a href="HTML/Ofertas.html">Brand Design</a></li>
+                        <li><a href="HTML/Ofertas.html">3D</a></li>
+                        <li><a href="HTML/Ofertas.html">Illustration</a></li>
+                        <li><a href="HTML/Ofertas.html">Web</a></li>
+                   </ul>
+                </li>
+                <li class="contact"><a href="HTML/Contacto.html">Contact</a></li>
+             </ul>
+        </nav>            
+	</header>
+    <article>
+    	<h1> Formulario de Contacto </h1>
+       		<section>
+            	<h1>Contacto</h1>
+            	<form action="" method="Get" id="formulario"> <!--Action es a la pagina a la que quieres enviar la info// Method es 				
+                el metodo con el que envias esta info "Get" (atraves de Url) "Post" (por debajo no se muestra)-->
+                <input type="hidden" name="oculto" id="ocultoField" value="campoOculto"> <!-- Sireve para enviar 
+                información que no se ve al servidor-->
+                	<fieldset>
+                    <div>	
+                    	<label for="nombreField">Nombre</label> <!--esta es como el nombre de la etiqueta-->
+                      <input type="text" name="nombre" id="nombreField">
+                    </div>
+                    <!--
+                    <div>
+                    	<label for="fechanacimientoField">Fecha nacimiento</label>
+                      <input type="date" name="fecha_nacimiento" id="fechanacimientoField"	>
+                    </div>
+                    -->
+                    <div>
+                    	<label for="emailField">Mail</label>
+                      <input type="email" name="email"	 id="emailField">
+                    </div>
+                    <div>
+                    	<label for="texto" > Escríbenos</label>
+                        <br />
+                        <textarea class="relleno_texto" id="texto" name="texto" cols="60" rows="10"></textarea>
+                    </div>
+                  </fieldset>
+                  	<input type="submit" name="botonSubmit" value="Enviar" />
+                
+              </form>                           
+            </section>
+    </article>
+<script src="../JAVASCRIPT/estilosjava.js"></script>
+</body>
+</html>
+
