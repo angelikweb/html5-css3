@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento sin título</title>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map_canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=SET_TO_TRUE_OR_FALSE">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+          center: new google.maps.LatLng(-34.397, 150.644),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
+      }
+    </script>
+</head>
+
+<body>
+ <body onload="initialize()">
+    <div id="map_canvas" style="width:100%; height:100%"></div>
+
+
+    <article>
+    	<h1> Formulario de Contacto </h1>
+       		<section>
+            	<h1>Contacto</h1>
+            	<form action="" method="Get" id="formulario"> <!--Action es a la pagina a la que quieres enviar la info// Method es 				
+                el metodo con el que envias esta info "Get" (atraves de Url) "Post" (por debajo no se muestra)-->
+                <input type="hidden" name="oculto" id="ocultoField" value="campoOculto"> <!-- Sireve para enviar 
+                información que no se ve al servidor-->
+                	<fieldset>
+                    <div>	
+                    	<label for="nombreField">Nombre</label> <!--esta es como el nombre de la etiqueta-->
+                      <input type="text" name="nombre" id="nombreField">
+                    </div>
+                    <!--
+                    <div>
+                    	<label for="fechanacimientoField">Fecha nacimiento</label>
+                      <input type="date" name="fecha_nacimiento" id="fechanacimientoField"	>
+                    </div>
+                    -->
+                    <div>
+                    	<label for="emailField">Mail</label>
+                      <input type="email" name="email"	 id="emailField">
+                    </div>
+                    <div>
+                    	<label for="texto" > Escríbenos</label>
+                        <br />
+                        <textarea class="relleno_texto" id="texto" name="texto" cols="60" rows="10"></textarea>
+                    </div>
+                  </fieldset>
+                  	<input type="submit" name="botonSubmit" value="Enviar" />
+                
+              </form>                           
+            </section>
+    </article>
+</body>
+<script type="text/javascript"
+      src="http://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&sensor=SET_TO_TRUE_OR_FALSE">
+    </script>
+</html>
