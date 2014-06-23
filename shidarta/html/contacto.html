@@ -1,14 +1,19 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="UTF-8">
 <title>Formulario contacto</title>
+
+
 </head>
-	<article>
+<body>
+<header>
     <h1>Contacta con nosotros</h1>
-    <body>
+</header>
+    
+ 	<article>
     <section>
-    	<form action="" method="get" id=contacta">
+   <form method="get" id="contacta">
     <div>
     <label for="firstname">Nombre:</label>
     <input type="text" name="nombre" id="firstname"/>
@@ -21,12 +26,12 @@
     
     <div>
     <label for="fechanac">Fecha de nacimiento</label>
-     <input type="date" name="fecha" id="fechanac"/>
+     <input type="date" name="fecha" id="fechanac">
      </div>
      
      <div>
      <label for="correo">Email</label>
-     <input type="email" name"correo" id="correo" />
+     <input type="email" name="correo" id="correo">
       </div>
       
      <div>
@@ -34,40 +39,41 @@
      <br />
      <textarea id="texto" name="texto" cols="50" rows="20"></textarea>
      </div>
-    <input type="submit" name="enviar" value="enviar"/>
+    <input type="submit" name="enviar" value="enviar">
     <br />
     <label for="subirimagen">Foto:</label>
-    <input type="file" name="foto" id="subirimagen"/>
+    <input type="file" name="foto" id="subirimagen">
     <br /><br />
     
     <fieldset>
     <legend>Opciones</legend>
     <br />
     
-    <label>Si
-    <input type="checkbox" name="si" value="opc1" />
-    </label>
+    <label>Si</label>
+    <input type="checkbox" name="si" value="opc1">
+    
     
     <label for="opc1_opc2">No</label>
-    <input type="checkbox" name="no" value="opc1_opc2" />
+    <input type="checkbox" name="no" id="opc1_opc2">
     <br /><br />
     
     <label>Quizás</label>
-    <input type="radio" name="radio" id="quizas" value="quizas" />
+    <input type="radio" name="radio" id="quizas" value="quizas">
     <label>Puede ser</label>
-    <input type="radio" name="radio" id="puedeser" value="puedeser" />
+    <input type="radio" name="radio" id="puedeser" value="puedeser">
     <br /><br />
-   
-    <select name="opciones" size="8" multiple="multiple"/>
-    	<optgroup label="Opcion 1">
-    		<option value="opca">A</option>
-            <option value="opcb">B</option>
-            
-    	<optgroup label="Opcion 2"></optgroup>
-    </fieldset>
-    	</form>
+   </fieldset>
+    
+    </form>
     </section>
     </article>
-<script src="../js/script.js"></script>
+    
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <link rel="stylesheet" href="agile_carousel.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.js"></script>
+<script src="agile_carousel/agile_carousel.a1.1.js"></script>
+
+	<script src="../js/script.js"></script>
+
 </body>
 </html>
