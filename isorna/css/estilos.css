@@ -147,3 +147,7 @@ form .campoDeFormulario {
 	height: 48px;
 	opacity: 1;
 }
+
+section {
+	margin: 50px 0;
+}
