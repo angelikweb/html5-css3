@@ -36,3 +36,35 @@ formulario.addEventListener("submit", validarFormulario);
 campoNombre.addEventListener("keyup", quitarError);
 campoTexto.addEventListener("keyup", quitarError);
 campoMail.addEventListener("keyup", quitarError);
+
+var menuDesplegable = document.getElementById('menuDesplegable');
+
+function desplegarMenu (event) {
+	event.preventDefault();
+	
+	if (event.srcElement.className == "conSubMenu") {
+		if (event.srcElement.parentNode.children[1].className == "visible") {
+			event.srcElement.parentNode.children[1].className = "";
+		} else {
+			event.srcElement.parentNode.children[1].className = "visible";
+		}
+	}
+}
+
+menuDesplegable.addEventListener('click', desplegarMenu);
+
+var menuDesplegable = document.getElementById('menuDesplegable');
+
+function desplegarMenu (event) {
+	event.preventDefault();
+	
+	if (event.srcElement.className == "conSubMenu") {
+		if (event.srcElement.parentNode.children[1].className == "visible") {
+			event.srcElement.parentNode.children[1].className = "";
+		} else {
+			event.srcElement.parentNode.children[1].className = "visible";
+		}
+	}
+}
+
+menuDesplegable.addEventListener('click', desplegarMenu);
