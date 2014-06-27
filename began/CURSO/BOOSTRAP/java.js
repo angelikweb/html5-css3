@@ -2,7 +2,7 @@ window.addEventListener('load', slideShow, false);
 
 function slideShow() {
 	var globals = {
-    	slideDelay: 1500,
+    	slideDelay: 3500,
         fadeDelay: 35,
         wrapperID: "slideShowImages",
         buttonID: "slideShowButton",
@@ -61,8 +61,8 @@ function slideShow() {
     globals.wrapperObject.style.position = "relative";
     globals.wrapperObject.style.overflow = "hidden";
     globals.wrapperObject.style.width = slideWidthMax + "px";
-    globals.wrapperObject.style.height = slideHeightMax + "px";
-    var slideCount = globals.slideImages.length;
+	globals.wrapperObject.style.height = slideHeightMax + "px";
+	var slideCount = globals.slideImages.length;
     for (var i = 0; i < slideCount; i++) {
     	globals.slideImages[i].style.opacity = 0;
         globals.slideImages[i].style.position = "absolute";
@@ -140,4 +140,27 @@ function slideShow() {
     }
   }
   }
+  
+  function reasignarDimensiones () {
+	  globals.wrapperObject.style.width = '';
+	  globals.wrapperObject.style.height = '';
+    var slideWidthMax = maxSlideWidthData();
+    var slideHeightMax = maxSlideHeightData();
+    globals.wrapperObject.style.width = slideWidthMax + "px";
+	globals.wrapperObject.style.height = slideHeightMax + "px";
+  }
+  
+  // resize control
+  if(window.attachEvent) {
+	window.attachEvent('onresize', function() {
+		reasignarDimensiones();
+	});
+  } else if(window.addEventListener) {
+		window.addEventListener('resize', function() {
+			reasignarDimensiones();
+		}, true);
+  } else {
+		//The browser does not support Javascript event binding
+  }
+	
 }// JavaScript Document
