@@ -73,16 +73,44 @@ margin: 0 auto -60px;
 hr {border-top:0px;}
 
 @media (min-width: 768px) {
-  .html {
+ .html {
     background-image:url(../img/326983.jpg);
 	width:100%;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
 	height:100%;
   }
+ .body {
+	width:100%;
+	height:100%;
+  }
+  
 }
-@media (min-width: 768px) {
-  .body {
+
+
+}
+@media (min-width: 992px) {
+.html {
+	background-image:url(../img/326983.jpg);
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:auto
+}
+.body {
+	width:100%;
+	height:100%;
+  }
+}
+@media (min-width: 1200px) {
+.html {
+	background-image:url(../img/326983.jpg);
+	width:100%;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:100%;
+}
+.body {
 	width:100%;
 	height:100%;
   }
