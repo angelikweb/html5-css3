@@ -162,5 +162,6 @@ function slideShow() {
   } else {
 		//The browser does not support Javascript event binding
   }
+
 	
 }// JavaScript Document

@@ -40,7 +40,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .navbar-inverse .navbar-toggle {
 	
-	border-color:rgba(255,255,255,1);
+	border-color:#0E308D;
 	background-color:#0E308D;
 }
 .btn-lg, .btn-group-lg > .btn {
@@ -48,7 +48,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .contact-form {
-    margin-top:70px;
+    margin-top:40px;
 }
 
 #map-canvas {
@@ -59,7 +59,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 html {
-	background-image:url(../img/326983.jpg);
+	background-image:url(../img/326983_1.jpg);
 	width:100%;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -80,7 +80,7 @@ hr {border-top:0px;}
     height: 100%;
   }
  html {
-    background-image:url(../img/326983.jpg);
+    background-image:url(../img/326983_1.jpg);
 	width:100%;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -98,7 +98,7 @@ element.style {
     height: 100%;
   }
 html {
-	background-image:url(../img/326983.jpg);
+	background-image:url(../img/326983_1.jpg);
 	width:100%;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -111,7 +111,7 @@ body {
     .btn-default {
   color: white;
   background-color: #0E308D;
-  border-color:white;
+  border-color:#0E308D;
   -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.75);
   box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.75);
@@ -119,7 +119,7 @@ body {
 }
 @media (min-width: 1200px) {
 html {
-	background-image:url(../img/326983.jpg);
+	background-image:url(../img/326983_1.jpg);
 	width:100%;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -132,6 +132,7 @@ body {
 
    
 }   
+
 @media (max-width: 400px) {
     .btn-lg, .btn-group-lg > .btn {
         padding: 10px 60px;
@@ -171,7 +172,7 @@ box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.75);
 
     
 .panel-default > .panel-heading {
-font-family: 'Racing Sans One', cursive;
+font-family: 'Droid Serif', serif;
 color:white;
 background-color: #0E308D;
 border-color: #0E308D;
@@ -188,9 +189,11 @@ border: 0px;
 
 
 .btn-default {
+  font-family: 'Droid Serif', serif;
   color: white;
   background-color: #0E308D;
-  border-color:white;
+  border-color:#0E308D;
+  float:right;
   
     -moz-border-radius-topright: 50px;
   -webkit-border-top-right-radius: 50px;
@@ -209,7 +212,7 @@ border: 0px;
 .btn-primary {
   color: #fff;
   background-color: #0E308D;
-  border-color: white;
+  border-color: #0E308D;
   border-radius: 20px;
   -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.75);
   -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.75);
@@ -217,34 +220,44 @@ border: 0px;
 }
 
 p {
-    font-family: 'Racing Sans One', cursive;
+    font-family: 'Droid Serif', serif;
     font-size: 15px;
     color: #0E308D;
     text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.61);
 
 }
 h1 {
-    font-family: 'Racing Sans One', cursive;
+    font-family: 'Droid Serif', serif;
     color: #0E308D;
     text-shadow: 2px 2px 5px rgba(150, 150, 150, 0.61);
 }
 h2 {
-    font-family: 'Racing Sans One', cursive;
+    font-family: 'Droid Serif', serif;
 }
 
 li {
-    font-family: 'Racing Sans One', cursive;
-    font-size: 30px
+    font-family: 'Lobster', cursive;
+    font-size: 35px
 }
+
 adress {
-    font-family: 'Racing Sans One', cursive;
+    font-family: 'Droid Serif', serif;
 }
-  .navbar-nav.navbar-right:last-child {
+ 
+
+.navbar-nav.navbar-right:last-child {
     margin-right: -15px;
 	margin-top: 80px;
   }
 a {
     text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .navbar-nav.navbar-right:last-child {
+        margin-top: 10px;
+}   
 }
 
 
@@ -255,7 +268,7 @@ a {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: black;
+  color: #0E308D;
   background-color: white;
   border-color: #0E308D;
 }
@@ -270,8 +283,14 @@ aside {content:" ";
 	display:block;
 	clear:both;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 85px;
     margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+    .social {
+        margin-top: 10px;
+}   
 }
 
 #social:after {
@@ -286,3 +305,6 @@ aside {content:" ";
 #oficina {
     margin-top: 52px;
 }
+
+.navbar-inverse .navbar-nav > li > a:hover {color:rgba(68,122,251,1.00);}
+
