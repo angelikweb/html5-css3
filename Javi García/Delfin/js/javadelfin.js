@@ -13,7 +13,11 @@ $(document).ready(function () {
 		});
 	}
 	
-	
+$('#animated').mouseover(function(event){
+	$(this).addClass('animated bounce');
+}).mouseout(function(event){
+	$(this).removeClass('animated bounce');
+});	
 	// mapa de google
 	
 	if ($('#map-canvas').length > 0) {
@@ -87,7 +91,7 @@ $(document).ready(function () {
 			'Transportes Delfin González S.L.',
 			'Dirección: Carretera de Canteras Km 4',
 			'Teléfono: +34 968162400',
-			'Fax:+34 0000000',
+			'Fax:',
 			/**
 			'LatLng: ' + TrasnportesDelfin.lat() + ' , ' + TrasnportesDelfin.lng(),
 			'World Coordinate: ' + worldCoordinate.x + ' , ' +

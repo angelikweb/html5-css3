@@ -193,6 +193,7 @@ border: 0px;
   color: white;
   background-color: #0E308D;
   border-color:#0E308D;
+  float:right;
   
     -moz-border-radius-topright: 50px;
   -webkit-border-top-right-radius: 50px;
@@ -238,6 +239,7 @@ li {
     font-family: 'Lobster', cursive;
     font-size: 35px
 }
+
 adress {
     font-family: 'Droid Serif', serif;
 }
@@ -266,8 +268,8 @@ a {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: black;
-  background-color: #0E308D;
+  color: #0E308D;
+  background-color: white;
   border-color: #0E308D;
 }
 
@@ -303,3 +305,6 @@ aside {content:" ";
 #oficina {
     margin-top: 52px;
 }
+
+.navbar-inverse .navbar-nav > li > a:hover {color:rgba(68,122,251,1.00);}
+
