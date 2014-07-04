@@ -50,7 +50,10 @@ footer {
 }
 
 div.fb-like-fb_iframe_widget {
-	align-items:center;
+}
+
+.transparencia {
+	
 }
 
 @media (min-width: 768px) {
