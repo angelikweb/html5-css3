@@ -18,6 +18,19 @@ $('#animated').mouseover(function(event){
 }).mouseout(function(event){
 	$(this).removeClass('animated bounce');
 });	
+    
+$('#animated1').mouseover(function(event){
+	$(this).addClass('animated bounce');
+}).mouseout(function(event){
+	$(this).removeClass('animated bounce');
+});	    
+
+$('#animated2').mouseover(function(event){
+	$(this).addClass('animated bounce');
+}).mouseout(function(event){
+	$(this).removeClass('animated bounce');
+});	    
+    
 	// mapa de google
 	
 	if ($('#map-canvas').length > 0) {
