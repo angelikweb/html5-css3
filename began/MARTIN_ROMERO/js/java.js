@@ -163,5 +163,12 @@ function slideShow() {
 		//The browser does not support Javascript event binding
   }
 
+$('.carousel').carousel()
+$('.carousel').carousel({
+  interval: 2000
+})
+$('#myCarousel').on('slide.bs.carousel', function () {
+  // do something…
+})
 	
 }// JavaScript Document
