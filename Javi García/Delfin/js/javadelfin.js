@@ -102,9 +102,9 @@ $('#animated2').mouseover(function(event){
 		
 		  return [
 			'Transportes Delfin González S.L.',
-			'Dirección: Carretera de Canteras Km 4',
+			'Dirección: Av Jose Luis Meseguer ',
+            '30394 Cartagena, Murcia',
 			'Teléfono: +34 968162400',
-			'Fax:',
 			/**
 			'LatLng: ' + TrasnportesDelfin.lat() + ' , ' + TrasnportesDelfin.lng(),
 			'World Coordinate: ' + worldCoordinate.x + ' , ' +
