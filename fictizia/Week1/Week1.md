@@ -19,8 +19,16 @@ Week 1 Milestone
 
 ## HTML5 content tags
 
-* [UL](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul), [LI](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li)
-* [A](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a)
+* [UL](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul), [LI](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li).
+* [A](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a), different ways to link to resources.
+* [P](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p).
+* [IMG](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img).
+* [STRONG](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong), [EM](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em).
+* [DIV](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div), [SPAN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span).
+
+## CSS
+
+* [CSS Box Model](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model).
 
 ## How to add a local web server in Mac OS Mavericks
 
