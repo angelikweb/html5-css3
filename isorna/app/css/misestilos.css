@@ -1,0 +1,34 @@
+p, div {
+	color: #3732F3;
+	font-size: 25px;
+	background-color: yellow;
+}
+
+ol li {
+	font-size: 32px;
+}
+
+ul > li {
+	font-size: 24px;
+}
+
+p > a {
+	color: red;
+}
+
+li + li {
+	background-color: #cccccc;
+}
+
+ul .mesActivo {
+	color: yellow;
+}
+
+.subrayado {
+	text-decoration: underline;
+}
+
+#miTabla {
+	border: 3px solid red;
+	width: 80%;
+}

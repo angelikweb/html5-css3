@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Orla de alumnos</title>
+        <link rel="stylesheet" type="text/css" href="css/misestilos.css" />
     </head>
     
     <body>
@@ -10,11 +11,50 @@
         	<h1>Orla de alumnos</h1>
             <ul>
             	<li><a href="">año 2013</a></li>
+                <li>año 2013</li>
                 <li>año 2014</li>
+                <li>
+                	<ol>
+                    	<li>Enero</li>
+                        <li>Febrero</li>
+                        <li class="mesActivo subrayado">Marzo</li>
+                        <li>Abril</li>
+                    </ol>
+                </li>
+                <li>año 2015</li>
             </ul>
         </header>
         <section>
-        	<p>Aqui va la orla.</p>
+        	<p>Aqui va la orla. <a href="#">Enlace 1</a> <span><a href="#">Enlace 2</a></span>.</p>
+            <table id="miTabla">
+	            <caption>encabezado</caption>
+                <thead>
+                <tr>
+                  <th scope="col">titulo</th>
+                  <th scope="col">titulo</th>
+                  <th scope="col">titulo</th>
+                </tr>
+                </thead>
+                <tfoot>
+                	<tr>
+                    	<td>sumatorio</td>
+                        <td>sumatorio</td>
+                        <td>sumatorio</td>
+                    </tr>
+                </tfoot>
+              <tbody>
+                <tr>
+                  <th scope="row">titulo</th>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th scope="row">titulo</th>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
         </section>
     </body>
 </html>
