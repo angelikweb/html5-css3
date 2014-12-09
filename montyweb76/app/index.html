@@ -1,7 +1,10 @@
-<!doctype html>
+<!doctype html><a href="http://www.elpais.com/">
+	quienes somos
+    </a>
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/estilos.css">
 <title>ZUZUZU</title>
 </head>
 <body>
@@ -10,7 +13,7 @@
 <!--enlace a directorio raiz "/" (dominio) o "./" (carpeta)-->
 <a href="./">logo</a>
 <nav>
-<ul>
+<ul><!--lista sin ordenar-->
 <li><a href="http://www.elpais.com/">
 	quienes somos
     </a></li>
@@ -39,11 +42,80 @@
             <br />
              <br />
               <br />
-               <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+ 
         <a href="#abajo" id="arriba">abajo</a>
 	</header>
 <section>
-<h1>ultimos trabajos</h1>
+<h1>servicios</h1>
+<h2>listas ordenadas</h2>
+
+<ol type="a"><!--lista ordenada, con atributo TYPE-->
+<li>marca</li>
+<li>branding</li>
+<li>web</li>
+</ol>
+
+<ol start="5"><!--lista ordenada, con atributo START-empieza en el numero que pongamos-->
+<li>marca</li>
+<li>branding</li>
+<li>web</li>
+</ol>
+
+<ol reversed><!--lista ordenada, con atributo REVERSED-->
+<li>marca</li>
+<li>branding</li>
+<li>web</li>
+</ol>
+
+<dl><!--lista de definicion-->
+<dt>
+marca
+</dt>
+<dd>
+diseño de marca
+</dd>
+<dd>
+diseño de logotipo
+</dd>
+</dl>
+
+</section>
+
+<h2>tablas</h2>
+<section>
+<h1>últimos trabajos</h1>
+<table width="50%" height="25" border="10" cellspacing="15" id=tabla1><!--tablas-->
+	<caption>ultimos trabajos</caption><!--encabezado-->
+    <thead><!--definicion del espacio de las celdas-->
+    	<tr><!--fila-->
+        	<th>cabecera 1</th>
+            <th>cabecera 2</th>
+            <th>cabecera 3</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+            <td colspan="2">final 1</td>
+            <td>final 2</td>
+            
+            </tr>
+            </tfoot>
+            <tbody>
+            <tr>
+            <td>body 1</td>
+            <td>body 2</td>
+            <td rowspan="2" style="background-color: yellow">body 3</td>
+            </tr>
+            <tr>
+            <td>body 1</td>
+            <td>body 2</td>
+           
+            </tr>
+             
+            </tbody>
+            
+            
+ </table>
 </section>
 <footer>
 	<a href="/">logo</a>
