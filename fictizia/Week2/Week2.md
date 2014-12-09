@@ -12,7 +12,7 @@ Week 2 Milestone
 
 * OL, LI.
 * DL, DT, DD.
-* TABLE, THEAD, TFOOT, TBODY, TR, TD, TH, COLGROUP, COL.
+* TABLE, CAPTION, THEAD, TFOOT, TBODY, TR, TD, TH, COLGROUP, COL.
 
 ## HTML5 file linking
 
@@ -22,3 +22,4 @@ Week 2 Milestone
 ## CSS
 
 * STYLE tag and attribute.
+* [CSS Zen Garden](http://www.csszengarden.com/).
