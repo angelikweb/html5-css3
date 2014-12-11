@@ -1,0 +1,73 @@
+/* CSS Document */
+*{
+	box-sizing: border-box
+	
+}
+
+.A{
+	overflow:auto;
+	}
+titulo {
+	
+	font: bold 50px Arial;
+	padding: 25px;
+	
+	}
+	
+	
+	h1 {
+	
+	color: black;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	height: 50px;
+	
+	}
+
+header {
+	background-color: #DFAC5B;
+	width: 100%;
+	float: left;
+	padding: 10px;
+	
+	
+	}
+	
+header li {
+	overflow: auto;
+	float:left;
+	padding: 5px 5px 5px 5px;
+	font: bold 25px Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	
+	}
+	
+li li {
+	float: none;
+	}
+.ultimos_trabajos {
+	background-color: #DBA6DA;
+	width: 30%;
+	float: left;
+	padding: 10px 0px 0px 10px;
+	
+	
+	}
+
+.servicios {
+	background-color: #68D990;
+	width: 30%;
+	height: 500px;
+	padding: 25px;
+	float: left;
+	border: solid 5px red;
+	
+	
+	}
+	
+	
+footer {
+	background-color: #9F9F9F;
+	width: 10%;
+	position: absolute;
+	bottom: 10px;
+	
+		}
