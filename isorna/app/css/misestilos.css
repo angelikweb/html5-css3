@@ -1,34 +1,59 @@
-p, div {
-	color: #3732F3;
-	font-size: 25px;
+* {
+	box-sizing: border-box;
+}
+
+a {
+	font-size: 24px;
+	color: #0000FB;
 	background-color: yellow;
 }
-
-ol li {
+a:hover {
 	font-size: 32px;
+	color: #E25658;
+	transition-duration: 1s;
+	transition-property: all;
+	border-radius: 50px;
 }
 
-ul > li {
-	font-size: 24px;
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-p > a {
-	color: red;
+h1 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
 }
 
-li + li {
-	background-color: #cccccc;
+
+header {
+	background-color: #c1c1c1;
 }
 
-ul .mesActivo {
-	color: yellow;
+header h1 {
+	font: 32px bold Arial;
 }
 
-.subrayado {
-	text-decoration: underline;
+header .menu-horizontal {
+	overflow: auto;
+	width: 100%;
+}
+header li {
+	float: left;
+	border: 1px solid black;
+	border-bottom: 1px solid red;
+	border-right-width: 30px;
+	padding: 2px 5px;
+	margin: 0 5px 0 0;
 }
 
-#miTabla {
-	border: 3px solid red;
-	width: 80%;
+section {
+	background-color: orange;
+	padding: 20px;
+}
+
+section h1 {
+
+}
+
+#main {
+	background-color: #B4D4FA;
 }

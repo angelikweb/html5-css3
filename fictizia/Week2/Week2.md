@@ -22,4 +22,9 @@ Week 2 Milestone
 ## CSS
 
 * STYLE tag and attribute.
+* [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax).
 * [CSS Zen Garden](http://www.csszengarden.com/).
+* [Ery Meyer reset.css](http://meyerweb.com/eric/tools/css/reset/).
+* [CSS Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity), [Specificity Calculator](http://specificity.keegan.st/).
+* [Box Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing).
+* [Pseudo-selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/:active).
