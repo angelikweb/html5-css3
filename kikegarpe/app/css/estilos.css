@@ -1,0 +1,59 @@
+
+
+body {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#807D7D;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+header {
+	background-color:#DEDDDD;
+	width: 20%;
+	float: left; height: 100%;
+	padding: 20px;
+}
+
+section {
+	background-color: #EAEAEA;
+	margin: 0 0 0 10%;
+	padding: 10px;
+	overflow: auto;
+}
+
+h2 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	color: #1F1F1F;
+	overflow: left;
+}
+
+#estilotabla {
+	font-size:16px;
+	border:thin;
+	background:#D7D2D2;
+	width:80%;
+	padding:30px;
+}
+	
+li a{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#807D7D;
+	font-weight: normal;
+}
+
+li {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#807D7D;
+	font-weight:bold
+}
+
+h1 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:24px;
+	color: #1E1E1E;
+}
+	
