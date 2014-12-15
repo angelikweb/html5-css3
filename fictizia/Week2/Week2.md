@@ -12,7 +12,7 @@ Week 2 Milestone
 
 * OL, LI.
 * DL, DT, DD.
-* TABLE, THEAD, TFOOT, TBODY, TR, TD, TH, COLGROUP, COL.
+* TABLE, CAPTION, THEAD, TFOOT, TBODY, TR, TD, TH, COLGROUP, COL.
 
 ## HTML5 file linking
 
@@ -22,5 +22,10 @@ Week 2 Milestone
 ## CSS
 
 * STYLE tag and attribute.
-* `A` pseudo-selectors.
 * `font`, `padding`, `margin`, `border`, `color`, `float`, `position`.
+* [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax).
+* [CSS Zen Garden](http://www.csszengarden.com/).
+* [Ery Meyer reset.css](http://meyerweb.com/eric/tools/css/reset/).
+* [CSS Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity), [Specificity Calculator](http://specificity.keegan.st/).
+* [Box Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing).
+* [Pseudo-selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/:active).

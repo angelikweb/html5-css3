@@ -3,18 +3,61 @@
     <head>
         <meta charset="UTF-8">
         <title>Orla de alumnos</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/misestilos.css" />
     </head>
     
     <body>
     	<header>
         	<h1>Orla de alumnos</h1>
-            <ul>
-            	<li><a href="">año 2013</a></li>
+            <ul class="menu-horizontal">
+            	<li><a href="">año 2012</a></li>
+                <li>año 2013</li>
                 <li>año 2014</li>
+                <li>año 2015
+                	<ol class="menu-horizontal">
+                    	<li>Enero</li>
+                        <li>Febrero</li>
+                        <li class="mesActivo subrayado">Marzo</li>
+                        <li>Abril</li>
+                    </ol>
+                </li>
             </ul>
         </header>
-        <section>
-        	<p>Aqui va la orla.</p>
+        <section id="main">
+        	<h1>Aqui va la orla. <a href="#">Enlace 1</a> <span><a href="#">Enlace 2</a></span>.</h1>
+            <table id="miTabla">
+	            <caption>encabezado</caption>
+                <thead>
+                <tr>
+                  <th scope="col">titulo</th>
+                  <th scope="col">titulo</th>
+                  <th scope="col">titulo</th>
+                </tr>
+                </thead>
+                <tfoot>
+                	<tr>
+                    	<td>sumatorio</td>
+                        <td>sumatorio</td>
+                        <td>sumatorio</td>
+                    </tr>
+                </tfoot>
+              <tbody>
+                <tr>
+                  <th scope="row">titulo</th>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <th scope="row">titulo</th>
+                  <td>&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+        </section>
+        <section class="destacado">
+        	<h1>Aqui va la seccion 2</h1>
         </section>
     </body>
 </html>
