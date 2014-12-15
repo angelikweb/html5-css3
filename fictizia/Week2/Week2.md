@@ -22,3 +22,5 @@ Week 2 Milestone
 ## CSS
 
 * STYLE tag and attribute.
+* `A` pseudo-selectors.
+* `font`, `padding`, `margin`, `border`, `color`, `float`, `position`.
