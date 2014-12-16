@@ -1,7 +1,7 @@
 /* CSS Document */
 *{
 	box-sizing: border-box
-	
+	background-color: grey;
 }
 
 .A{
@@ -65,7 +65,7 @@ li li {
 	
 	
 footer {
-	background-color: #9F9F9F;
+	background-color: red;
 	width: 10%;
 	position: absolute;
 	bottom: 10px;
