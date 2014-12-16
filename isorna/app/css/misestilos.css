@@ -57,3 +57,11 @@ section h1 {
 #main {
 	background-color: #B4D4FA;
 }
+blockquote {
+	quotes: "«" "»" "‹" "›";
+}
+blockquote:after {
+	color: black;
+	font-size: 40px;
+	content: attr(cite);
+}
