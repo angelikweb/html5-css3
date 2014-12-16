@@ -18,7 +18,6 @@ Week 3 Milestone
 * `background`, `text-decoration`.
 * [Quotes](https://developer.mozilla.org/en-US/docs/Web/CSS/quotes).
 * [Content](https://developer.mozilla.org/en-US/docs/Web/CSS/content).
-* 
 
 ## Links
 
