@@ -34,3 +34,17 @@ iframe {
 	border-color: red;
 	
 	}
+
+q { quotes: "«" "»" "‹" "›" }
+q:before { content: open-quote }
+q:after  { content: close-quote }
+
+
+.es q { quotes: '"' '"' "'" "'" }
+
+
+
+<!--para que un elemento se ponga a la derecha o izda y ocupe toda la pagina-->
+position: absolute;
+	top: 0;
+	bottom: 0;

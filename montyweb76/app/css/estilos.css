@@ -1,7 +1,7 @@
 /* CSS Document */
 *{
-	box-sizing: border-box
-	background-color: grey;
+	box-sizing: border-box;
+	-background-color: #fff;
 }
 
 .A{
@@ -24,11 +24,22 @@ titulo {
 	}
 
 header {
-	background-color: #DFAC5B;
+	-background-color: #2e2e2e;
+	background-image: url(../images/logo_WEB.jpg);
+	background-repeat: no-repeat;
+	background-position-y: -200px;
 	width: 100%;
 	float: left;
 	padding: 10px;
+	-position: absolute;
+	-top: 0;
+	-bottom: 0;
 	
+	}
+
+nav {
+	
+	float: right;
 	
 	}
 	
@@ -39,13 +50,20 @@ header li {
 	font: bold 25px Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	
 	}
+	header:hover {
+		background-image: url(../images/logo_WEB.jpg);
+		background-position-y: 50px;
+		}
 	
 li li {
 	float: none;
 	}
 .ultimos_trabajos {
 	background-color: #DBA6DA;
-	width: 30%;
+	©
+	background-repeat: no-repeat;
+	width: 70%;
+	height: auto;
 	float: left;
 	padding: 10px 0px 0px 10px;
 	
@@ -55,7 +73,7 @@ li li {
 .servicios {
 	background-color: #68D990;
 	width: 30%;
-	height: 500px;
+	height: auto;
 	padding: 25px;
 	float: left;
 	border: solid 5px red;
@@ -63,7 +81,11 @@ li li {
 	
 	}
 	
+.servicios li {
+	float: left;
 	
+	}
+
 footer {
 	background-color: red;
 	width: 10%;
