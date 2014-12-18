@@ -4,9 +4,28 @@ body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: lighter;
 	}
-section{
-	position: r;
+
+
+header {
+	/*position: absolute;*/
+	width: auto;
+	height: 80px;
+	padding: 10px 0;
 }
+
+
+
+header nav h1 {
+	background-image: url(../images/logo_Crowlhy.jpg);
+	text-indent: -9999px;
+	height: 80px;
+	background-repeat: no-repeat;
+	float: left;
+	width: 27%;
+	padding: 0 10px;
+
+}
+
 
 h1 {
 	font-size: 40px;
@@ -16,20 +35,19 @@ h1 {
 
 .primera {
 	font-size: 18px;
+	width: 70%;
 	color: #686666;
-	padding: 10px;
+	float: right;
 	
 	}
 
-.segunda{
-		width: 70%;
-	}
 
 ul li {
 	list-style-type: none;
-	background-color: #7CC7B5;
 	display: inline-block;
-	margin: 30px;
+	line-height: 80px;
+	padding: 0 30px;
+	float: right;
 	
 	}
 	
@@ -43,21 +61,17 @@ a {
 
 	a.uno {
 	display: block;
-	margin: 20px;
+	margin: 20px 0;
 	text-transform: uppercase;
 	font-weight: 500;
+	font-size: 36px;
 	}
-	
-
-#abajo, #arriba {
-	font-weight: 600;
-	color: #14647B;
-	font-size: 24px;}	
 
 
 
 ol{
 	overflow: auto;
+
 }
 
 	ol li{
@@ -71,8 +85,60 @@ ol{
 		display: block;
 	}
 
+section.tercera {
+	background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(left,  #ffffff 0%, #f3f3f3 21%, #ededed 99%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(21%,#f3f3f3), color-stop(99%,#ededed), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #ffffff 0%,#f3f3f3 21%,#ededed 99%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #ffffff 0%,#f3f3f3 21%,#ededed 99%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #ffffff 0%,#f3f3f3 21%,#ededed 99%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to right,  #ffffff 0%,#f3f3f3 21%,#ededed 99%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
 
+}
 
 iframe{
 	overflow: hidden;
 }
+
+
+
+q { quotes: '<' '>' "'" "'" }
+q:before { content: open-quote }
+q:after  { content: close-quote }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.en q { quotes: '[' ']' "'" "'" }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
