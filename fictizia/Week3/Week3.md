@@ -15,9 +15,10 @@ Week 3 Milestone
 
 ## CSS
 
-* `background`, `text-decoration`.
+* `background`, `text-decoration`, `position: fixed`.
 * [Quotes](https://developer.mozilla.org/en-US/docs/Web/CSS/quotes).
 * [Content](https://developer.mozilla.org/en-US/docs/Web/CSS/content).
+* [CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/).
 
 ## Links
 
