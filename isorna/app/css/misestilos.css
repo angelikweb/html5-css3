@@ -91,3 +91,24 @@ blockquote:after {
 }
 q:before { content: open-quote }
 q:after  { content: close-quote }
+
+form {
+	width: 300px;
+	margin: 50px auto;
+}
+
+label {
+	float: left;
+	width: 30%;
+	text-align: right;
+	margin: 0 5px 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=password] {
+	float: left;
+	width: 60%;
+	margin: 0 0 10px;
+}
