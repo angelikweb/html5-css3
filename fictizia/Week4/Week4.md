@@ -12,3 +12,4 @@ Week 4 Milestone
 ## HTML5
 
 * FORM, FIELDSET, LABEL, [INPUT](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) (text, number, email, password, submit, reset).
+* [SELECT](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select), [OPTGROUP](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup).
