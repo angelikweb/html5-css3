@@ -1,0 +1,18 @@
+/* CSS Document */
+
+body.sm {
+	width: 320px;
+}
+
+body.sm header {
+	position:relative;
+	width:100%;
+	box-sizing:border-box;
+}
+
+body.sm section {
+	float:none;
+	width:100%;
+	margin:0%;
+	box-sizing:border-box;
+}

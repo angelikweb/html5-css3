@@ -6,17 +6,33 @@ body {
 	color:#807D7D;
 	font-weight: normal;
 	line-height: 18px;
+	background-image:url(../img/08.jpg);
+	background-size:auto;
 }
 
 header {
-	background-color:#DEDDDD;
-	width: 20%;
-	float: left; height: 100%;
+
+	background: -moz-linear-gradient(left,  rgba(255,255,255,0.81) 0%, rgba(255,255,255,0.3) 100%); /* FF3.6+ */
+
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0.81)), color-stop(100%,rgba(255,255,255,0.3))); /* Chrome,Safari4+ */
+
+	background: -webkit-linear-gradient(left,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.3) 100%); /* Chrome10+,Safari5.1+ */
+
+	background: -o-linear-gradient(left,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.3) 100%); /* Opera 11.10+ */
+
+	background: -ms-linear-gradient(left,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.3) 100%); /* IE10+ */
+
+	background: linear-gradient(to right,  rgba(255,255,255,0.81) 0%,rgba(255,255,255,0.3) 100%); /* W3C */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfffffff', endColorstr='#4dffffff',GradientType=1 ); /* IE6-9 */
+	width: 10%;
+	float: left; 
+	top:0; bottom:0;
 	padding: 20px;
+	position:absolute;
 }
 
 section {
-	background-color: #EAEAEA;
 	margin: 0 0 0 10%;
 	padding: 10px;
 	overflow: auto;
@@ -57,6 +73,11 @@ h1 {
 	color: #1E1E1E;
 }
 
-iframe {
-	overflow: hidden;
-}
+
+q { quotes: '"' '"' "'" "'" }
+q:before { content: open-quote }
+q:after  { content: close-quote }
+
+
+
+.french q { quotes: "«" "»" "‹" "›";}
