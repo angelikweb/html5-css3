@@ -17,10 +17,12 @@ a:hover {
 
 body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
 }
 
 h1 {
 	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 2em;
 }
 
 
@@ -95,6 +97,10 @@ q:after  { content: close-quote }
 form {
 	width: 300px;
 	margin: 50px auto;
+}
+legend {
+	margin: 0 0 1.5em;
+	font-size: 1.3em;
 }
 .no-flotados {
 	margin: 20px 0;
