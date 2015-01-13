@@ -10,14 +10,20 @@
 <body>
 	<form action="" method="get">
     	<fieldset class="flotados">
+        	<legend>Campos obligatorios:</legend>
         	<label for="nombre" title="Introduce tu nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="tu nombre" required title="Introduce tu nombre" size="30" maxlength="20" />
+            <input type="text" id="nombre" name="nombre" placeholder="tu nombre" required autocomplete="off" list="nombres" title="Introduce tu nombre" size="30" maxlength="20" />
+            <datalist id="nombres">
+              <option value="Alvaro">
+              <option value="Pepe">
+              <option value="Juan">
+            </datalist>
             
         	<label for="apellido">Apellido:</label>
             <input type="text" id="apellido" name="apellido" placeholder="tu apellido" title="Introduce tu apellido" size="30" maxlength="50" />
             
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="email@email.com" required title="Introduce tu email" size="30" maxlength="20" />
+            <input type="email" id="email" name="email" placeholder="email@email.com" required title="Introduce tu email" autofocus size="30" maxlength="20" />
             
             <label for="edad">Edad:</label>
             <input type="number" id="edad" name="edad" placeholder="16+" min="16" max="99" step="5" title="Introduce tu edad" size="3" maxlength="2" />
@@ -32,7 +38,7 @@
         	<textarea id="texto" name="texto" title="Introduce un texto"></textarea>
             
             <label for="fecha">Fecha:</label>
-            <input type="date" id="fecha" name="fecha" placeholder="23/12/2014" title="Introduce una fecha" />
+            <input type="text" id="fecha" name="fecha" placeholder="23/12/2014" title="Introduce una fecha" value="23/12/2014" readonly />
             
             <label for="fecha2">Fecha 2:</label>
             <input type="datetime-local" id="fecha2" name="fecha2" placeholder="23/12/2014" title="Introduce una fecha" />
@@ -58,7 +64,7 @@
         </fieldset>
         
         <fieldset class="no-flotados">
-        	<select>
+        	<select disabled>
             	<optgroup label="Grupo 1">
             	<option value="1">opcion por defecto</option>
                 <option value="2">opcion 2</option>
@@ -87,7 +93,11 @@
                 </optgroup>
             </select>
         </fieldset>
-            
+        
+        <fieldset>
+        	<input type="file" />
+        </fieldset>
+        <br/>
         <input type="button" value="HOLA" onClick="alert('HOLA');" />
             
         <input type="reset" />
