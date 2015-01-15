@@ -75,40 +75,59 @@ background-image:url(http://www.streamingonline.cl/wp-content/uploads/2014/04/Fo
 	}
 	
 	
-.ultimos_trabajos {
-	background-color: #DBA6DA;
-		background-repeat: no-repeat;
-	width: 70%;
-	height: auto;
-	float: left;
-	padding: 10px 0px 0px 10px;
-	position: relative;
-	top: 400;
-	bottom: 0;
-	
-	}
 
 .servicios {
 	background-color: #D8D8D8;
 	width: 100%;
 	height: auto;
-	padding: 25px;
-	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
 	border: none;
 	position: relative;
-	top: 400;
+	margin:0;
 	bottom: 0;
 		}
 	
 .servicios li {
 	
 	float: left;
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+.servicios li a img {
+	
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+	.servicios a {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+.ultimos_trabajos {
+	display: none;
+	background-color: #DBA6DA;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	position: relative;
+	
 	}
 
 footer {
+	display: none;
 	background-color: #848484;
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	position: absolute;
 	bottom: 0px;
 	
