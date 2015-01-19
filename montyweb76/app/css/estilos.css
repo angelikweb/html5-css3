@@ -4,45 +4,48 @@
 	-background-color: #fff;
 }
 
-.A{
-	overflow:auto;
-	}
-titulo {
 	
-	font: bold 50px Arial;
-	padding: 25px;
-	
-	}
-	
-	
-	h1 {
-	
+header h1 {
+		
+	top:10px;
 	color: black;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-size: 55px;
+	height: 35px;
+	float: left;
+	
+	}
+	
+header h2 {
+		
+	top:50px;
+	color: #2EFE64;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
 	height: 15px;
+	
 	
 	}
 
 header {
-	background-image: url(../images/logo_WEB.jpg);
-	background-size: 200px 200px;
+	background-color:#ff;
+	
+	background-image: url(./images/logo_ico.png);
+	
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position-x: 900px;
 	width: 100%;
 	height: 200px;
-	float: right;
-	padding: 10px;
+	float: left;
 	
-	
-	}
+	overflow: visible;
+		}
 
 nav {
-	
+	display:none;
 	float: left;
 	color: #ffffff;
 	padding: 0px;
-	
-	}
+		}
 	
 header li {
 	overflow: auto;
@@ -53,62 +56,81 @@ header li {
 	
 	
 	}
-	header:hover {
-		background-image: url(../images/logo_WEB.jpg);
-		background-position-y: 50px;
+
+.logo {
+		
+		
+		width: 50%;
+		height:50%;
+		}
+		
+#logo {
+		
+	margin: 0;
+position: relative;
+top: 20px;
+resize: both;
+height: 75%;
 		}
 	
 li li {
 	float: none;
 	}
 	
-	.B {
-	background-color: red;
-	position: absolute;
-	top: 100px;
-background-image:url(http://www.streamingonline.cl/wp-content/uploads/2014/04/Fondo-negro-con-estructura-en-lineas-746551.jpg);
-	width: 100%;
-	height: 300px;
-	float:left;
-	
-	
-	}
-	
-	
-.ultimos_trabajos {
-	background-color: #DBA6DA;
-		background-repeat: no-repeat;
-	width: 70%;
-	height: auto;
-	float: left;
-	padding: 10px 0px 0px 10px;
-	position: relative;
-	top: 400;
-	bottom: 0;
-	
-	}
 
 .servicios {
-	background-color: #D8D8D8;
+	background-color: red;
 	width: 100%;
 	height: auto;
-	padding: 25px;
-	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
 	border: none;
 	position: relative;
-	top: 400;
+	margin:0;
 	bottom: 0;
 		}
 	
 .servicios li {
 	
 	float: left;
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+.servicios li a img {
+	
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+.servicios a {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+.ultimos_trabajos {
+	display: none;
+	background-color: #DBA6DA;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	padding: 0;
+	position: relative;
+	
 	}
 
 footer {
+	display: none;
 	background-color: #848484;
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	position: absolute;
 	bottom: 0px;
 	
