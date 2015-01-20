@@ -136,3 +136,38 @@ select {
 select[multiple] {
 	height: 200px;
 }
+
+.ejemplo-animacion h1 {
+	background-color: #ccc;
+	width: 200px;
+	
+	animation-name: muevete;
+   	animation-duration: 3s;
+   	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	
+	-webkit-animation-name: muevete;
+   	-webkit-animation-duration: 3s;
+   	-webkit-animation-timing-function: ease-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+@keyframes muevete {
+   from {
+      width: 200px;
+   }
+   to {
+      width: 600px;
+   }
+}
+
+@-webkit-keyframes muevete {
+   from {
+      width: 200px;
+   }
+   to {
+      width: 600px;
+   }
+}
