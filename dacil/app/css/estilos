@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	
+	background-color: #FFFFFF;
+	margin: 10px;
+	border-right: 2px solid #AFACAC;
+	width: 91%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	-top: 0;
+	-bottom: 0;
+	-right: 0;
+	
+}
+
+nav {
+	display:none;
+	float: left;
+	color: #ffffff;
+	padding: 0px;
+		}
+		
+
+
+
+body {
+	
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	
+	}
+
+.sm {
+	
+}
+	
+li li {
+	float: none;
+	}
+	
+
+.botones {
+	background-color: red;
+	width: 100%;
+	height: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: none;
+	position: relative;
+	margin:0;
+	bottom: 0;
+		}
+	
+.botones li {
+	
+	float: left;
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+.botones li a img {
+	
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+	
+.botones a {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+
+}
+footer {
+	
+	background-color: #5F765E;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+q { 
+
+quotes: '"' '"' "'" "'" 
+
+}
+
+q:before { 
+
+content: open-quote 
+
+}
+
+q:after  { 
+
+content: close-quote 
+
+} 		
+
+
+.fr q { 
+
+quotes: '<<' '>>' "<" ">" 
+
+}
+
