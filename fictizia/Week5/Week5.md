@@ -17,4 +17,4 @@ Week 5 Milestone
 ## GitHub commands
 
 * Setup git: `git config remote.origin.push HEAD`.
-* Git commands: `git add, git commit, git push, git pull`.
+* Git commands: `git add, git commit -m "MENSAJE", git push, git pull`.

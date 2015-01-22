@@ -6,7 +6,7 @@ body {
 	color:#807D7D;
 	font-weight: normal;
 	line-height: 18px;
-	background-image:url(../img/08.jpg);
+	/*background-image:url(../img/08.jpg);*/
 	background-size:auto;
 }
 
@@ -58,6 +58,7 @@ li a{
 	font-size:14px;
 	color:#807D7D;
 	font-weight: normal;
+	float: left;
 }
 
 li {
@@ -81,3 +82,109 @@ q:after  { content: close-quote }
 
 
 .french q { quotes: "«" "»" "‹" "›";}
+
+.carrousel {
+	width:300px;
+	height:300px;
+	overflow:visible;
+	position:relative;
+}
+
+.marco {
+	height:300px;
+	overflow:hidden;
+}
+
+.carrousel ol {
+	position:relative;
+}
+
+.carrousel li {
+	position:absolute;
+	width:300px;
+	height:300px;
+	top:-300px;
+}
+
+#carrousel li {
+	-webkit-animation-duration: 3s;
+  	-webkit-animation-timing-function: ease-in-out;
+  	-webkit-animation-iteration-count: infinite;
+}
+
+li.diapositiva1 {
+	top:0px;
+}
+/*
+li.diapositiva2 {
+	top:-300px;
+}
+
+li.diapositiva3 {
+	top:-600px;
+}
+
+li.diapositiva4 {
+	top:-900px;
+}
+
+li.diapositiva5 {
+	top:-1200px;
+}
+
+li.diapositiva6 {
+	top:-1500px;
+}*/
+
+
+li.diapositiva1 {
+	-webkit-animation-name: muevete1;
+}
+
+@-webkit-keyframes muevete1 {
+   from {
+      top: 0;
+   }
+   to {
+      top: 1800px;
+   }
+}
+/*
+li.diapositiva2 {
+	-webkit-animation-name: muevete2;
+}
+
+@-webkit-keyframes muevete2 {
+   from {
+      top: -300px;
+   }
+   to {
+      top: 1500px;
+   }
+}
+
+li.diapositiva3 {
+	-webkit-animation-name: muevete3;
+}
+
+@-webkit-keyframes muevete3 {
+   from {
+      top: -600px;
+   }
+   to {
+      top: 1200px;
+   }
+}
+
+li.diapositiva4 {
+	-webkit-animation-name: muevete3;
+}
+
+@-webkit-keyframes muevete4 {
+   from {
+      top: -900px;
+   }
+   to {
+      top: 900px;
+   }
+}*/
