@@ -1,4 +1,4 @@
-Week 5 Milestone
+Week 6 Milestone
 ==========
 
 ## Review last class
