@@ -106,16 +106,17 @@ q:after  { content: close-quote }
 	top:-300px;
 }
 
-#carrousel li {
-	-webkit-animation-duration: 3s;
-  	-webkit-animation-timing-function: ease-in-out;
+.carrousel li {
+	-webkit-animation-duration: 20s;
+  	-webkit-animation-timing-function: linear;
   	-webkit-animation-iteration-count: infinite;
+  	-webkit-animation-direction: alternate;
 }
 
 li.diapositiva1 {
 	top:0px;
 }
-/*
+
 li.diapositiva2 {
 	top:-300px;
 }
@@ -134,7 +135,7 @@ li.diapositiva5 {
 
 li.diapositiva6 {
 	top:-1500px;
-}*/
+}
 
 
 li.diapositiva1 {
@@ -144,12 +145,16 @@ li.diapositiva1 {
 @-webkit-keyframes muevete1 {
    from {
       top: 0;
+      opacity:1;
+      width:5%;
    }
    to {
-      top: 1800px;
+      top: 1500px;
+      opacity:1;
+      width:100%;
    }
 }
-/*
+
 li.diapositiva2 {
 	-webkit-animation-name: muevete2;
 }
@@ -159,7 +164,7 @@ li.diapositiva2 {
       top: -300px;
    }
    to {
-      top: 1500px;
+      top: 1200px;
    }
 }
 
@@ -172,12 +177,12 @@ li.diapositiva3 {
       top: -600px;
    }
    to {
-      top: 1200px;
+      top: 900px;
    }
 }
 
 li.diapositiva4 {
-	-webkit-animation-name: muevete3;
+	-webkit-animation-name: muevete4;
 }
 
 @-webkit-keyframes muevete4 {
@@ -185,6 +190,60 @@ li.diapositiva4 {
       top: -900px;
    }
    to {
-      top: 900px;
+      top: 600px;
    }
-}*/
+}
+
+
+li.diapositiva5 {
+	-webkit-animation-name: muevete5;
+}
+
+@-webkit-keyframes muevete5 {
+   from {
+      top: -1200px;
+   }
+   to {
+      top: 300px;
+   }
+}
+
+li.diapositiva6 {
+	-webkit-animation-name: muevete6;
+}
+
+@-webkit-keyframes muevete6 {
+   from {
+      top: -1500px;
+   }
+   to {
+      top: 0px;
+   }
+}
+
+.carrousel .etiqueta {
+   background: rgba(0,0,0,0.3);
+   width: 300px;
+   height: 30px;
+   position: relative;
+   bottom: 60px;
+   left: -300px;
+   transition: all 0.6s ease-in-out;
+}
+
+.carrousel .etiqueta h1 {
+   color: #fff;
+   font-size: 16px;
+   line-height: 30px;
+   padding: 0 0 0 20px;
+}
+
+.carrousel li:hover .etiqueta {
+	left:0;
+	}
+
+.carrousel li:hover,
+.carrousel li:hover ~ li,
+.carrousel li ~ li:hover {
+	-webkit-animation-play-state:paused;
+	}
