@@ -12,6 +12,10 @@ Week 7 Milestone
 * [CSS Transform article](http://css-tricks.com/almanac/properties/t/transform/).
 * [CSS 3D Transforms](http://desandro.github.io/3dtransforms/).
 
+## CSS Filters
+
+* [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter).
+
 ## CSS font-face & HTML font icons
 
 * [Using font-face](http://css-tricks.com/snippets/css/using-font-face/).
