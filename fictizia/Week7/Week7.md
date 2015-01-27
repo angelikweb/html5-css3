@@ -9,8 +9,9 @@ Week 7 Milestone
 ## CSS Transformations
 
 * [CSS Transform](https://developer.mozilla.org/es/docs/Web/CSS/transform).
+* [Backface visibility](https://developer.mozilla.org/es/docs/Web/CSS/backface-visibility).
 * [CSS Transform article](http://css-tricks.com/almanac/properties/t/transform/).
-* [CSS 3D Transforms](http://desandro.github.io/3dtransforms/).
+* [CSS 3D Transforms by David DeSandro](http://desandro.github.io/3dtransforms/).
 
 ## CSS Filters
 
