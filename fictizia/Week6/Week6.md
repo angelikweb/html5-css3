@@ -8,22 +8,10 @@ Week 6 Milestone
 * c9.io
 * Git commands.
 
-## CSS font-face & HTML font icons
-
-* [Using font-face](http://css-tricks.com/snippets/css/using-font-face/).
-* [HMTL for icon font usage](http://css-tricks.com/html-for-icon-font-usage/).
-* [weloveiconfonts.com](http://weloveiconfonts.com/).
-
 ## CSS Transitions
 
 * [CSS Transitions reference](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_transitions).
 * [Example linear functions for transitions](http://easings.net/es).
-
-## CSS Transformations
-
-* [CSS Transform](https://developer.mozilla.org/es/docs/Web/CSS/transform).
-* [CSS Transform article](http://css-tricks.com/almanac/properties/t/transform/).
-* [CSS 3D Transforms](http://desandro.github.io/3dtransforms/).
 
 ## CSS Animations
 
