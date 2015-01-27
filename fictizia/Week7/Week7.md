@@ -12,6 +12,7 @@ Week 7 Milestone
 * [Backface visibility](https://developer.mozilla.org/es/docs/Web/CSS/backface-visibility).
 * [CSS Transform article](http://css-tricks.com/almanac/properties/t/transform/).
 * [CSS 3D Transforms by David DeSandro](http://desandro.github.io/3dtransforms/).
+* [Famo.us (Matrix3d)](http://famo.us/).
 
 ## CSS Filters
 
@@ -25,7 +26,7 @@ Week 7 Milestone
 
 ## Responsive Design
 
-* ...
+* [The Guardian takeover on Responsive Design](http://next.theguardian.com/blog/responsive-takeover/).
 
 ## Mobile First
 
