@@ -22,3 +22,4 @@ Week 6 Milestone
 * [CSS3 Image Slider](http://www.alessioatzeni.com/CSS3-Cycle-Image-Slider/).
 * [CSS Carousel](http://stackoverflow.com/questions/21647389/implement-a-css-only-slideshow-carousel-with-next-and-previous-buttons).
 * [CSS Carousel code](http://jsfiddle.net/q4d9m/2/).
+* [Animate CSS Library](http://daneden.github.io/animate.css/).
