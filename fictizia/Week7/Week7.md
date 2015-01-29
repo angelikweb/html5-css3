@@ -27,10 +27,14 @@ Week 7 Milestone
 * [Google Fonts](https://www.google.com/fonts).
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
 
-## Responsive Design
+## Responsive Web Design
 
-* [The Guardian takeover on Responsive Design](http://next.theguardian.com/blog/responsive-takeover/).
+* [Responsive Design reference](https://developer.mozilla.org/en-US/docs/Web_Development/Mobile/Responsive_design).
+* [CSS Media Queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries).
+* [RWD by Ethan Marcotte](http://alistapart.com/article/responsive-web-design).
+* [RWD versus Adaptive Design](https://developer.mozilla.org/en-US/Apps/Design/UI_layout_basics/Responsive_design_versus_adaptive_design?search=responsive+design).
+* [CSS Animations between media queries](http://davidwalsh.name/animate-media-queries).
 
 ## Mobile First
 
-* ...
+* [Graceful Degradation versus Progressive Enhancement](http://designshack.net/articles/css/mobilefirst/).
