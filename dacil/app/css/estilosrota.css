@@ -7,7 +7,7 @@ header {
 	margin: 10px;
 	border-right: 2px solid #AFACAC;
 	width: 90%;
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-family: '3dumbregular', "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 	font-size: 20px;
 	
 	
@@ -49,11 +49,20 @@ header li {
 	
 }
 
-body {
+
+@font-face {
 	
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	
-	}
+    font-family: '3dumbregular';
+    src: url('../fonts/3dumb-webfont.eot');
+    src: url('../fonts/3dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/3dumb-webfont.woff2') format('woff2'),
+         url('../fonts/3dumb-webfont.woff') format('woff'),
+         url('../fonts/3dumb-webfont.ttf') format('truetype'),
+         url('../fonts/3dumb-webfont.svg#3dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 	
 section {
 
@@ -62,10 +71,15 @@ section {
 
 li {
    
-   position: absolute;   
-   width: 100%;
-   height: 100%;
+   position: absolute; 
+   width: 250px;
+   height: 200px;
 
+}
+
+li img {
+	width: 100%;
+	height: 100%;
 }
 
 #contenedor {
@@ -76,6 +90,9 @@ li {
    border: 1px solid #CCC;
    -webkit-perspective: 1100px;
    perspective: 1100px;
+   font-family: 'Tangerine', serif;
+   font-size: 48px;
+
 }
 
 #carrusel {
