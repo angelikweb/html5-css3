@@ -23,6 +23,9 @@ Week 7 Milestone
 * [Using font-face](http://css-tricks.com/snippets/css/using-font-face/).
 * [HMTL for icon font usage](http://css-tricks.com/html-for-icon-font-usage/).
 * [weloveiconfonts.com](http://weloveiconfonts.com/).
+* [Font Squirrel](http://www.fontsquirrel.com/tools/webfont-generator).
+* [Google Fonts](https://www.google.com/fonts).
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/).
 
 ## Responsive Design
 
