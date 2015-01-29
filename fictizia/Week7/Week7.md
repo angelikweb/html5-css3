@@ -34,6 +34,7 @@ Week 7 Milestone
 * [RWD by Ethan Marcotte](http://alistapart.com/article/responsive-web-design).
 * [RWD versus Adaptive Design](https://developer.mozilla.org/en-US/Apps/Design/UI_layout_basics/Responsive_design_versus_adaptive_design?search=responsive+design).
 * [CSS Animations between media queries](http://davidwalsh.name/animate-media-queries).
+* [HTML5 Boilerplate](https://html5boilerplate.com/).
 
 ## Mobile First
 
