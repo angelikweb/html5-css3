@@ -1,0 +1,40 @@
+
+.tabs {
+    border: 2px solid #444;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px dotted #444;
+}
+
+.tab-button {
+    display: block;
+    padding: 0 5px;
+    line-height: 40px;
+    background-color: #ffa;
+    text-decoration: none;
+    color: #444;
+}
+.activo .tab-button,
+.tab-button:hover {
+    background-color: #ffc;
+}
+
+.tab-content {
+    padding: 0px;
+    line-height: 24px;
+    background-color: #fff;
+    border-top: 1px dotted #444;
+    height: 0;
+    transition: height 1s ease-in-out;
+    overflow: hidden;
+}
+.activo .tab-content {
+    height: 200px;
+}
