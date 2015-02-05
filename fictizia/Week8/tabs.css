@@ -1,19 +1,63 @@
+/* tabs */
 
 .tabs {
     border: 2px solid #444;
     background-color: #ccc;
     margin: 0;
     padding: 0;
+    width: 100%;
+    overflow: hidden;
 }
 
-.tab {
+.tabs .tab {
+    list-style-type: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border-bottom: 1px dotted #444;
+    float: left;
+}
+
+.tab-button {
+    display: block;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #ffa;
+    text-decoration: none;
+    color: #444;
+}
+
+.activo .tab-button,
+.tab-button:hover {
+    background-color: #ffc;
+}
+
+.tabs-content {}
+
+.tabs-content .tab {
+    display: none;
+}
+.tabs-content .activo {
+    display: block;
+}
+
+/* acordeon */
+
+.accordion-tabs {
+    border: 2px solid #444;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.accordion-tab {
     list-style-type: none;
     margin: 0;
     padding: 0;
     border-bottom: 1px dotted #444;
 }
 
-.tab-button {
+.accordion-tab-button {
     display: block;
     padding: 0 5px;
     line-height: 40px;
@@ -21,12 +65,12 @@
     text-decoration: none;
     color: #444;
 }
-.activo .tab-button,
-.tab-button:hover {
+.activo .accordion-tab-button,
+.accordion-tab-button:hover {
     background-color: #ffc;
 }
 
-.tab-content {
+.accordion-tab-content {
     padding: 0px;
     line-height: 24px;
     background-color: #fff;
@@ -35,6 +79,6 @@
     transition: height 1s ease-in-out;
     overflow: hidden;
 }
-.activo .tab-content {
+.activo .accordion-tab-content {
     height: 200px;
 }
