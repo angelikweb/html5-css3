@@ -1,0 +1,58 @@
+/* CSS Document */
+
+
+/* Layout */
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #ffffff;
+	}
+
+
+
+ul {
+	width: 100%;
+	height: auto;
+	
+}
+
+
+
+.tab {
+	display:inline-block;
+	float:left;
+	width: 300px;
+	
+	/*background-color: #e9e9e9;*/
+	
+}
+
+
+
+.tab-button {
+    display: block;
+    padding: 0 10px;
+    line-height: 40px;
+    background-color: #e2e2e2;
+    text-decoration: none;
+    color: #444;
+}
+
+
+.content{
+    padding: 0px;
+    line-height: 24px;
+    background-color: orange;
+    display:none;
+    height: 200px;
+    
+    width: 0;
+    transition: width 1s ease-in-out;
+    overflow: hidden;
+}
+
+
+.content.activo {
+	width: 200px;
+}

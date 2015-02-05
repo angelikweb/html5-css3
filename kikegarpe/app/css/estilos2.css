@@ -33,6 +33,7 @@ section {
   	position: absolute;
   	transform-style: preserve-3d;
   	transform: translateZ(-288px);
+  	transition: transform 1s;
 }
 
 .carrousel li {
