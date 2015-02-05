@@ -19,6 +19,7 @@ Week 8 Milestone
 * Loops
 * Events
 * [JavaScript reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+* [JavaScript events](https://developer.mozilla.org/en-US/docs/Web/Events).
 
 ## JQuery
 
