@@ -11,4 +11,3 @@ function $$ (selector, el) {
      // If you'd like to convert it to a Array for convenience, use this instead:
      // return Array.prototype.slice.call(el.querySelectorAll(selector));
 }
-alert($('#myID').id);
