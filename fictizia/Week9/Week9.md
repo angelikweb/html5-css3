@@ -24,3 +24,4 @@ Week 9 Milestone
 * Introduction to interface kits.
 * [Get Bootstrap](http://getbootstrap.com/), [Bootstrap Themes (paid)](https://wrapbootstrap.com/), [Free Bootstrap Themes](http://bootswatch.com/).
 * Alternatives: [Facebook React](http://facebook.github.io/react/), [Foundation](http://foundation.zurb.com/).
+* [Bootstrap Theme Builder](http://pikock.github.io/bootstrap-magic/app/index.html#!/editor).
