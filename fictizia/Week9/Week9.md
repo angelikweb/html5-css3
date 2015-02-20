@@ -29,3 +29,19 @@ Week 9 Milestone
 ## Google Maps Geolocation
 
 * [Google Maps API](https://developers.google.com/maps/documentation/business/clientside).
+ 
+## Microformats and Schemas
+
+* [Person Schema](http://schema.org/Person).
+* [Microformats](http://microformats.org/).
+
+## HTML5 Video & Audio
+
+* [HTML5 Video & Audio](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video).
+
+## Canvas & WebGL
+
+* [HTML5 Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API).
+* [Canvas tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial).
+* [html5canvastutorials](http://www.html5canvastutorials.com/).
+* [WebGL](https://developer.mozilla.org/en-US/docs/Web/WebGL).
