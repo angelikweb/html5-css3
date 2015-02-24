@@ -7,3 +7,6 @@ Week 10 Milestone
 
 * Website as a device app
 * HTML5 Offline
+* Firebase
+* Angular
+* Material Design & Polymer
