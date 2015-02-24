@@ -18,5 +18,8 @@ Week 10 Milestone
 * [Firebase](https://www.firebase.com/).
 * [AngularJS](https://angularjs.org/).
 * [Node.js](http://nodejs.org/).
+ * [Learn You Node tutorial](npm install -g learnyounode).
 * [Google Material Design](http://www.google.com/design/), [Angular Material Design](https://material.angularjs.org/#/).
 * [Polymer](https://www.polymer-project.org/).
+ * [Web Components](http://webcomponents.org/).
+ * [Customelements.io](http://customelements.io/).
