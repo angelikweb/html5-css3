@@ -1,0 +1,18 @@
+/* CSS Document */
+
+body {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:24px;
+	color:rgba(0,0,0,1.00);
+}
+
+a {
+	text-decoration:none;
+	color:rgba(0,0,0,1.00);
+}
+	
+li {
+	list-style-type:none;
+	float:left;
+	padding:10px;
+}
