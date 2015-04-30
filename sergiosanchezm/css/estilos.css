@@ -1,0 +1,14 @@
+/* CSS Document */
+
+body {
+	font-size: 25px;
+}
+
+ul {list-style-type: none;
+	border: 19px solid #AEBDCE;
+	border-bottom-color: #99B1C9;
+	background-color:#DDDDDD;
+	margin-left: 100px;
+	
+	
+}
