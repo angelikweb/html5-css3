@@ -1,4 +1,17 @@
 /* CSS Document */
+* {
+	-webkit-box-sizing: border-box; /* Safari 3.0 - 5.0, Chrome 1 - 9, Android 2.1 - 3.x */
+  -moz-box-sizing: border-box;    /* Firefox 1 - 28 */
+  box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
+}
+	
+
+a {
+	color: green; }
+	
+a:hover,
+a:active,
+a:focus { color: brown }
 
 body {
 	font-size: 20px;
@@ -10,14 +23,33 @@ ul {list-style-type: none;
 	border-bottom-color: #DDDDDD;
 	background-color:#DDDDDD;
 	margin-left: 15px;
+	
+	
 }
 li {display: inline-block;
-    padding: 60px;
+    padding: 15px 100px;
 }
-
-section {font-size: 20px;
+.galeriaprincipal {
+	border: 5px solid green;
+	}
+	
+#quiensoy {font-size: 20px;
     border: 1px solid #DDDDDD;
 	border-bottom-color: #DDDDDD;
-	background-color:#DDDDDD;
+	background-color:#98AFC6;
     margin-left: 15px;
 }
+
+div:hover {
+	font-style: italic;
+	}
+
+#anidation {border: 2px solid #E6BC22;
+}
+
+div > div {
+	border: 2px solid red;
+	padding: 40px;
+}
+
+div :hover {color: grey; }
