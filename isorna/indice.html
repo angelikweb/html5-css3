@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Titulo de la pagina</title>
-        <link rel="stylesheet" type="text/css" href="/css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
     </head>
     
     <body>
@@ -13,19 +14,33 @@
             <nav>
             	<ul>
             		<li><a href="/mapa.html" target="_blank" title="Mapa de la zona">Mapa de la zona</a></li>
-                	<li><a href="/indice.html#rutas">Rutas turísticas</a></li>
+                	<li class="par"><a href="/indice.html#rutas">Rutas turísticas</a></li>
                 	<li><a href="/fotos">Galería de fotos</a></li>
                 </ul>
             </nav>
         </header>
         
-        <section id="contenido">
+        <section id="contenido" style="">
         	<p>Párrafo explicando la situación del <strong>castillo</strong>, o el cómo llegar.</p>
         </section>
         
-        <section>
+        <div>
+            <div>
+                <article>
+                    <div> 
+                        <div>PRUEBA</div>
+                        <div>HERMANA</div>
+                    </div>
+                </article>
+            </div>
+            <div>
+            	HERMANA
+            </div>
+        </div>
+        
+        <section class="seccion-destacada par">
         	Fotografías del castillo y alrededores.
-            <ul>
+            <ul id="listaFotos">
             	<li>Vista aérea del castillo</li>
                 <li>
                 	Fachada
@@ -43,7 +58,7 @@
         <section>Formulario de <em>contacto</em> para reservar guía.</section>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <section id="rutas">Rutas que puedes hacer.<a href="#contenido">Volver al principio</a></section>
+        <section id="rutas" class="par">Rutas que puedes hacer.<a href="#contenido">Volver al principio</a></section>
         
         <footer>Datos de contacto y aviso legal.</footer>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
