@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	box-sizing:content-box;
+	
+}
+ul {
+	background-color: #e4e4e4;
+	padding: 5% 10% 5% 5%;
+	
+}
+li{
+  color:#747678;
+}
+li:first-child{
+  color:#ebb700;
+}
+li:nth-last-child(-n+6){
+  color:#ff8200;
+  font-style:italic;
+}
+
+
+div > div{
+	border-bottom-color:#7B8BDD;
+	margin-bottom: 20px;
+	background-color:#F1A20D;
+}
+
+
