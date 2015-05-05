@@ -1,14 +1,23 @@
 /* CSS Document */
 
 body {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 ul {list-style-type: none;
-	border: 19px solid #AEBDCE;
-	border-bottom-color: #99B1C9;
+    text-align: center;
+	border: 1px solid #DDDDDD;
+	border-bottom-color: #DDDDDD;
 	background-color:#DDDDDD;
-	margin-left: 100px;
-	
-	
+	margin-left: 15px;
+}
+li {display: inline-block;
+    padding: 60px;
+}
+
+section {font-size: 20px;
+    border: 1px solid #DDDDDD;
+	border-bottom-color: #DDDDDD;
+	background-color:#DDDDDD;
+    margin-left: 15px;
 }
