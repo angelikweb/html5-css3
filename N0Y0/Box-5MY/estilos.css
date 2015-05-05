@@ -1,0 +1,68 @@
+/* CSS Document */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+/*
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*/
+
+body {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:24px;
+	color:rgba(0,0,0,1.00);
+	
+	margin: auto;
+	
+	/*Decirle cómo queremos que mida la caja
+	box-sizing:;
+	
+	*/
+}
+
+span:first-child {
+    background-color: lime;
+}
+
+/* cabecera usando clase */
+
+.cabecera {
+	background-color: red;
+	margin: 0 auto;
+}
+
+.cabecera hover {
+	font-style:italic;
+}
+
+#title {
+	font-size:100px;
+	margin:auto;
+	padding: 20px;
+}
+
+a {
+	text-decoration:none;
+	color:rgba(0,0,0,1.00);
+}
+
+ul {
+	background-color: blue;
+	padding: 50px 20px;
+}
+	
+li {
+	color:red;
+	list-style-type:none;
+	/* float:left; */
+	padding:10px;
+}
+
+li:first-child{
+  color:green;
+}

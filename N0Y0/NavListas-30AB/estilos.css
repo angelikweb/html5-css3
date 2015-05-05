@@ -4,6 +4,11 @@ body {
 	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:24px;
 	color:rgba(0,0,0,1.00);
+	
+	/*Decirle cómo queremos que mida la caja
+	box-sizing:;
+	
+	*/
 }
 
 a {
