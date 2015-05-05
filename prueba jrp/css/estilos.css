@@ -1,0 +1,26 @@
+body {
+	
+	background-color:#CCC6C7
+}
+
+
+
+nav {
+	
+	border: solid 2px #F17376;
+	background-color:#6B6565;
+	
+	
+}
+
+nav :hover {
+		font-size: 30px;
+		}
+		
+section {
+	
+	border: solid 2px #F17376;
+	margin: 2px;
+	padding: 50px;
+	
+}
