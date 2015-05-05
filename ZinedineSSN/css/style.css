@@ -1,26 +1,44 @@
+
 /* CSS Document */
 
-body ul{
-	width: auto;
-	display: table;
-	
-	margin: 0;
-	padding: 10px;
-	margin: 0 auto;
-	
-	background: #ddd;
+html{
+	box-sizing: border-box;
 	}
 	
-	body li{
+*,
+*::before, 
+*::after{
+	box-sizing: inherit;
+	}
+	
+
+	body ul{
 		width: auto;
-		display:inline-block;
+		display: table;
 		
-		margin-right: 10px;
+		margin: 0;
+		padding: 10px;
+		margin: 0 auto;
+		
+		background: #ddd;
 		}
 		
-		body li:last-child{
-			margin-right: 0;
+		body li{
+			width: auto;
+			display:inline-block;
+			
+			margin-right: 10px;
 			}
+			
+			body li:last-child{
+				margin-right: 0;
+				}
+				
+			ul li a:hover{
+				display:block;
+				color:; pink;
+				font-size: 36px;
+				}
 			
 			
 			
@@ -29,3 +47,15 @@ body section{
 	display: block;
 	background: red;
 }
+
+	.contenidos + p{
+		width: 100%;
+		display: block;
+		background-color: yellow;
+		}
+		
+	.contenidos > p{
+		color: olive;
+		}
+		
+		
