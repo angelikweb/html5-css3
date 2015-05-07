@@ -10,6 +10,13 @@ html {
   box-sizing: inherit;
 }
 
+html[lang="en"] {
+	/* .... */
+}
+html[lang|="es"] {
+	/* .... */
+}
+
 body {
 	width: 80%;
 	max-width: 1250px;
@@ -67,6 +74,11 @@ img {
 	width: 100%;
 }
 
+img:before {
+	content: attr(alt);
+	display: block;
+	position: absolute;
+}
 
 p {
 	margin: .3em;
