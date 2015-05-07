@@ -34,6 +34,18 @@ p > strong,
 	background-color: #ccc;
 }
 
+li.par {
+	background-color: #fcc;
+}
+
+.par :hover {
+	color: blue;
+}
+
+#listaFotos.small {
+	width: 50%;
+}
+
 #listaFotos {
 	background-color: yellow;
 	padding: 50px 20px;
@@ -43,11 +55,49 @@ div article {
 	padding: 50px;
 }
 
+div p {
+	background-color: #D0CCF7;
+}
+
+.impar {
+	border: 10px solid black;
+}
+
+p.impar {
+	border-color: green;
+}
+
+
+:hover div + div {
+	/*...*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 div :hover {
 	font-style: italic;
 	width: 80%;
 	margin-left: auto;
-	margin-right: auto;}
+	margin-right: auto;}*/
 
 div,
 article {
@@ -64,7 +114,10 @@ div + div {
 	background-color: blue;
 	margin: 30px 0;
 }
-
+/*
+:hover + div {
+	background-color: yellow;
+}*/
 
 
 

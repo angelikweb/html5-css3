@@ -1,0 +1,85 @@
+/* CSS Document */
+
+html {
+  box-sizing: border-box;
+  font-size: 48px;
+}
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+	width: 80%;
+	max-width: 1250px;
+	margin: 20px auto;
+}
+
+section {
+	border-bottom: 5px solid ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.portada {
+	background-color: #ffc;
+}
+
+article {
+	border: 1px solid #444;
+	padding: 5px;
+	width: 33%/* !important*/;
+	float: left;
+}
+
+article::after {
+	content: attr(title);
+	font-size: 14px;
+	text-align: right;
+	display:block;
+}
+
+a[target='_blank']::after {
+	content: url(../img/061220_icon_external.gif);
+}
+@media print {
+	a[href]::after {
+		content: " (" attr(href) ") ";
+	}
+}
+
+article ~ p {
+	float: left;
+	width: 33%;
+	margin: 0;
+	background-color: #ccc;
+}
+
+.destacado {
+	font-size: 2em;
+	width: 66%;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+
+p {
+	margin: .3em;
+}
+
+ul {
+	margin: 10px 50px;
+	font-size: .3em;
+}
+
+li {}
+
+
+
+
+
