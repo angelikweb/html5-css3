@@ -20,11 +20,18 @@ li:nth-last-child(-n+6){
   font-style:italic;
 }
 
+li.par {
+	background-color:#F001A1;
+	color:#FFF5F5;
+	}
+li.impar {
+	background-color:#EBEBEB;
+	}
 
-div > div{
+:hover div + div{
 	border-bottom-color:#7B8BDD;
 	margin-bottom: 20px;
-	background-color:#F1A20D;
+	background-color: #EED403;
 }
 
 

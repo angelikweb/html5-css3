@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	box-sizing:border-box;
+	}
+*,
+*:before,
+*:after {
+	box-sizing:inherit;
+	}
+
+section {
+	font-size: 1.2em;
+	color: #F7AF22;
+	padding: 10px 20px 10px 20px;
+	}
+
+article.principal{
+	float:left;
+	width: 50%;
+	padding-right: 10%;
+	}
+ul li:after{
+    content: url('img/icono-estrella.png');
+}
+
+p.destacado{
+	font-size: 2em;
+	color: #73CB5E;
+	padding-top: 10px;
+	}
+	
+article.secundario{
+	float:left;
+	width: 50%;
+
+	}	
+
+
+
+
+	
+
