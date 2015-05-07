@@ -30,5 +30,7 @@ Week 2 Milestone
 * [Box Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing).
 * [Pseudo-selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/:active).
 * [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-elements).
+ * [A Whole Bunch of Amazing Stuff Pseudo Elements Can Do](https://css-tricks.com/pseudo-element-roundup/).
+ * [The Shapes of CSS](https://css-tricks.com/examples/ShapesOfCSS/).
 * [General Sibling selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors).
 * [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
