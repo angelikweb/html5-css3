@@ -29,3 +29,6 @@ Week 2 Milestone
 * [CSS Specificity](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity), [Specificity Calculator](http://specificity.keegan.st/).
 * [Box Sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing).
 * [Pseudo-selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/:active).
+* [Pseudo-elements](https://developer.mozilla.org/en-US/docs/Web/CSS/pseudo-elements).
+* [General Sibling selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_selectors).
+* [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors).
