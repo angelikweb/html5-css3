@@ -53,3 +53,19 @@ div > div {
 }
 
 div :hover {color: grey; }
+
+:hover + div {
+	background-color: yellow;
+}
+
+.seccionDestacada {
+	background-color:#49B326
+}
+
+li.seccionDestacada {
+	background-color:#AE1E20
+}
+
+.galeriaprincipal:hover {
+	background-color:#1F8CAC
+	}
