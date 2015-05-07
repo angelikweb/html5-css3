@@ -1,4 +1,8 @@
 /* CSS Document */
+html{
+	box-sizing:border-box;
+	font-size:36px
+}
 ul {
 	
 	background-color:#12EB70;
@@ -8,13 +12,14 @@ ul {
 	
 	
 }
+div > article {
+	border: 1px solid blue;
+	
+}
 div p {
-	background-color:#12EB70;
-a: hover,
-a: active,
-a: focus{
-	color:green;
+	color:blue;
 }
 	
-	
+div :hover{
+	background-color:blue;
 }
