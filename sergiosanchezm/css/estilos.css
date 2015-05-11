@@ -69,3 +69,13 @@ li.seccionDestacada {
 .galeriaprincipal:hover {
 	background-color:#1F8CAC
 	}
+
+.exciting-text::after {
+  content: "<- now this *is* exciting!"; 
+  color: green;
+}
+
+.boring-text::after {
+   content:    "<- BORING!";
+   color:      yellowgreen;
+}

@@ -78,7 +78,7 @@ img:before {
 	content: attr(alt);
 	display: block;
 	position: absolute;
-}
+} 
 
 p {
 	margin: .3em;
