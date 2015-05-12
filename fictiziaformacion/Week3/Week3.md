@@ -25,3 +25,4 @@ Week 3 Milestone
 
 * [HTML5 Boilerplate](http://html5boilerplate.com/) & `normalize.css`.
 * [HTML5 Character Entities](http://dev.w3.org/html5/html-author/charref).
+* [Background image clip with text example](http://tympanus.net/Tutorials/ExperimentsBackgroundClipText/index3.html).
