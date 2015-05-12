@@ -79,3 +79,19 @@ li.seccionDestacada {
    content:    "<- BORING!";
    color:      yellowgreen;
 }
+
+table { width: 50%;
+ 		border: 5px solid green;
+  		}
+		
+tr { width: 50%;
+ 		border: 1px solid green;
+	}
+	
+th { width: 50%;
+ 		border: 1px solid green;
+	}
+	
+td { width: 50%;
+ 		border: 1px solid green;
+	}
