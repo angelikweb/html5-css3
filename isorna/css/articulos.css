@@ -33,11 +33,17 @@ section {
 .portada {
 	background-color: #ffc;
 }
+/*
+.portada > :nth-child(even) {
+	background-color: red;
+	width: 50%;
+}*/
 
 article {
 	border: 1px solid #444;
 	padding: 5px;
 	width: 33%/* !important*/;
+	min-height: 300px;
 	float: left;
 }
 
@@ -60,6 +66,7 @@ a[target='_blank']::after {
 article ~ p {
 	float: left;
 	width: 33%;
+	height: 300px;
 	margin: 0;
 	background-color: #ccc;
 }
@@ -67,6 +74,21 @@ article ~ p {
 .destacado {
 	font-size: 2em;
 	width: 66%;
+	background: #d5cea6; /* Old browsers */
+
+	background: -moz-linear-gradient(top,  #d5cea6 0%, #c6ae21 40%, #b7ad70 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5cea6), color-stop(40%,#c6ae21), color-stop(100%,#b7ad70)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #d5cea6 0%,#c6ae21 40%,#b7ad70 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #d5cea6 0%,#c6ae21 40%,#b7ad70 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #d5cea6 0%,#c6ae21 40%,#b7ad70 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #d5cea6 0%,#c6ae21 40%,#b7ad70 100%); /* W3C */
+	
+
 }
 
 img {
@@ -89,8 +111,19 @@ ul {
 	font-size: .3em;
 }
 
-li {}
+li {
+	/*list-style-image: url(../img/bullet.jpg);*/
+	font-size: .3em;
+	list-style-type: none;
+	padding: 0 0 0 50px;
+	background-image: url(../img/bullet.jpg);
+	background-repeat: no-repeat;
+	background-position: -25px -25px;
+}
 
+tbody tr:nth-child(odd) {
+   background-color: #ccc;
+}
 
 
 

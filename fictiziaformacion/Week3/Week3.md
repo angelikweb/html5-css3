@@ -19,6 +19,7 @@ Week 3 Milestone
 * [Quotes](https://developer.mozilla.org/en-US/docs/Web/CSS/quotes).
 * [Content](https://developer.mozilla.org/en-US/docs/Web/CSS/content).
 * [CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/).
+* [CSS Generator](http://css3generator.com/).
 
 ## Links
 
