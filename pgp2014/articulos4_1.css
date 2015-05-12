@@ -1,0 +1,54 @@
+/* CSS Document */
+
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+html[lang="en"] {
+	/* .... */
+}
+html[lang|="es"] {
+	/* .... */
+}
+
+body {
+	width: 80%;
+	max-width: 1250px;
+	margin: 20px auto;
+}
+
+section {
+	border-bottom: 5px solid ccc;
+	padding: 10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.portada {
+	background-color: #ffc;
+}
+
+article {
+	border: 1px solid #444;
+	padding: 5px;
+	width: 33%/* !important*/;
+	float: left;
+}
+
+article::after {
+	content: attr(title);
+	font-size: 14px;
+	text-align: right;
+	display:block;
+}
+@media print {
+	a[href]::after {
+		content: " (" attr(href) ") ";
+	}
+}

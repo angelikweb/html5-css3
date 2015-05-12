@@ -1,0 +1,21 @@
+/* CSS Document */
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+section {
+	border:1px solid #000;
+}
+table {
+
+  border: 10px solid #000;
+  background: #9C1FC0;
+}
+th {
+	border:1px solid #000;
+}
