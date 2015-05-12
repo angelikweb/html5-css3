@@ -55,6 +55,15 @@ ul {
 	background-color: blue;
 	padding: 50px 20px;
 }
+
+.pag1 {
+	background-color: black;
+}
+
+li.pag1 {
+	background-color: white;
+}
+	
 	
 li {
 	color:red;

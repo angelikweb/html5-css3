@@ -1,0 +1,69 @@
+/* CSS Document */
+
+body {
+	
+	background: linear-gradient(to bottom,  #DB6264 0%, #C21316 100%); /* W3C */ 
+	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/* width: 80%; */
+	width: 700px;
+	margin: auto;
+}
+
+#CABEZA {
+	height: 200px;
+	width: 700px;
+	background-color: black;
+	margin-bottom: 20px;
+}
+
+h1 {
+	color: white;
+	font-size: 100px;
+}
+
+#CUERPO {
+	height: 700px;
+	width: 700px;
+	background-color: black;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+/*
+.cuerpo_noflota {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+}
+
+.cuerpo_flota {
+	background-color: white;
+	width: 300px;
+	height: 300px;
+}
+
+*/
+
+.div_cuerpo {
+	background-color: white;
+	width: 335px;
+	height: 335px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+img {
+}
+
+img::after {
+	content: attr(data-alt,)
+}
+
+#PIE {
+	height: 300px;
+	width: 700px;
+	background-color: black;
+	margin-bottom: 20px;
+}
