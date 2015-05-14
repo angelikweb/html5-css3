@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es_ES">
+    <head>
+        <meta charset="UTF-8">
+        <title>citas</title>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <style>
+		html {
+			  box-sizing: border-box;
+			}
+			*, 
+			*:before, 
+			*:after {
+			  box-sizing: inherit;
+			}
+		
+		/*
+        	blockquote,
+			p {
+				font-size: 48px;
+			}
+			blockquote:before,
+			p:before {
+				content: open-quote;
+			}*/
+			
+			blockquote {
+			  background: #f9f9f9;
+			  border-left: 10px solid #ccc;
+			  margin: 1.5em 10px;
+			  padding: 0.5em 10px;
+			  quotes: "\201C""\201D""\2018""\2019";
+			}
+			blockquote:before {
+			  color: #ccc;
+			  content: open-quote;
+			  font-size: 4em;
+			  line-height: 0.1em;
+			  margin-right: 0.25em;
+			  vertical-align: -0.4em;
+			}
+			blockquote:after {
+			  color: #ccc;
+			  content: close-quote;
+			  font-size: 4em;
+			  line-height: 0.1em;
+			  margin-right: 0.25em;
+			  vertical-align: -0.4em;
+			}
+			blockquote p {
+			  display: inline;
+			}
+			
+			q:before {
+			color: red;
+			  font-size: 4em;
+			  line-height: 0.1em;
+			  margin-right: 0.25em;
+			  vertical-align: -0.4em;
+			}
+			
+			.galeria {
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+			}
+			
+			.polaroid {
+				list-style-type: none;
+				width: 33%;
+				margin: 5px .15% 10px;
+				float: left;
+			}
+			
+			figure {
+				border: 1px solid #444;
+				padding: 20px;
+				margin: 0;
+			}
+			
+			figure img {
+				width: 100%;
+			}
+			
+			figcaption {
+				padding-top: 20px;
+				text-align: center;
+			}
+			
+			.separador {
+				background-color: red;}
+				
+			.cajaconscroll {
+				height: 200px;
+				overflow: scroll;
+			}
+        </style>
+    </head>
+
+    <body>
+    	<blockquote cite="http://wikipedia.com">
+        	Texto citado
+            <blockquote cite="http://wikipedia.com">
+                Texto citado
+            </blockquote>
+        </blockquote>
+        <p>Texto citado</p>
+        
+        <p>Everytime Kenny is killed, Stan will announce 
+           <q cite="http://en.wikipedia.org/wiki/Kenny_McCormick#Cultural_impact">
+             Oh my God, you/they killed Kenny!
+           </q>.
+        </p>
+        
+        <ol class="galeria">
+            <li class="polaroid">
+                <figure>
+                    <img src="img/fictizia_instalaciones_03.png" alt="Foto" width="200">
+                    <figcaption>Pié de foto</figcaption>
+                </figure>
+            </li>
+            <li class="polaroid">
+                <figure>
+                    <img src="img/fictizia_instalaciones_03.png" alt="Foto" width="200">
+                    <figcaption>Pié de foto</figcaption>
+                </figure>
+            </li>
+            <li class="polaroid">
+                <figure>
+                    <img src="img/fictizia_instalaciones_03.png" alt="Foto" width="200">
+                    <figcaption>Pié de foto</figcaption>
+                </figure>
+            </li>
+        </ol>
+        
+        <div class="separador">SEPARADOR</div>
+        
+        <div class="cajaconscroll">
+        	<img src="img/fictizia_instalaciones_03.png" alt="Foto" width="100%">
+        </div>
+        
+        
+    </body>
+</html>
