@@ -4,6 +4,9 @@
   -moz-box-sizing: border-box;    /* Firefox 1 - 28 */
   box-sizing: border-box;         /* Safari 5.1+, Chrome 10+, Firefox 29+, Opera 7+, IE 8+, Android 4.0+, iOS any */
 }
+body { width: 1024px;
+}
+
 
 .galeria {	float:hidden;
 			margin: 0;
@@ -27,7 +30,7 @@ img {
 	width: 100%;
 	}
 
-ol {margin: 0;
+ol { margin: 0;
 	overflow: hidden;
 }
 
@@ -36,7 +39,7 @@ figure { border: 1px solid black;
 	padding: 20px 20px 60px 20px;
 	margin: 0;
 	background-color:#FBFBFB;
-	position:relative;
+	position: relative;
 	
 }
 
