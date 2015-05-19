@@ -1,0 +1,60 @@
+/* CSS Document */
+
+
+html{
+	background-color:#9B9494;
+	background-image: url(img/degradado.png);
+	background-repeat: repeat-x;	
+	
+}
+
+.ul_icono{
+	list-style:none;	
+	overflow:hidden;
+}
+
+
+.ul_nav{
+	list-style:none;	
+	overflow:hidden;
+}
+
+ul_nav li{
+	
+	padding: 2em;
+}
+
+
+.izda{
+	
+	float:left;
+}
+
+
+
+.dcha{
+	float:right;
+}
+
+nav > ul > li > ol > li{
+	display: block;
+}
+
+
+
+nav{
+	background-color:#EB1A1E;
+}
+
+
+
+body{
+	width: 960px;
+	margin: 0 auto;
+	background-color:#C5C5C5;
+}
+
+.contenedor{
+	
+	background-color:#FAFAFA;
+}
