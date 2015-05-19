@@ -1,0 +1,19 @@
+/* CSS Document */
+
+body {
+	background-color:rgba(185,10,13,1.00);	
+	margin: auto;
+}
+
+/*div {
+	background-color:rgba(255,255,255,1.00);
+}
+*/
+img {
+	background-color: white;
+	margin: 20px;
+}
+
+p {
+	margin: auto;
+}
