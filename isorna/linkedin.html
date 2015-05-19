@@ -19,12 +19,21 @@
 			header {
 				height: 71px;
 			}
-			
-			nav {
-				padding: 42px 0 0 0;
+			header h1 {
+				margin: 0;
+				width: 42px;
+				height: 42px;
+			}
+			header h1 a {
+				display: block;
 			}
 			
-			ol {
+			nav {
+				padding: 0;
+			}
+			
+			nav > ol,
+			nav > ol ol {
 				overflow: hidden;
 				margin: 0;
 				padding: 0;
@@ -32,12 +41,27 @@
 				line-height: 29px;
 			}
 			
-			ol li {
+			nav > ol > li {
 				float: left;
 				padding-right: 2em;
 			}
+			.con-submenu {
+				background-image: url(img/flecha.png);
+				background-repeat: no-repeat;
+				background-position: right 5px;
+			}
 			
-			li.derecha {
+			nav > ol > li ol {
+				display: none;
+				background-color: #444;
+				box-shadow: 4px 4px 4px #444;
+			}
+			nav > ol > li:hover ol {
+				display: block;
+				position: absolute;
+			}
+			
+			nav > ol > li.derecha {
 				float: right;
 				padding-right: 0;
 				padding-left: 2em;
@@ -46,25 +70,55 @@
 			ol li a {
 				text-decoration: none;
 				color: white;
+				display: block;
+				padding: 0 .8em;
+				line-height: 29px;
 			}
 			
 			ol li a:hover {
 				text-decoration: underline;
+				background-color: rgba(223,249,75,0.36);
+				box-shadow: 4px 4px 4px #444;
 			}
         </style>
     </head>
     
     <body>
     	<header>
-        	<nav>
-            	<ol>
-                	<li><a href="#seccion">Sección 1</a></li>
-                    <li><a href="#seccion">Sección 2</a></li>
-                    <li><a href="#seccion">Sección 3</a></li>
-                    <li><a href="#seccion">Sección 4</a></li>
-                    <li><a href="#seccion">Sección 5</a></li>
-                    <li class="derecha"><a href="#seccion">Sección 7</a></li>
-                    <li class="derecha"><a href="#seccion">Sección 6</a></li>
+        	<h1><a href="/" title="home"><img src="img/bullet.jpg" alt="Logotipo de mi web" width="42" /></a></h1>
+        	<nav class="navegacion">
+            	<ol class="menu-principal">
+                	<li class="menu-item"><a href="#seccion">Sección 1</a></li>
+                    <li class="menu-item con-submenu">
+                    	<a href="#seccion">Sección 2</a>
+                        <ol class="menu-secundario">
+                        	<li class="menu-item"><a href="#seccion">Sección 2.1</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 2.2</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 2.3</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 2.4</a></li>
+                        </ol>
+                    </li>
+                    <li class="menu-item con-submenu">
+                    	<a href="#seccion">Sección 3</a>
+                        <ol class="menu-secundario">
+                        	<li class="menu-item"><a href="#seccion">Sección 3.1</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 3.2</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 3.3</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 3.4</a></li>
+                        </ol>
+                    </li>
+                    <li class="menu-item"><a href="#seccion">Sección 4</a></li>
+                    <li class="menu-item"><a href="#seccion">Sección 5</a></li>
+                    <li class="menu-item derecha"><a href="#seccion">Sección 7</a></li>
+                    <li class="menu-item con-submenu derecha">
+                    	<a href="#seccion">Sección 6</a>
+                        <ol class="menu-secundario">
+                        	<li class="menu-item"><a href="#seccion">Sección 6.1</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 6.2</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 6.3</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 6.4</a></li>
+                        </ol>
+                    </li>
                 </ol>
             </nav>
         </header>
