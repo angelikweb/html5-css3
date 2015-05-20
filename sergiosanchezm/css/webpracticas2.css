@@ -1,80 +1,96 @@
-    header {    background-repeat: repeat-x;
-                background-image: url(../imagenes/barrasuperior2.png);
-                position:relative;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 95px;
-				font-family:Arial, Helvetica, sans-serif;
-        color:azure;
-			}
+            html {
+                    background-color:#999; 
+
+}   
+
+
+            header {
+                    background-repeat: repeat-x;
+                    background-image: url(../imagenes/barrasuperior2.png);
+                    position:relative;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 95px;
+                    font-family:Arial, Helvetica, sans-serif;
+                    color:azure;
+        }
 			
 			ul, ol {
-				list-style:none;
-			}
+				    list-style:none;
+}
 			
-nav { 
-    float:left;
-    overflow: hidden;
-    width: 100%
+            nav { 
+                    float:left;
+                    overflow: hidden;    /*el contenido que sale de la caja es recortado quedando oculto*/
+                    width: 100%;
 
 }
 			
 
-.menu { 
-            left: 50%;
-            margin: 0 auto;
-            padding-top: 54px;
-            padding-left: 600px;
+            .menu { 
+                   
+                    margin:auto;
+                    width: 980px;
+                    padding-top: 54px;
+                   
 }
 
 
 
             .menu > li {
-				float:left;
-			}
+				    float:left;
+}
 			
 			.menu li a {
-				background-color:#dfe0e3;
-				color:dimgray;
-				text-decoration:none;
-				padding:10px 20px;
-				display:block;
+                    background-color:#dfe0e3;
+                    color:dimgray;
+                    text-decoration:none;
+                    padding:10px 20px;
+                    display:block;
                
-			}
-			
-            .menu ul li a {
-				background-color:cadetblue;
-                color:#fff;
-                 box-shadow: 1px 1px 3px #333;
-				
-			}
-			.menu li a:hover {
-				background-color:#434343;
-			}
-			
-			.menu li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-			}
-			
-			.menu li:hover > ul {
-				display:block;
-			}
-			
-			.menu li ul li {
-				position:relative;
-			}
-			
-			.menu li ul li ul {
-				right:-140px;
-				top:0px;
-			}
-
-img {
-	position:absolute;
-			top: 0;
-			left: 0;
-			height: 90px;
 }
+			
+            .menu ol li a {                      /*personlización de los enlaces del menú*/
+                    background-color:#56e0d6;
+                    color:#fff;
+                    box-shadow: 1px 1px 3px #333;
+                    text-align: left;
+				
+}
+			.menu li a:hover {                /*cuando pasamos el ratón se resalta la casilla*/
+				    background-color:#434343;
+}
+			
+			.menu li ol {                 /*hacemos desaparecer los submenús. La posición absolute permite dar un tamaño adaptado con min-width, que nos permite darle un anco mínimo al elemento*/
+                    display:none;
+                    position:absolute;
+                    min-width:140px;
+}
+			
+			.menu li:hover > ol {         /*para que se desplieguen los menús al hacer hover*/
+				    display:block;
+}
+			
+			.menu li ol li {             /*submenú*/
+				    position:relative;
+}
+			
+			.menu li ol li ol {    /*submenú*/
+                    right:-140px;
+                    top:0px;
+}
+
+            li.derecha {
+                float:right;
+                padding-right: 0;
+                padding-left: 20px;
+}
+
+            img {
+	             position:absolute;
+			     top: 0;
+			     left: 0;
+			     height: 90px;
+}
+
