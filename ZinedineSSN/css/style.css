@@ -166,6 +166,16 @@ li ol {
 
 
 
+/* Links
+ *
+ *
+ *
+ **/
+
+
+
+
+
 
 /* Menú
  *
@@ -177,7 +187,6 @@ li ol {
   display: inline-table;
   position: fixed; /* position: fixed; */
   vertical-align: top;
-  z-index: -1;
 
   width: 20%;
   left: -100%;
@@ -211,13 +220,14 @@ li ol {
 
       display: inline-table;
 
-        background-color: ;
+      background-color: ;
       border-bottom: 2px solid rgba(96, 169, 219, 1);
       box-shadow: 0 1px 0 rgba(255, 255, 255, .3);
 
     }
 
 .navegacion li a{
+  cursor: auto;
   text-decoration: none;
   font-size: 18px;
   width: auto;
@@ -229,6 +239,8 @@ li ol {
 
   color: rgba(255, 255, 255, .6);
   background-color: ;
+
+  z-index: 99999;
 
 }
 
@@ -297,7 +309,7 @@ html {
 body{
   width: 100%;
   display: block;
-  background: url(https://github.com/fictiziaformacion/html5-css3/blob/master/ZinedineSSN/images/fondo-webPrueba_Ficticia.png?raw=true) top left no-repeat fixed;
+  background: url(https://github.com/fictiziaformacion/html5-css3/blob/master/ZinedineSSN/images/fondo-webPrueba_Ficticia.png?raw=true) top left no-repeat fixed, rgb(77, 138, 194);
  }
 
 .master-main{
@@ -372,7 +384,7 @@ body{
 
   .seccion-principal{
     width: 100%;
-    max-width: 900px;
+    max-width: 850px;
 
     display: block;
     position: relative;
@@ -384,6 +396,31 @@ body{
 
     transition: all .5s ease;
   }
+
+
+/* media queries */
+@media all and (min-width: 37.4375em){
+  html{
+    font-size: 92%;
+  }
+}
+
+
+@media all and (min-width: 49.9375em) {
+  html{
+    font-size: 97%;
+  }
+
+}
+
+@media all and (min-width: 63.9375em) {
+  html{
+    font-size: 100%;
+  }
+
+  .seccion-principal{padding: 34px 40px;}
+
+}
 
 
 /*
@@ -443,113 +480,113 @@ body{
 /* menú */
 
 .menu-wraper{
-	display: block;
-	width: 100%;
-	position: relative;
-	
-	background-color: pink;
+  display: block;
+  width: 100%;
+  position: relative;
+
+  background-color: pink;
 }
-	.menu,
-	.cabecera-logo{
-		width: 80%;
-		display: block;
-		overflow: hidden;
-		
-		margin: 0 auto;
-		
-		background-color: red;	
-	}
-	
-		.cabecera-logo{
-			padding: 10px 20px;
-			
-			background-color: rgb(255, 178, 178);	
-		}
-			.cabecera-logo img{
-				display: inline-block;	
-				width: 5%;
-				
-				margin-right: 2%;
-				
-				vertical-align: top;
-			}
-				.cabecera-logo input{
-					display: inline-block;	
-					width: 71%;
-					
-					margin-right: 2%;
-					margin-top: 20px;
-					padding: 50px;
-					
-					vertical-align: top;
-					
-					background-color: white;
-				}
-				
-					/* nav logo */
-					.cabecera-logo ul{
-						display: inline-block;	
-						width: 20%;	
-						
-						vertical-align: top;
-						margin-bottom: 0;
-						
-						background-color: white;
-					}
-						.cabecera-logo ul li{
-							list-style-type: none;
-							display: inline-block;
-							width: 33.333%;
-							
-							margin-bottom: 0;
-						}
-							.cabecera-logo ul li a{
-								width: 100%;
-								display: inline-block;	
-								
-								text-align: center;
-								line-height: 3.2;	
-							}
-		.menu > li{
-			width: auto;
-			list-style-type: none;
-			display: inline-block;
-			
-			position: relative;	
-			float: left;
-			
-			margin-right: 15px;
-			
-			vertical-align: top;
-		}
-			.menu li:nth-child(4){
-				float: right;	
-				margin-right: 0;
-			}
-			.menu li:last-child{
-				float: right;
-				
-				margin-left: 15px;
-			}
-		
-			.menu li ul{
-				display: block;
-				width: auto;
-				margin: 0;
-				padding: 0;	
-				
-				overflow: hidden;
-				background-color: #fff;
-				
-				position: absolute;
-				left: 0;
-				
-				z-index: 9999999;
-			}
-				.menu li > ul li{
-					width: 100%;
-					display: inline-block;
-				}
+  .menu,
+  .cabecera-logo{
+    width: 80%;
+    display: block;
+    overflow: hidden;
+
+    margin: 0 auto;
+
+    background-color: red;
+  }
+
+    .cabecera-logo{
+      padding: 10px 20px;
+
+      background-color: rgb(255, 178, 178);
+    }
+      .cabecera-logo img{
+        display: inline-block;
+        width: 5%;
+
+        margin-right: 2%;
+
+        vertical-align: top;
+      }
+        .cabecera-logo input{
+          display: inline-block;
+          width: 71%;
+
+          margin-right: 2%;
+          margin-top: 20px;
+          padding: 50px;
+
+          vertical-align: top;
+
+          background-color: white;
+        }
+
+          /* nav logo */
+          .cabecera-logo ul{
+            display: inline-block;
+            width: 20%;
+
+            vertical-align: top;
+            margin-bottom: 0;
+
+            background-color: white;
+          }
+            .cabecera-logo ul li{
+              list-style-type: none;
+              display: inline-block;
+              width: 33.333%;
+
+              margin-bottom: 0;
+            }
+              .cabecera-logo ul li a{
+                width: 100%;
+                display: inline-block;
+
+                text-align: center;
+                line-height: 3.2;
+              }
+    .menu > li{
+      width: auto;
+      list-style-type: none;
+      display: inline-block;
+
+      position: relative;
+      float: left;
+
+      margin-right: 15px;
+
+      vertical-align: top;
+    }
+      .menu li:nth-child(4){
+        float: right;
+        margin-right: 0;
+      }
+      .menu li:last-child{
+        float: right;
+
+        margin-left: 15px;
+      }
+
+      .menu li ul{
+        display: block;
+        width: auto;
+        margin: 0;
+        padding: 0;
+
+        overflow: hidden;
+        background-color: #fff;
+
+        position: absolute;
+        left: 0;
+
+        z-index: 9999999;
+      }
+        .menu li > ul li{
+          width: 100%;
+          display: inline-block;
+        }
 
 
 
