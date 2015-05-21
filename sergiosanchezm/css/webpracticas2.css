@@ -15,6 +15,14 @@
                     font-family:Arial, Helvetica, sans-serif;
                     color:azure;
         }
+		
+		input {
+				width: 25%;
+				margin:auto;
+				
+				padding-top: 10px;
+				
+}
 			
 			ul, ol {
 				    list-style:none;
@@ -99,7 +107,9 @@
 			     height: 90px;
 }
 
-.submenu > a:after {
-	content: '\25BC';
+			.submenu > a:after {
+				content: '\25BC';
 	
-	}
+}
+
+			
