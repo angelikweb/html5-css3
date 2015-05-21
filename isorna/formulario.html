@@ -12,6 +12,17 @@
 		input:invalid {
 			background-color: #ffc;
 		}
+		
+		input[type=checkbox] {
+			display: none;
+		}
+		input[type=checkbox] + label {
+			text-decoration: underline;
+		}
+		input[type=checkbox]:checked + label {
+			background-color: rgba(174,255,185,1.00);
+		}
+		
     </style>
 </head>
 
