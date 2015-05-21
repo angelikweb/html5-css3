@@ -36,6 +36,16 @@ ul_nav li{
 	float:right;
 }
 
+
+.ol_desplegable{
+	overflow:hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	line-height: 29px;
+	
+}
+
 nav > ul > li > ol > li{
 	display: block;
 }
