@@ -309,7 +309,7 @@ html {
 body{
   width: 100%;
   display: block;
-  background: url(https://github.com/fictiziaformacion/html5-css3/blob/master/ZinedineSSN/images/fondo-webPrueba_Ficticia.png?raw=true) top left no-repeat fixed, rgb(77, 138, 194);
+  background-color: rgb(77, 138, 194);
  }
 
 .master-main{
