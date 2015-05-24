@@ -12,14 +12,18 @@
 		<header>
             <div><img src="imagenes/logofizticia.png" alt="logo"></div>
 	
-    		          	<form action="" method="get">
-    	<fieldset class="flotados">
-       
-       <input type="text" id="nombre" name="nombre" placeholder="busca en Google" required autocomplete="off" list="nombres" title="Introduce tu nombre" size="30" maxlength="20" />
-       </fieldset>
-       </form>
-
+     
             <nav>
+                
+            <form action="" method="get">
+                
+    	   <fieldset class="buscador">
+       
+                <input type="text" id="nombre" name="nombre" placeholder="busca en Google" required autocomplete="off" list="nombres" title="Introduce tu nombre"                           size="30"  maxlength="20" />
+           </fieldset>
+        </form>
+                
+                
             <ol class="menu">
 				<li><a href="">Inicio</a></li>
 				<li><a href="">Servicios</a>
@@ -54,14 +58,35 @@
 					</ol>
                 </li>
 			</ol>
-                </nav>
+            </nav>
                 
-                	<form action="" method="get">
-    	<fieldset class="flotados">
-       
                
 		</header>
+    
         
+    <div class="contenedor">
+        <div class="elemento">
+			<h1>Formulario de contacto</h1>
+            
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis vulputate elit, vel condimentum nulla rutrum et. Proin gravida egestas dui sit amet gravida. Curabitur ultricies ultrices diam, sit amet suscipit nunc luctus</p>
+            
+        <form action="" method="get"> 
+            
+            <fieldset class="flotados">
+        	<label for="texto">Texto:</label>
+        	<textarea id="texto" name="texto" title="Introduce un texto"></textarea>
+            
+           
+            <label for="fecha2">Fecha:</label>
+            <input type="datetime-local" id="fecha2" name="fecha2" placeholder="23/12/2014" title="Introduce una fecha" />
+            </fieldset>
+            <br>
+            <input type="submit" value="ENVIAR" title="Haz click para enviar los datos" />
+            
+        </form>
+        
+		</div> 
+    </div>
       
 	</body>
 </html>
