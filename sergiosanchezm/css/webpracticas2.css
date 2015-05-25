@@ -29,18 +29,35 @@
 			ul, ol {
 				    list-style:none;
 }
-			
+		     
+
+
+
+            #cajabuscador {
+
+                    width: 200px;
+                    margin-left: 600px;
+                    position: relative;
+       
+}	
+            
+
             nav { 
                     float:left;
                      /*el contenido que sale de la caja es recortado quedando oculto*/
                     width: 100%;
                     margin-left: 20px;
                     position: absolute;
-                    padding-top: 54px;
-                    
-            }
+                    padding-top: 25px;
+
+}
                 
                
+   
+
+
+
+
                 input {
 				        width: 200px;
 				        margin:0 auto;
@@ -49,11 +66,9 @@
 }
 					
 
-            #google{ float:left;
-                    padding-top: 10px;
-               padding-left: 700px;
-} 
-			
+
+		
+    
 
             .menu { 
                    
