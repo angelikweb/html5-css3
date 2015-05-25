@@ -15,8 +15,8 @@
                     font-family:Arial, Helvetica, sans-serif;
                     color:azure;
         }
-            .flotados { padding:20px;
-                        position: relative;
+            /*.flotados { padding:20px;
+                        position: relative;*/
 }	
 
             .flotados { padding:20px;
@@ -32,12 +32,13 @@
 			
             nav { 
                     float:left;
-                    overflow: hidden;    /*el contenido que sale de la caja es recortado quedando oculto*/
+                     /*el contenido que sale de la caja es recortado quedando oculto*/
                     width: 100%;
                     margin-left: 20px;
                     position: absolute;
+                    padding-top: 54px;
                     
-                
+            }
                 
                
                 input {
@@ -45,18 +46,20 @@
 				        margin:0 auto;
 				        padding-top: 10px;
                 
-				
 }
 					
 
-}
+            #google{ float:left;
+                    padding-top: 10px;
+               padding-left: 700px;
+} 
 			
 
             .menu { 
                    
-                    margin:auto;
+                    margin:0px auto;
                     width: 980px;
-                    padding-top: 54px;
+                    
                    
 }
 
@@ -86,10 +89,11 @@
 				    background-color:#434343;
 }
 			
-			.menu li ol {                 /*hacemos desaparecer los submenús. La posición absolute permite dar un tamaño adaptado con min-width, que nos permite darle un ancho mínimo al elemento*/
+			.menu li ol {                 /*hacemos desaparecer los submenús. La posición absolute permite dar un tamaño adaptado con min-width, que nos permite darle un                                            ancho mínimo al elemento*/
                     display:none;
                     position:absolute;
                     min-width:140px;
+                
 }
 			
 			.menu li:hover > ol {         /*para que se desplieguen los menús al hacer hover*/
@@ -98,11 +102,13 @@
 			
 			.menu li ol li {             /*submenú*/
 				    position:relative;
+              
 }
 			
 			.menu li ol li ol {    /*submenú*/
                     right:-140px;
                     top:0px;
+                
 }
 
             li.derecha {
@@ -116,59 +122,62 @@
 }
 
             img {
-	             position:absolute;
+	            
 			     top: 0;
 			     left: 0;
 			     height: 90px;
 }
+
+            .logo {float: left}
 
 			.submenu > a:after {
 				content: '\02C3';
 	
 }
 
-.contenedor {
-	width:100%;
-	padding-top: 50px;
-    
+            .contenedor {
+                width:100%;
+                padding-top: 50px;
+        
 }
 
 
-.elemento {
-	width:1000px;
-    height: 600px;
-	background:#fff;
-    margin:0 auto;
-    padding-top: 10px;
-	box-shadow:0 1px 2px 0 rgba(0,0,0,0.22);
+            .elemento {
+                width:1000px;
+                height: 600px;
+                background:#fff;
+                margin:0 auto;
+                padding-top: 10px;
+                box-shadow:0 1px 2px 0 rgba(0,0,0,0.22);
   
 }
  
-.elemento p {
-	padding:10px;
-	font-size:13px;
+            .elemento p {
+                padding:10px;
+                font-size:15px;
 }
  
-h1 {  margin: 5px 0 8px 0;
-  max-height: 130px;
-  overflow: hidden;
-  font-size: 40px;
-  line-height: 125%;
-  font-family: "DIN";
-  padding-left: 20px;
+            h1 {  margin: 5px 0 8px 0;
+                  max-height: 130px;
+                  overflow: hidden;
+                  font-size: 40px;
+                  line-height: 125%;
+                  font-family: "DIN";
+                  padding-left: 20px;
 }
 
-form {
-	width: 100%;
-	margin: 50px auto;
+            #formulario {
+                width: 90%;
+                margin: 50px auto;
+              
     
 }
 
-.flotados label {
-	float: left;
-	width: 30%;
-	text-align: right;
-	margin: 0 5px 10px;
+            .flotados label {
+                float: left;
+                width: 30%;
+                text-align: left;
+                margin: 0 5px 10px;
 }
     
     
@@ -178,7 +187,7 @@ textarea {
     
 }
 
-input[type=submit],
+
 input[type=date] {
 	float: left;
 	width: 100%;
@@ -188,9 +197,10 @@ input[type=date] {
 }
 
 input[type=submit] {
-	width: 30%;
-	margin: 0 auto;
+	width: 20%;
+	margin: 20 30 50 20;
 	border: none;
 	border-bottom: 1px solid #c1c1c1;
+  
 }
 			
