@@ -658,6 +658,49 @@ body{
           line-height: 1.3;
           padding: 0 4px;
         }
+		
+	.progres-bar{
+		display: block;
+		width: 100%;	
+		
+		background-color: #fff;
+		
+		border-radius: 15px;
+	}
+	
+		.porcentaje{
+			width: 55%;	
+			height: 35px;	
+			position: relative;
+			
+			background-color: pink;
+			border-top-left-radius: 15px;
+			border-bottom-left-radius: 15px;
+			
+			transition: 2s all ease;
+			
+			text-align: right;
+		}
+		
+			.porcentaje:hover{
+				width: 78%;	
+				background-color: blue;
+				
+				transition: 2s all ease;
+			}
+			
+			.porcentaje span{
+				width: auto;
+				
+				position: absolute;
+				
+				font-syze: 16px;
+				line-height: 15px;
+				
+				padding: 40px 0 1px 5px;
+				
+				border-left: 1px solid #000;
+			}
 
 
 
@@ -740,11 +783,6 @@ body{
       vertical-align: bottom;
       margin-right: .3rem;
     }
-
-
-
-
-
 
 
 
