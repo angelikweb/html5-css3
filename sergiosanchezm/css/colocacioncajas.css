@@ -1,0 +1,100 @@
+/* CSS Document */
+
+html {
+	background-color:#D2D2D2;
+	}
+
+
+
+body {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	}
+
+
+section.contenido {
+	width: 70%;
+	}
+
+
+aside {
+	width: 30%;
+	position:absolute;
+	margin: 30px 0 0;
+	padding: 10px 10px 50px; 
+	box-sizing:border-box;
+	right: 0; 
+	background-color:#B6B6B6;
+	border: 1px solid black;
+	}
+
+
+	.barra-progreso {
+	
+		margin:20px 0;
+		box-sizing:border-box;
+		border: 1px solid #444;
+		border-radius: 15px;
+		background-color: #FFFFFF;
+	}
+	
+	.porcentaje {
+		
+		height: 30px;
+		box-sizing: border-box;
+		background-color: #2C7EC5;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+		width: 40%;
+		border-right: 1px solid #444;
+		line-height:30px;
+		font-size: 1em;
+		font-weight:bold;
+		color: white;
+		text-align: right;
+		
+	}
+	
+	.etiqueta {
+		
+		position: absolute;
+		padding: 30px 0px 0px 10px;
+		border-left: 1px solid #000000;
+		color: black;
+		
+		}
+
+			.principal {
+				margin-top: 50px;
+			}
+			.encabezado {
+				background-color:#EBEBEB;
+				position: relative;
+			}
+			.encabezado img {
+				position: absolute;
+				top: -20px;
+				left: 5px;
+				height: 90px;
+			}
+			.encabezado h1 {
+				font-size: 36px;
+				font-weight: bold;
+				line-height: 100px;
+				height: 100px;
+				padding: 0 20px 0 150px;
+			}
+			
+			.utilidades {
+				position: absolute;
+				right: 20px;
+				top: 0;
+			}
+			.utilidades li {
+				display: inline;
+				font-size: 15px;
+				line-height: 100px;
+			}
+			.utilidades li button {
+				font-size: 15px;

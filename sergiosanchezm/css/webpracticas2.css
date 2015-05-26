@@ -213,7 +213,7 @@ input[type=date] {
 
 input[type=submit] {
 	width: 20%;
-	margin: 20 30 50 20;
+	margin: 20 30 0 20;
 	border: none;
 	border-bottom: 1px solid #c1c1c1;
   
