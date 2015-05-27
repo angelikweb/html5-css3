@@ -658,49 +658,54 @@ body{
           line-height: 1.3;
           padding: 0 4px;
         }
-		
-	.progres-bar{
-		display: block;
-		width: 100%;	
-		
-		background-color: #fff;
-		
-		border-radius: 15px;
-	}
-	
-		.porcentaje{
-			width: 55%;	
-			height: 35px;	
-			position: relative;
-			
-			background-color: pink;
-			border-top-left-radius: 15px;
-			border-bottom-left-radius: 15px;
-			
-			transition: 2s all ease;
-			
-			text-align: right;
-		}
-		
-			.porcentaje:hover{
-				width: 78%;	
-				background-color: blue;
-				
-				transition: 2s all ease;
-			}
-			
-			.porcentaje span{
-				width: auto;
-				
-				position: absolute;
-				
-				font-syze: 16px;
-				line-height: 15px;
-				
-				padding: 40px 0 1px 5px;
-				
-				border-left: 1px solid #000;
-			}
+
+  .progres-bar{
+    display: block;
+    width: 100%;
+
+    background-color: #fff;
+
+    border-radius: 15px;
+  }
+
+    .porcentaje{
+      width: 55%;
+      height: 20px;
+      position: relative;
+
+      background-color: pink;
+      border-top-left-radius: 25px;
+      border-bottom-left-radius: 25px;
+
+      transition: 2s all ease;
+
+      text-align: right;
+    }
+
+      .porcentaje:hover{
+        width: 78%;
+        background-color: blue;
+
+        transition: 2s all ease;
+      }
+
+      .porcentaje span{
+        width: auto;
+
+        position: absolute;
+
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        margin-bottom: .9em;
+        line-height: 1.6;
+
+        font-size: 14px;
+
+        padding: 19px 0 0 5px;
+
+        border-left: 1px solid #000;
+      }
 
 
 
