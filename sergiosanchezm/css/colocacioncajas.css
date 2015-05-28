@@ -13,10 +13,11 @@ body {
 	}
 
 
+
 section.contenido {
 	width: 70%;
 	}
-
+}
 
 aside {
 	width: 30%;
@@ -53,9 +54,22 @@ aside {
 		font-weight:bold;
 		color: white;
 		text-align: right;
+		transition-property: width, background-color;
+		transition-duration: 1s, 2s;
+		transition-delay: 0.8;
+		transition-timing-function: steps(4, end), ease;
 		
 	}
 	
+	
+	.porcentaje:hover {
+		
+		background-color: red;
+		width: 80%;
+		
+}
+
+
 	.etiqueta {
 		
 		position: absolute;
@@ -77,7 +91,32 @@ aside {
 				top: -20px;
 				left: 5px;
 				height: 90px;
+				animation-name: animacionLogotipo;
+				animation-duration: 2s;
+				animation-iteration-count: 2;
+				animation-timing-function: ease;
+				z-index: 10;
 			}
+			
+			
+			
+			@keyframes animacionLogotipo {
+				
+				from {
+					top: -20px;
+					left: 100%;
+					}
+					
+				to {
+					top: -20px;
+					left: 5px;
+					
+					}
+				
+				
+				}
+			
+			
 			.encabezado h1 {
 				font-size: 36px;
 				font-weight: bold;
