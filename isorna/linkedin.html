@@ -134,6 +134,14 @@
 				font-weight: bold;
 				color: white;
 				text-align: right;
+				transition-property: width, background-color;
+				transition-duration: 1s, 3s;
+				transition-delay: 0.3s, 0;
+				transition-timing-function: steps(4, end), ease;
+			}
+			.porcentaje:hover {
+				background-color: rgba(211,7,51,1.00);
+				width: 80%;
 			}
 			
 			.etiqueta {
@@ -154,7 +162,45 @@
 				position: absolute;
 				top: -20px;
 				left: 5px;
+				animation-name: animacionLogotipo;
+				animation-duration: 2s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease;
+				animation-direction: alternate;
+				z-index: 10;
 			}
+			
+			.encabezado img:hover {
+				animation-play-state: paused;
+			}
+			
+			@keyframes animacionLogotipo {
+				/*
+				from {
+					top: 0;
+					left: 100%;
+				}
+				to {
+					top: -20px;
+					left: 5px;
+				}
+				*/
+				0% {
+					top: 0;
+					left: 100%;
+				}
+				
+				50% {
+					top: 80%;
+					left: 50%;
+				}
+				
+				100% {
+					top: -20px;
+					left: 5px;
+				}
+			}
+			
 			.encabezado h1 {
 				font-size: 36px;
 				font-weight: bold;
