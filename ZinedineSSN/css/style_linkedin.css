@@ -249,6 +249,7 @@ body{
   margin: 0 auto;
 
   background-color: #202020;
+  z-index: 9;
 }
   .nav > li{
     width: auto;
@@ -281,23 +282,33 @@ body{
 
   /* submenú */
   .nav li ul{
-    display: block;
-    width: auto;
-    margin: 0;
-    padding: 0;
-
-    overflow: hidden;
-    background-color: #fff;
-
-    position: absolute;
-    left: 0;
-
-    z-index: 9999999;
+	position: absolute;
+    width: 100%;
+	margin: 10px 0 0 0;
+	padding: 0;
+	
+    background-color: red;
+	
+	display: none;
+	z-index: 999;
   }
-        .menu li > ul li{
+        .nav li ul > li{
           width: 100%;
           display: inline-block;
+		  
+		  overflow: visible;
         }
+		
+		.nav li:hover ul{
+			width: 100%;
+			display: block;
+			
+			position: absolute;
+			
+			overflow: visible;
+		}
+		
+		
 /* nota de enlace */
 .noteLink{
   display: block;
@@ -324,9 +335,10 @@ body{
   margin-bottom: 20px;
 
   background: #fff;
+  
   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
-  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
-  box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+  	 -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+  		  box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
 }
 
   .user-panel img{
@@ -340,9 +352,10 @@ body{
     padding: 6px 4px;
 
   background: #fff;
+  
   -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
-  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
-  box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+  	 -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
+  		  box-shadow: 0 1px 1px rgba(0,0,0,0.15),-1px 0 0 rgba(0,0,0,0.03),1px 0 0 rgba(0,0,0,0.03),0 1px 0 rgba(0,0,0,0.12);
   }
 
   .user-panel__title{
@@ -685,8 +698,6 @@ body{
       .porcentaje:hover{
         width: 78%;
         background-color: blue;
-
-        transition: 2s all ease;
       }
 
       .porcentaje span{
