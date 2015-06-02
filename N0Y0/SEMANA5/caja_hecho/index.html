@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es_ES">
+    <head>
+        <meta charset="UTF-8">
+        <title>practica linkedin</title>
+        <link rel="stylesheet" type="text/css" href="app/css/reset.css">
+        <style>
+        	html {
+				background-color: #D9D9D9;
+				background-image: url(img/degradado.png);
+				background-repeat: repeat-x;
+			}
+			
+			body {
+				width: 947px;
+				margin: 0 auto;
+			}
+			
+			header {
+				height: 71px;
+			}
+			header h1 {
+				margin: 0;
+				width: 42px;
+				height: 42px;
+			}
+			header h1 a {
+				display: block;
+			}
+			
+			nav {
+				padding: 0;
+			}
+			
+			nav > ol,
+			nav > ol ol {
+				margin: 0;
+				padding: 0;
+				list-style-type: none;
+				line-height: 29px;
+			}
+			nav > ol {
+				height: 29px;
+			}
+			nav > ol ol {
+				overflow: hidden;
+			}
+			
+			nav > ol > li {
+				float: left;
+				padding-right: 2em;
+			}
+			.con-submenu {/*
+				background-image: url(img/flecha.png);
+				background-repeat: no-repeat;
+				background-position: right 5px;*/
+			}
+			
+			.con-submenu > a:after {
+				content: '\25BC';
+				padding-left: 5px;
+				font-size: 11px;
+			}
+			
+			nav > ol > li ol {
+				display: none;
+				background-color: #444;
+				box-shadow: 4px 4px 4px #444;
+			}
+			nav > ol > li:hover ol {
+				display: block;
+				position: absolute;
+			}
+			
+			nav > ol > li.derecha {
+				float: right;
+				padding-right: 0;
+				padding-left: 2em;
+				position: relative;
+			}
+			
+			nav > ol > li.derecha ol {
+				right: 0;
+			}
+			
+			ol li a {
+				text-decoration: none;
+				color: white;
+				display: block;
+				padding: 0 .8em;
+				line-height: 29px;
+			}
+			
+			ol li a:hover {
+				text-decoration: underline;
+				background-color: rgba(223,249,75,0.36);
+				box-shadow: 4px 4px 4px #444;
+			}
+			
+			.principal {
+				margin-top: 50px;
+			}
+			.encabezado {
+				background-color: white;
+				position: relative;
+			}
+			.encabezado img {
+				position: absolute;
+				top: -20px;
+				left: 5px;
+			}
+			.encabezado h1 {
+				font-size: 36px;
+				font-weight: bold;
+				line-height: 100px;
+				height: 100px;
+				padding: 0 20px 0 235px;
+			}
+			
+			.utilidades {
+				position: absolute;
+				right: 20px;
+				top: 0;
+			}
+			.utilidades li {
+				display: inline;
+				font-size: 24px;
+				line-height: 100px;
+			}
+			.utilidades li button {
+				font-size: 24px;
+			}
+			
+			.barra {
+				height: 100px;
+				width: 250px;
+				background-color: rgba(217,191,192,1.00);
+			}
+			
+			.porcentaje {
+				height: 25px;
+				width: 150px;
+				background-color: white;
+				margin-left: 50px;
+				border-radius: 15px;
+				margin-top: 20px;  
+			}
+			
+			.etiqueta {
+				position: absolute;
+				padding: 30px 0 0 10px;
+				border-left: 1px solid black;
+				color: black;
+				margin-left: 40px;
+			}
+			
+			footer {
+				margin-top: 200px;
+				background-color: rgba(107,107,107,1.00);
+			}
+			
+			.flexbox {
+			  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+			  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+			  display: -ms-flexbox;      /* TWEENER - IE 10 */
+			  display: -webkit-flex;     /* NEW - Chrome */
+			  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+			}
+        </style>
+        
+    </head>
+    
+    <body>
+    	<header>
+        	<h1><a href="/" title="home"><img src="img/bullet.jpg" alt="Logotipo de mi web" width="42" /></a></h1>
+        	<nav class="navegacion">
+            	<ol class="menu-principal">
+                	<li class="menu-item"><a href="#seccion">Sección 1</a></li>
+                    <li class="menu-item con-submenu">
+                    	<a href="#seccion">Sección 2</a>
+                        <ol class="menu-secundario">
+                        	<li class="menu-item"><a href="#seccion">Sección 2.1</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 2.2</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 2.3</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 2.4</a></li>
+                        </ol>
+                    </li>
+                    <li class="menu-item con-submenu">
+                    	<a href="#seccion">Sección 3</a>
+                        <ol class="menu-secundario">
+                        	<li class="menu-item"><a href="#seccion">Sección 3.1</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 3.2</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 3.3</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 3.4</a></li>
+                        </ol>
+                    </li>
+                    <li class="menu-item"><a href="#seccion">Sección 4</a></li>
+                    <li class="menu-item"><a href="#seccion">Sección 5</a></li>
+                    <li class="menu-item derecha"><a href="#seccion">Sección 7</a></li>
+                    <li class="menu-item con-submenu derecha">
+                    	<a href="#seccion">Sección 6</a>
+                        <ol class="menu-secundario">
+                        	<li class="menu-item"><a href="#seccion">Sección 6.1</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 6.2</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 6.3</a></li>
+                            <li class="menu-item"><a href="#seccion">Sección 6.4</a></li>
+                        </ol>
+                    </li>
+                </ol>
+            </nav>
+        </header>
+        
+    	<section class="principal">
+        	<div class="encabezado">
+            	<img src="img/logo2.png" width="215" height="144" alt="logotipo"/>
+            	<h1>Fictizia Alumni</h1>
+                <ul class="utilidades">
+                	<li><a href="#op1">35 members</a></li>
+                    <li><button>Member</button></li>
+                    <li><a href="#op1">[ICO]</a></li>
+                    <li><a href="#op1">[ICO]</a></li>
+                </ul>
+            </div>
+            
+            <div class="barra">
+            	<div class="porcentaje">
+                	<span class="etiqueta"> 40% </span>
+            	</div>
+            </div>
+        </section>
+    	<footer>
+        	<p>Aquí mi footer</p>
+        </footer>
+    </body>
+</html>

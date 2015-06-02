@@ -1,0 +1,43 @@
+/* CSS Document */
+
+.encabezado {
+	
+	background-color: blue;
+
+}
+
+.encabezado img {
+	
+	float: left;
+	overflow: hidden;
+	margin: 25px 20px;
+	/*position: absolute;*/
+	
+} 
+
+.encabezado h1 {
+	
+	color: white;
+	/*
+	Con el line-height te mantiene el texto centrado verticalmente
+	Ponemos el height del mismo tamaño que el lh para asegurar que no se mueva
+	*/
+	line-height: 100px;
+	height:100px;
+	font-size: 36px;
+	font-weight: bold;
+	padding: 0 20px;
+	
+}
+
+.encabezado ul {
+	
+	position: absolute;	
+	
+}
+.encabezado ul li {
+	
+	float: right;
+	list-style: none;
+	font-size: 24px;
+}

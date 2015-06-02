@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de formulario</title>
+    <link rel="stylesheet" type="text/css" href="app/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="app/css/misestilos.css">
+</head>
+
+<body>
+	<form action="" method="get">
+    	<fieldset class="flotados">
+        	<legend>Campos obligatorios:</legend>
+        	<label for="nombre" title="Introduce tu nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="tu nombre" required autocomplete="off" list="nombres" title="Introduce tu nombre" size="30" maxlength="20" />
+            <datalist id="nombres">
+              <option value="Alvaro">
+              <option value="Pepe">
+              <option value="Juan">
+            </datalist>
+            
+        	<label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="tu apellido" title="Introduce tu apellido" size="30" maxlength="50" />
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email@email.com" required title="Introduce tu email" autofocus size="30" maxlength="20" />
+            
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" placeholder="16+" min="16" max="99" step="5" title="Introduce tu edad" size="3" maxlength="2" />
+            
+            <label for="passw">Contraseña:</label>
+            <input type="password" id="passw" name="passw" required title="Introduce tu contraseña" maxlength="10" />
+            
+        </fieldset>
+        	
+        <fieldset class="flotados">
+        	<label for="texto">Texto:</label>
+        	<textarea id="texto" name="texto" title="Introduce un texto"></textarea>
+            
+            <label for="fecha">Fecha:</label>
+            <input type="text" id="fecha" name="fecha" placeholder="23/12/2014" title="Introduce una fecha" value="23/12/2014" readonly />
+            
+            <label for="fecha2">Fecha 2:</label>
+            <input type="datetime-local" id="fecha2" name="fecha2" placeholder="23/12/2014" title="Introduce una fecha" />
+        </fieldset>
+        
+        <fieldset class="no-flotados">
+        	<input type="radio" id="radio1" name="radios" required title="Introduce una fecha" value="1" /><label for="radio1">Radio 1</label>
+            <input type="radio" id="radio2" name="radios" required title="Introduce una fecha" value="2" /><label for="radio2">Radio 2</label>
+            <input type="radio" id="radio3" name="radios" required title="Introduce una fecha" value="3" /><label for="radio3">Radio 3</label>
+        </fieldset>
+        
+        <fieldset class="no-flotados">
+        	<input type="checkbox" id="checkbox1" name="checkbox1" required title="Introduce una fecha" value="1" /><label for="checkbox1">checkbox 1</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" required title="Introduce una fecha" value="2" /><label for="checkbox2">checkbox 2</label>
+            <input type="checkbox" id="checkbox3" name="checkbox3" required title="Introduce una fecha" value="3" /><label for="checkbox3">checkbox 3</label>
+        </fieldset>
+        
+        <fieldset class="no-flotados">
+            
+            <label for="rango">Rango: <span id="mostrarRango">0-100</span></label>
+            <input type="range" id="rango" name="rango" title="Introduce tu rango" min="0" max="100" step="10" onChange="document.getElementById('mostrarRango').innerHTML=this.value" />
+            
+        </fieldset>
+        
+        <fieldset class="no-flotados">
+        	<select disabled>
+            	<optgroup label="Grupo 1">
+            	<option value="1">opcion por defecto</option>
+                <option value="2">opcion 2</option>
+                <option value="3" selected>opcion 3</option>
+                <option value="4">opcion 4</option>
+                </optgroup>
+            	<optgroup label="Grupo 2">
+            	<option value="5">opcion 5</option>
+                <option value="6">opcion 6</option>
+                <option value="7">opcion 7</option>
+                <option value="8">opcion 8</option>
+                </optgroup>
+            </select>
+        	<select multiple>
+            	<optgroup label="Grupo 1">
+            	<option value="1">opcion por defecto</option>
+                <option value="2">opcion 2</option>
+                <option value="3" selected>opcion 3</option>
+                <option value="4">opcion 4</option>
+                </optgroup>
+            	<optgroup label="Grupo 2">
+            	<option value="5">opcion 5</option>
+                <option value="6">opcion 6</option>
+                <option value="7">opcion 7</option>
+                <option value="8">opcion 8</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+        	<input type="file" />
+        </fieldset>
+        <br/>
+        <input type="button" value="HOLA" onClick="alert('HOLA');" />
+            
+        <input type="reset" />
+        
+        <input type="submit" value="CLICK!" title="Haz click para enviar los datos" />
+    </form>
+</body>
+</html>
