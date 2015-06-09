@@ -43,7 +43,7 @@
      width: 1200px;  /* Width Image */
      height: 500px; /* Height Image */
      position: absolute;
-     top: -325px; /* Original Position - Outside of the Slider */
+     top: -500px; /* Original Position - Outside of the Slider */
      list-style: none;
  }
  
@@ -51,36 +51,48 @@
          width: 100%;
          max-width: 100%;
          
+         position: relative;
+         
      }
-     
-     
-     
-     
-.slider-wraper li.PrimeraAnimacion {
-   animation: cycle 25s linear infinite;
+
+
+
+
+.slider-wraper > .PrimeraAnimacion {
+   animation: cycle 30s linear infinite;
+   -moz-animation: cycle 30s linear infinite;
+   -webkit-animation: cycle 30s linear infinite;
 }
 
 .slider-wraper li.SegundaAnimacion{
-   animation: cycletwo 25s linear infinite;
+   animation: cycletwo 30s linear infinite;
+   -moz-animation: cycletwo 30s linear infinite;
+   -webkit-animation: cycletwo 30s linear infinite;
 }
 
 .slider-wraper li.TerceraAnimacion {
-   animation: cyclethree 25s linear infinite;
+   animation: cyclethree 30s linear infinite;
+   -moz-animation: cyclethree 30s linear infinite;
+   -webkit-animation: cyclethree 30s linear infinite;
 }
 
 .slider-wraper li.CuartaAnimacion{
-   animation: cyclefour 25s linear infinite;
+   animation: cyclefour 30s linear infinite;
+   -moz-animation: cyclefour 30s linear infinite;
+   -webkit-animation: cyclefour 30s linear infinite;
 }
 
 .slider-wraper li.QuintaAnimacion{
-   animation: cyclefive 25s linear infinite;
+   animation: cyclefive 30s linear infinite;
+   -moz-animation: cyclefive 30s linear infinite;
+   -webkit-animation: cyclefive 30s linear infinite;
 }
 
 .slider-wraper li.SextaAnimacion{
-   animation: cyclesix 25s linear infinite;
+   animation: cyclesix 30s linear infinite;
+   -moz-animation: cyclesix 30s linear infinite;
+   -webkit-animation: cyclesix 30s linear infinite;
 }
-
-
 
 
 
@@ -90,10 +102,10 @@
    0%  { top: 0px; } /* When you start the slide, the first image is already visible */
    4%  { top: 0px; } /* Original Position */
    16% { top: 0px; opacity:1; z-index:0; } /* From 4% to 16 % = for 3 seconds the image is visible */
-   20% { top: 325px; opacity: 0; z-index: 0; } /* From 16% to 20% = for 1 second exit image */
-   21% { top: -325px; opacity: 0; z-index: -1; } /* Return to Original Position */
-   92% { top: -325px; opacity: 0; z-index: 0; }
-   96% { top: -325px; opacity: 0; } /* From 96% to 100% = for 1 second enter image*/
+   20% { top: 500px; opacity: 0; z-index: 0; } /* From 16% to 20% = for 1 second exit image */
+   21% { top: -500px; opacity: 0; z-index: -1; } /* Return to Original Position */
+   92% { top: -500px; opacity: 0; z-index: 0; }
+   96% { top: -500px; opacity: 0; } /* From 96% to 100% = for 1 second enter image*/
    100%{ top: 0px; opacity: 1; }
 }
 
@@ -145,4 +157,5 @@
    84% { top: 0px; opacity: 1; }
    96% { top: 0px; opacity: 1; z-index: 0; }
    100%{ top: 325px; opacity: 0; z-index: 0; }
-}
+}       
+
