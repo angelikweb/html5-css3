@@ -1,0 +1,15 @@
+/* CSS de prueba slider
+ *
+ * 
+ *
+ **/
+ 
+ .tituloSlider{
+     font-size: 32px;
+     
+     display: block;
+     
+     text-align: center;
+     margin: 50px 0 30px 0;
+     
+ }
