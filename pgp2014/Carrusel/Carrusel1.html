@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es_ES">
+    <head>
+        <meta charset="UTF-8">
+        <title>Articulos</title>
+       
+        <style>
+        div{
+            border: 2px solid blue;
+        }
+        #slider {
+   background: #000;
+   border: 5px solid #eaeaea;
+   box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+   height: 320px;
+   width: 680px;
+   margin: 40px auto 0;
+   overflow: visible;
+   position: relative;
+   background-color:blue;
+}
+#mask {
+   overflow: hidden;
+   height: 320px; 
+}
+        </style>
+    </head>
+    
+<body>
+    <div class="container">
+   <div id="content-slider">
+      <div id="slider">  <!-- Contenedor del Slider -->
+         <div id="mask">  <!-- Mascara -->
+
+         <ul>
+         <li id="first" class="firstanimation">  <!-- ID  para etiqueta y clase para animacion -->
+         <a href="#"> <img src="animal2.jpg" alt="Cougar"/> </a>
+         <div class="tooltip"> <h1>Cougar</h1> </div>
+         </li>
+ 
+         <li id="second" class="secondanimation">
+         <a href="#"> <img src="animal3.jpg" alt="Lions"/> </a>
+         <div class="tooltip"> <h1>Leones</h1> </div>
+         </li>
+
+         <li id="third" class="thirdanimation">
+         <a href="#"> <img src="animales.jpg" alt="Snowalker"/> </a>
+         <div class="tooltip"> <h1>Snowalker</h1> </div>
+         </li>
+
+         <li id="fourth" class="fourthanimation">
+         <a href="#"> <img src="animales4.jpg" alt="Howling"/> </a>
+         <div class="tooltip"> <h1>Howling</h1> </div>
+         </li>
+
+         <li id="fifth" class="fifthanimation">
+         <a href="#"> <img src="animal5.jpg" alt="Sunbathing"/> </a>
+         <div class="tooltip"> <h1>Sunbathing</h1> </div>
+         </li>
+         </ul>
+
+         </div>  <!-- Fin de Mascara -->
+         <div class="progress-bar"></div>  <!-- Barra Progreso -->
+      </div>  <!-- Fin Contenedor Slider -->
+   </div>
+</div>
+</body>

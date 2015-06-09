@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es_ES">
+    <head>
+        <meta charset="UTF-8">
+        <title>Articulos</title>
+       
+        <style>
+        body {
+            border: 1px solid black;
+            padding: 20px;
+        }
+        .d0, .d1, .dc {
+            width: 275px;
+            margin: 0 auto;
+            border: 2px solid blue;
+           
+        }
+        .dc{
+               animation-name: move;
+               animation-duration: 1s;
+               animation-timing-function: ease-in-out; 
+               animation-delay: 0.5s;           
+               animation-iteration-count: 2;  
+               animation-direction: alternate;
+               
+               
+               
+
+        }
+        .d1:hover{
+          background-color: green;
+        }
+        .d1{
+            
+            background-color: #000;
+        	transition-property: background-color;
+        	transition-duration: 0.7s;
+        	transition-timing-function: ease-in;
+        	transition-delay: 0.3s;
+        }
+	
+			li {
+			    list-style-type: none;
+			}	
+			@keyframes move {
+			    /*
+   from { 
+      transform: translateX(0); 
+   }
+   to { 
+      transform: translateX(400px);
+   }
+   */
+    0% { transform: translateX(0); }
+       50% { transform: translateX(100px); } 
+       100% { transform: translateX(200px); }
+}
+
+
+
+.slider {
+  background: #000;
+   border: 5px solid red;
+      box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+   height: 320px;
+   width: 680px;
+   margin: 40px auto 0;
+   overflow: visible;
+   position: relative;
+}
+.mask {
+    background: white;
+    border: 1px solid black;
+    overflow: hidden;
+    height: 320px; 
+}
+
+.slider ul {
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+.slider li { 
+   width: 680px;  /* Ancheo Imagen */
+   height: 320px; /* Alto Imagen */
+   position: absolute;
+   top: -325px;	/* Position Original - Fuera del Slider */
+   list-style: none;
+}
+.slider li.animacion1 {
+   animation: cycle 20s linear infinite;		
+}
+
+.slider li.animacion2 {
+   animation: cycletwo 20s linear infinite;	
+}
+
+.slider li.animacion3 {
+   animation: cyclethree 20s linear infinite;		
+}
+
+.slider li.animacion4 {
+   animation: cyclefour 20s linear infinite;		
+}
+
+		</style>
+    </head>
+    <body>
+       <div class="dc">
+           Carrusel fotográfico
+       </div>
+      <div class="slider">
+       
+ <!--      <div class="mask"> -->
+       
+           <ul>
+            <li class="animacion1"><img src="animales.jpg" alt="Animal 1" height="200" width="200"> </li>
+            <li class="animacion2"><img src="animal2.jpg" alt="Animal 2" height="200" width="200"> </li>
+            <li class="animacion3"><img src="animal3.jpg" alt="Animal 2" height="200" width="200"> </li>
+            <li class="animacion4"><img src="animales4.jpg" alt="Animal 2" height="200" width="200"> </li>
+
+            </ul>
+
+       </div>
+  <!--     </div> -->
+       <div class="d1">
+           hola
+        
+       </div>
+       
+    	
+    </body>
+    <footer>
+        
+    </footer>
+</html>
