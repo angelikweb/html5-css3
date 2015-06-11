@@ -4,7 +4,10 @@
  *
  **/
  
- .tituloSlider{
+ 
+ /* Títulos de las pruebas */
+ .tituloSlider,
+ .tituloTransformaciones{
      font-size: 32px;
      
      display: block;
@@ -26,6 +29,7 @@
      margin: 0;
      padding: 0;
      margin: 0 auto;
+     margin-bottom: 50px;
      
      overflow: hidden;
      
@@ -58,7 +62,7 @@
 
 
 
-.slider-wraper > .PrimeraAnimacion {
+.slider-wraper li.PrimeraAnimacion {
    animation: cycle 30s linear infinite;
    -moz-animation: cycle 30s linear infinite;
    -webkit-animation: cycle 30s linear infinite;
@@ -159,3 +163,53 @@
    100%{ top: 325px; opacity: 0; z-index: 0; }
 }       
 
+
+
+
+/* Estilos de la prueba de transformaciones */
+
+.contenedor-transformaciones{
+   width: 60%;
+   display: block;
+   position: relative;
+   
+   margin: 0 auto;
+   
+   background-color: pink;
+   
+}
+   .elemento-a,
+   .elemento-b{
+      display: block;
+      position: absolute;
+      
+      width: 150px;
+      height: 150px;
+      
+      margin: 0 auto;
+      backface-visibility: hidden;
+      
+      transform-style: preserve-3d;
+         
+      transition: transform 1s;
+   }
+   .elemento-a{background-color: green; backface-visibility: inherit;}
+   .elemento-b{background-color: yellow;}
+   
+      .elemento-a > span,
+      .elemento-b > span{
+         color: #fff;
+         
+         font-size: 32px;
+         
+         display: block;
+         
+         position: absolute;
+         margin: 0 auto;
+         vertical-align: middle;
+      }
+      
+      .contenedor-transformaciones:hover .elemento-a,
+      .contenedor-transformaciones:hover .elemento-b{
+         transform: rotateY( 180deg );   
+      }
