@@ -169,18 +169,15 @@ li ol {
     display: inline-block;
     position: relative;
 
-      background-color: ;
   }
     .navegacion li{
       width: 100%;
       padding: 15px 30px;
 
-      text-align: ;
       vertical-align: middle;
 
       display: inline-table;
 
-      background-color: ;
       border-bottom: 2px solid rgba(96, 169, 219, 1);
       box-shadow: 0 1px 0 rgba(255, 255, 255, .3);
 
@@ -198,7 +195,6 @@ li ol {
   vertical-align: middle;
 
   color: rgba(255, 255, 255, .6);
-  background-color: ;
 
   z-index: 99999;
 
