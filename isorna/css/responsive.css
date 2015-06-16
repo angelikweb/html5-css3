@@ -1,0 +1,10 @@
+/*
+@media screen
+    and (min-width: 480px) {*/
+    body {
+        margin: 20px auto;
+        background-color: #ddd;
+        width: 100%;
+        font: normal 16px/22px Serif;
+    }
+/*}*/

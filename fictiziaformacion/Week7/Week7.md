@@ -37,6 +37,7 @@ Week 7 Milestone
 * [CSS Animations between media queries](http://davidwalsh.name/animate-media-queries).
 * [HTML5 Boilerplate](https://html5boilerplate.com/).
 * [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/).
+* [Em Based Media Queries](http://foundation.zurb.com/docs/media-queries.html).
 
 ## Mobile First
 
