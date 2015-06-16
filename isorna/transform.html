@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Transformaciones</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="css/misestilos.css" />
+        <style type="text/css">
+            body {
+                margin: 100px auto;
+                width: 80%;
+            }
+            #main {
+                margin: 100px 0;
+            }
+            img {
+                transform: rotateX(20deg) rotateY(136deg) rotateZ(91deg) perspective(20px);
+                transform-origin: 100% 100%;
+                transition: all 0.3s ease;
+                transform-style: preserve-3d;
+            }
+            img:hover {
+                transform: rotateX(20deg) rotateY(40deg) rotateZ(91deg) perspective(20px)
+            }
+            
+            .baraja {
+                width: 220px;
+                height: 320px;
+                margin: 0 auto;
+                border: 1px solid black;
+                border-radius: 5px;
+                position: relative;
+                transform-style: preserve-3d;
+                perspective: 100px;
+            }
+            .baraja:hover {
+                transform: translateZ(100px);
+            }
+            .naipe {
+                width: 200px;
+                height: 300px;
+                margin: 0 auto;
+                border: 10px solid #ccc;
+                border-radius: 5px;
+                position: relative;
+                transform-style: preserve-3d;
+                transition: transform 1s;
+            }
+            .naipe:hover {
+                transform: rotateY(180deg);
+            }
+            .naipe figure {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 300px;
+                width: 200px;
+                line-height: 150px;
+                font-size: 40px;
+                text-align: center;
+                backface-visibility: hidden;
+            }
+            .naipe :last-child {
+                background-color: #ffc;
+                color: #444;
+                font-family: 'Oswald';
+                font-weight: 700;
+            }
+            .naipe :first-child {
+                background-color: #444;
+                color: #ffc;
+                transform: rotateY(180deg);
+                font-family: 'Open Sans Condensed';
+            }
+            
+        </style>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href='//fonts.googleapis.com/css?family=Oswald:700|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    </head>
+    
+    <body>
+    	<header>
+        	<h1>Transformaciones <i class="fa fa-bed fa-5x"></i></h1>
+        </header>
+        <section id="main">
+            <div class="baraja">
+                <div class="naipe">
+                    <figure></span>Texto del reverso.</figure>
+                    <figure>Texto del anverso.</figure>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
