@@ -36,6 +36,7 @@ Week 7 Milestone
 * [RWD versus Adaptive Design](https://developer.mozilla.org/en-US/Apps/Design/UI_layout_basics/Responsive_design_versus_adaptive_design?search=responsive+design).
 * [CSS Animations between media queries](http://davidwalsh.name/animate-media-queries).
 * [HTML5 Boilerplate](https://html5boilerplate.com/).
+* [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/).
 
 ## Mobile First
 
