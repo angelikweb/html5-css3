@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+	box-sizing:border-box;
+	
+}
+
+	
+.BOXROJO{
+	border-color: #E5282B;
+	background:#F03236;
+	float:left;
+	box-shadow: 0px 0 10px 0px #D5D5D5;
+	padding: 20px 20px 20px 20;
+		
+	}
+
+.BOXAZUL {
+	background:#52E0F4;
+	float:left;
+	position: relative;
+	left: 50px;
+	top: 100px;
+	z-index: 1;
+	
+}
+
+
