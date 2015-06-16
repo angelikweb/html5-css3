@@ -8,5 +8,7 @@
     }
     section {
         border: 1px dotted #444;
+        background-color: blue;
+        color: white;
     }
 /*}*/

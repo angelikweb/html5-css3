@@ -4,4 +4,8 @@
         width: 60%;
         font-family: 'Oswald';
     }
+    section {
+        background-color: #444;
+        color: #ffc;
+    }
 /*}*/
