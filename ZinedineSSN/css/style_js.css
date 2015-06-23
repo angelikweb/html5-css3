@@ -1,0 +1,51 @@
+
+
+
+
+
+.contenedor{
+    width: 60%;
+    display: block;
+    
+    margin: 0 auto;
+}
+
+    .contenedor h1{
+        font-size: 28px;
+        text-align: center;
+        
+        margin :30px 0 10px 0;
+    }
+    
+    .contenedor p{
+        font-size: 16px;
+        line-height: 1.2;
+        margin-bottom: 15px;
+    }
+    
+    
+/* Estilos del filtro con JS */
+
+.filtro{
+    width: 50%;
+    display: block;
+    
+    margin: 0 auto;
+    padding: 10px 5px;
+    
+    background-color: #ddd;
+    
+    overflow: hidden;
+    
+}
+
+.filtro#radio,
+.filtro.rText{
+    width: 25%;
+    float: left;
+}
+
+    #radio1,
+    #radio2{
+        margin-right: 10px;
+    }
