@@ -1,0 +1,48 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Formulario JavaScript</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form class="clearfix">
+            <fieldset>
+            <label for="todas">Todas</label>
+            <input type="radio" name="filtro" value="todas" id="todas" />
+            </fieldset>
+            <fieldset>
+            <label for="paisajes">Paisajes</label>
+            <input type="radio" name="filtro" value="paisajes" id="paisajes" />
+            </fieldset>
+            <fieldset>
+            <label for="retratos">Retratos</label>
+            <input type="radio" name="filtro" value="retratos" id="retratos" />
+            </fieldset>
+            <input type="button" value="Filtrar" id="botonFiltrar" />
+        </form>
+        
+        <ul class="galeria">
+            <li class="paisaje"><img src="img/paisajes/paisaje1.jpg" width="300" height="200" /></li>
+            <li class="retrato"><img src="img/retratos/retrato1.jpg" width="300" height="200" /></li>
+            <li class="paisaje"><img src="img/paisajes/paisaje2.jpg" width="300" height="200" /></li>
+            <li class="retrato"><img src="img/retratos/retrato2.jpg" width="300" height="200" /></li>
+            <li class="paisaje"><img src="img/paisajes/paisaje3.jpg" width="300" height="200" /></li>
+            <li class="retrato"><img src="img/retratos/retrato3.jpg" width="300" height="200" /></li>
+            <li class="paisaje"><img src="img/paisajes/paisaje4.jpg" width="300" height="200" /></li>
+            <li class="retrato"><img src="img/retratos/retrato4.jpg" width="300" height="200" /></li>
+        </ul>
+        
+        <script src="js/formulario.js"></script>
+    </body>
+</html>
