@@ -22,3 +22,30 @@
         line-height: 1.2;
         margin-bottom: 15px;
     }
+    
+    
+/* Estilos del filtro con JS */
+
+.filtro{
+    width: 50%;
+    display: block;
+    
+    margin: 0 auto;
+    padding: 10px 5px;
+    
+    background-color: #ddd;
+    
+    overflow: hidden;
+    
+}
+
+.filtro#radio,
+.filtro.rText{
+    width: 25%;
+    float: left;
+}
+
+    #radio1,
+    #radio2{
+        margin-right: 10px;
+    }
