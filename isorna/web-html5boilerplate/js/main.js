@@ -29,6 +29,7 @@ function simulaLeerNoticias () {
 
 function simularLeerMenus (miListaDeMenus) {
     var nuevoMenu;
+    
     for (opcionMenu in miListaDeMenus) {
         nuevoMenu = document.createElement('li');
         nuevoMenu.innerHTML = miListaDeMenus[opcionMenu];
