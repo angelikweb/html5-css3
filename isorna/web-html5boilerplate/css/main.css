@@ -157,6 +157,12 @@ fieldset {
 form label {
     padding: 0 20px 0 0 ;
 }
+label[for="paisajes"] {
+    color: red;
+}
+label[for="retratos"] {
+    color: blue;
+}
 form [type="button"] {
     display: block;
     float: right;

@@ -23,7 +23,7 @@ Week 8 Milestone
 
 ## JQuery
 
-* JQuery introduction
+* [JQuery introduction](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * CSS modification and animation
 * Element's visibility control
 * Events
