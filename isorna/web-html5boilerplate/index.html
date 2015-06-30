@@ -17,11 +17,25 @@
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
         
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <!-- Inserta esta etiqueta en la sección "head" o justo antes de la etiqueta "body" de cierre. -->
+        <script src="https://apis.google.com/js/platform.js" async defer>
+          {lang: 'es'}
+        </script>
+        <script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.3";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
 
         <header>
             <ul id="menuPrincipal">
@@ -36,6 +50,31 @@
             <div><img src="tile.png" width="300" height="300" /></div>
             <div><img src="tile.png" width="300" height="300" /></div>
         </div>
+        
+        <a href="https://www.pinterest.com/pin/create/button/
+            ?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F
+            &media=http%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg
+            &description=Next%20stop%3A%20Pinterest"
+            data-pin-do="buttonPin"
+            data-pin-config="above">
+            <img src="//assets.pinterest.com/images/pidgets/pin_it_button.png" />
+        </a>
+
+        <!-- Inserta esta etiqueta donde quieras que aparezca Botón +1. -->
+        <div class="g-plusone" data-size="tall"></div>
+        
+        <a href="https://twitter.com/isorna" 
+            class="twitter-follow-button" 
+            data-show-count="false" 
+            data-size="large">Follow @isorna</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        
+        <div class="fb-like" 
+            data-href="https://fictizia.com/" 
+            data-layout="box_count" 
+            data-action="like" 
+            data-show-faces="true" 
+            data-share="true"></div>
         
         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
         sed diam nonummy nibh euismod tincidunt ut laoreet dolore

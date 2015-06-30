@@ -15,8 +15,8 @@ Week 9 Milestone
 ## Social apis integration
 
 * [Facebook](https://developers.facebook.com/docs/plugins?locale=es_ES): "I Like It".
-* Google+: "+1".
-* Pinterest: "Pin it".
+* [Google+](https://developers.google.com/+/web/+1button/): "+1".
+* [Pinterest](https://developers.pinterest.com/pin_it/): "Pin it".
 * [Twitter](https://dev.twitter.com/web/overview): "Retweet" & "Follow us".
 
 ## Twitter Bootstrap
