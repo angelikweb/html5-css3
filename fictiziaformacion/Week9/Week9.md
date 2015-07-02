@@ -49,3 +49,4 @@ Week 9 Milestone
 * [html5canvastutorials](http://www.html5canvastutorials.com/).
 * [WebGL](https://developer.mozilla.org/en-US/docs/Web/WebGL).
 * [WebGL Chrome Experiments](https://www.chromeexperiments.com/webgl).
+* [THREE.js](http://threejs.org/), also [on GitHub](https://github.com/mrdoob/three.js/).
