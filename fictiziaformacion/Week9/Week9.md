@@ -40,6 +40,7 @@ Week 9 Milestone
 ## HTML5 Video & Audio
 
 * [HTML5 Video & Audio](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML5_audio_and_video).
+* [Example article](http://demosthenes.info/blog/777/Create-Fullscreen-HTML5-Page-Background-Video).
 
 ## Canvas & WebGL
 
@@ -47,3 +48,4 @@ Week 9 Milestone
 * [Canvas tutorial](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial).
 * [html5canvastutorials](http://www.html5canvastutorials.com/).
 * [WebGL](https://developer.mozilla.org/en-US/docs/Web/WebGL).
+* [WebGL Chrome Experiments](https://www.chromeexperiments.com/webgl).
