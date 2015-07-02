@@ -38,6 +38,8 @@ Week 7 Milestone
 * [HTML5 Boilerplate](https://html5boilerplate.com/).
 * [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/).
 * [Em Based Media Queries](http://foundation.zurb.com/docs/media-queries.html).
+* [UI Design Patterns](http://ui-patterns.com/patterns).
+* [Usability.gov](http://www.usability.gov/).
 
 ## Mobile First
 
