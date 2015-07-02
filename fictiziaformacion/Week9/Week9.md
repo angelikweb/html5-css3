@@ -15,8 +15,8 @@ Week 9 Milestone
 ## Social apis integration
 
 * [Facebook](https://developers.facebook.com/docs/plugins?locale=es_ES): "I Like It".
-* Google+: "+1".
-* Pinterest: "Pin it".
+* [Google+](https://developers.google.com/+/web/+1button/): "+1".
+* [Pinterest](https://developers.pinterest.com/pin_it/): "Pin it".
 * [Twitter](https://dev.twitter.com/web/overview): "Retweet" & "Follow us".
 
 ## Twitter Bootstrap
@@ -25,10 +25,12 @@ Week 9 Milestone
 * [Get Bootstrap](http://getbootstrap.com/), [Bootstrap Themes (paid)](https://wrapbootstrap.com/), [Free Bootstrap Themes](http://bootswatch.com/).
 * Alternatives: [Facebook React](http://facebook.github.io/react/), [Foundation](http://foundation.zurb.com/).
 * [Bootstrap Theme Builder](http://pikock.github.io/bootstrap-magic/app/index.html#!/editor).
- 
-## Google Maps Geolocation
 
-* [Google Maps API](https://developers.google.com/maps/documentation/business/clientside).
+## Google Maps
+
+* [Google Maps Embed](https://developers.google.com/maps/documentation/embed/).
+* [Statics Maps](https://developers.google.com/maps/documentation/staticmaps/?hl=es).
+* [Geolocation API](https://developers.google.com/maps/documentation/javascript/examples/map-geolocation?hl=es).
  
 ## Microformats and Schemas
 
